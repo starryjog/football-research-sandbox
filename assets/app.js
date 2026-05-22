@@ -742,6 +742,7 @@ const LEAGUE_LABELS = {
 
 const TAG_LABELS = {
   "afc-u23-2026": { zh: "AFC U23 2026", en: "AFC U23 2026" },
+  "500-star-portugal": { zh: "500星计划", en: "500 Star Portugal" },
   "asia-u17-2026": { zh: "U17 亚洲杯 2026", en: "AFC U17 2026" },
   "asia-u23-2026": { zh: "U23 亚洲杯 2026", en: "AFC U23 2026" },
   "bayern-pathway": { zh: "拜仁路径", en: "Bayern pathway" },
@@ -756,6 +757,7 @@ const TAG_LABELS = {
   "donglu-football-boys": { zh: "中国足球小将", en: "Donglu Football Boys" },
   "europe-other": { zh: "欧洲其他联赛", en: "Other European leagues" },
   "germany-pathway": { zh: "德国路径", en: "Germany pathway" },
+  "olympic-stars-germany": { zh: "08之星赴德", en: "Olympic Stars Germany" },
   homegrown: { zh: "本土培养", en: "Homegrown" },
   "japan-youth": { zh: "日本青训", en: "Japan youth" },
   "k-league": { zh: "K 联赛体系", en: "K League system" },
@@ -2260,14 +2262,14 @@ function getOverseasCountryMap() {
   const historyCountries = state.overview.overseas_history.countries;
 
   for (const entry of historyCountries) {
-      map.set(entry.country, {
-        country: entry.country,
-        currentCount: 0,
-        verifiedRecords: entry.verified_records,
-        notes: entry.notes,
-        bucketFocus: entry.bucket_focus,
-        specialLists: entry.special_lists ?? []
-      });
+    map.set(entry.country, {
+      country: entry.country,
+      currentCount: 0,
+      verifiedRecords: entry.verified_records,
+      notes: entry.notes,
+      bucketFocus: entry.bucket_focus,
+      specialLists: entry.special_lists ?? []
+    });
   }
 
   for (const item of getCurrentOverseasItems()) {
