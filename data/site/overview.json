@@ -88,6 +88,226 @@
       ]
     },
     {
+      "id": "afc-u20-2025",
+      "name": "AFC U20 Asian Cup China 2025",
+      "short_name": "AFC U20 2025",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2025-02-12",
+        "end": "2025-03-01"
+      },
+      "focus_teams": [
+        "China PR",
+        "Australia",
+        "Saudi Arabia",
+        "Japan",
+        "Korea Republic"
+      ],
+      "headline": "中国主办的参考届次，国青小组出线后八强补时遭沙特绝杀，无缘世青赛。",
+      "notes": [
+        "澳大利亚在 2025-03-01 决赛点球击败沙特，拿到队史首个 U20 亚洲杯冠军。",
+        "中国队小组赛先后击败卡塔尔、吉尔吉斯斯坦，最后八强 0 比 1 负于沙特。",
+        "该届赛事适合继续补 2005 年龄段国青主干与中超 / 留洋去向衔接。"
+      ],
+      "sources": [
+        {
+          "label": "AFC U20 China 2025 home",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
+        },
+        {
+          "label": "FIFA: Australia win AFC U-20 Asian Cup",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/articles/australia-win-afc-u-20-asian-cup"
+        },
+        {
+          "label": "AFC U20 China 2025 schedule",
+          "publisher": "AFC",
+          "url": "https://assets.the-afc.com/2025_AFC_U20_Asian_Cup/Finals/Downloads/Match_schedule/AFC-U20-Asian-Cup-China-2025-Match-Schedule-.pdf"
+        }
+      ]
+    },
+    {
+      "id": "afc-u17-2025",
+      "name": "AFC U17 Asian Cup Saudi Arabia 2025",
+      "short_name": "AFC U17 2025",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2025-04-03",
+        "end": "2025-04-20"
+      },
+      "focus_teams": [
+        "China PR",
+        "Uzbekistan",
+        "Saudi Arabia"
+      ],
+      "headline": "上一届参考赛事，用来衔接乌兹别克斯坦 2025 冠军班底与 2026 延续情况。",
+      "notes": [
+        "乌兹别克斯坦在 2025 年夺冠，Sadriddin Khasanov 获评赛事 MVP。",
+        "中国队 1 胜 2 负未能从小组出线，也未拿到当届世少赛资格。",
+        "这条线可与 2026 年中国 U17 的 2009/2010 混编样本做直接对照。"
+      ],
+      "sources": [
+        {
+          "label": "AFC 2025 Squad Lists",
+          "publisher": "AFC",
+          "url": "https://assets.the-afc.com/2025_AFC_U17_Asian_Cup/Finals/Downloads/AFC-U17-Asian-Cup-Saudi-Arabia-2025---Squad-Lists.pdf"
+        },
+        {
+          "label": "AFC Uzbekistan MVP report",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/uzbekistan%E2%80%99s-khasanov-takes-most-valuable-player-award"
+        }
+      ]
+    },
+    {
+      "id": "afc-u23-2024",
+      "name": "AFC U23 Asian Cup Qatar 2024",
+      "short_name": "AFC U23 2024",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2024-04-15",
+        "end": "2024-05-03"
+      },
+      "focus_teams": [
+        "China PR",
+        "Japan",
+        "Korea Republic",
+        "Uzbekistan"
+      ],
+      "headline": "中国队末轮击败阿联酋，但仍在小组赛出局；日本 1 比 0 战胜乌兹别克斯坦夺冠。",
+      "notes": [
+        "日本在 2024-05-03 决赛绝杀乌兹别克斯坦，拿到队史第二冠。",
+        "中国队小组赛先后负于日本、韩国，最后一轮 2 比 1 胜阿联酋。",
+        "这是 2026 国奥冲到决赛前最直接的上一届基线。"
+      ],
+      "sources": [
+        {
+          "label": "AFC U23 2024 home",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/home.html"
+        },
+        {
+          "label": "AFC U23 Qatar 2024 archive",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/archive/2024.html"
+        },
+        {
+          "label": "AFC U23 Qatar 2024 official photos and reports archive",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/archive/2024.html"
+        }
+      ]
+    },
+    {
+      "id": "afc-u20-2023",
+      "name": "AFC U20 Asian Cup Uzbekistan 2023",
+      "short_name": "AFC U20 2023",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2023-03-01",
+        "end": "2023-03-18"
+      },
+      "focus_teams": [
+        "China PR",
+        "Uzbekistan",
+        "Iraq",
+        "Korea Republic"
+      ],
+      "headline": "中国 U20 时隔多年再进八强，但加时负于韩国，距离世青赛资格一步之遥。",
+      "notes": [
+        "乌兹别克斯坦在主场 1 比 0 击败伊拉克夺冠。",
+        "中国队小组赛击败沙特、战平吉尔吉斯斯坦，八强与韩国战至加时后出局。",
+        "这届赛事是 2003 年龄段国青近年最有实战价值的一次洲际正赛。"
+      ],
+      "sources": [
+        {
+          "label": "AFC U20 2023 final",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/news/final_uzbekistan_1-0_iraq.html"
+        },
+        {
+          "label": "AFC U20 2023 tournament home",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
+        }
+      ]
+    },
+    {
+      "id": "afc-u17-2023",
+      "name": "AFC U17 Asian Cup Thailand 2023",
+      "short_name": "AFC U17 2023",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2023-06-15",
+        "end": "2023-07-02"
+      },
+      "focus_teams": [
+        "China PR",
+        "Japan",
+        "Korea Republic"
+      ],
+      "headline": "中国 U17 小组赛出局，但王钰栋 3 球成为这届中国队最显眼的个人样本。",
+      "notes": [
+        "日本在决赛 3 比 0 击败韩国，拿到改制后首冠与该年龄层历史第四冠。",
+        "中国队 1 平 2 负小组出局，其中对澳大利亚一战打出 3 比 5 的开放比赛。",
+        "这是 2025、2026 两届 U17 数据库向前回看的最近起点。"
+      ],
+      "sources": [
+        {
+          "label": "AFC U17 2023 archive",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup/archive/2023.html"
+        },
+        {
+          "label": "AFC U17 Thailand 2023 match schedule",
+          "publisher": "AFC",
+          "url": "https://assets.the-afc.com/2023_AFC_U17_Asian_Cup/Downloads/AFC-U17-Asian-Cup-Thailand-2023-Match-Schedule.pdf.pdf"
+        }
+      ]
+    },
+    {
+      "id": "afc-u23-2022",
+      "name": "AFC U23 Asian Cup Uzbekistan 2022",
+      "short_name": "AFC U23 2022",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2022-06-01",
+        "end": "2022-06-19"
+      },
+      "focus_teams": [
+        "Saudi Arabia",
+        "Uzbekistan",
+        "Japan",
+        "Australia"
+      ],
+      "headline": "疫情后首届 U23 正赛，中国队未进决赛圈，这条记录主要保留为 2024 与 2026 之间的断档参考。",
+      "notes": [
+        "沙特在决赛 2 比 0 击败东道主乌兹别克斯坦夺冠。",
+        "中国队未进入该届决赛圈，因此赛事页只保留结果层级摘要，不强行补中国比赛明细。",
+        "这届赛事也对应巴黎奥运周期前半段亚洲 U23 竞争格局。"
+      ],
+      "sources": [
+        {
+          "label": "AFC U23 2022 final report",
+          "publisher": "AFC",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/news/final_saudi_arabia_2-0_uzbekistan.html"
+        }
+      ]
+    },
+    {
       "id": "csl-2026",
       "name": "Chinese Super League 2026",
       "short_name": "CSL 2026",
@@ -210,39 +430,6 @@
           "label": "K League official club and player pages",
           "publisher": "K League",
           "url": "https://www.kleague.com/"
-        }
-      ]
-    },
-    {
-      "id": "afc-u17-2025",
-      "name": "AFC U17 Asian Cup Saudi Arabia 2025",
-      "short_name": "AFC U17 2025",
-      "focus_level": "reference",
-      "status": "completed",
-      "last_checked": "2026-05-22",
-      "date_range": {
-        "start": "2025-04-03",
-        "end": "2025-04-20"
-      },
-      "focus_teams": [
-        "China PR",
-        "Uzbekistan"
-      ],
-      "headline": "上一届参考赛事，用来衔接乌兹别克斯坦 2025 冠军班底与 2026 延续情况。",
-      "notes": [
-        "乌兹别克斯坦在 2025 年夺冠，Sadriddin Khasanov 获评赛事 MVP。",
-        "中国队在 2025 年小组赛出局，但多名球员进入职业青训或后续 U18 体系。"
-      ],
-      "sources": [
-        {
-          "label": "AFC 2025 Squad Lists",
-          "publisher": "AFC",
-          "url": "https://assets.the-afc.com/2025_AFC_U17_Asian_Cup/Finals/Downloads/AFC-U17-Asian-Cup-Saudi-Arabia-2025---Squad-Lists.pdf"
-        },
-        {
-          "label": "AFC Uzbekistan MVP report",
-          "publisher": "AFC",
-          "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/uzbekistan%E2%80%99s-khasanov-takes-most-valuable-player-award"
         }
       ]
     }
@@ -7402,6 +7589,10 @@
           "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/home.html"
         },
         {
+          "label": "AFC U23 2024 archive",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/archive/2024.html"
+        },
+        {
           "label": "UAE 1-2 China PR match report",
           "url": "https://english.news.cn/20240422/fbac7e11b15e41af9aaebba2e8a3abb6/c.html"
         }
@@ -7538,7 +7729,7 @@
         },
         {
           "label": "China PR 3-0 Vietnam",
-          "url": "https://www.the-afc.com/en/national/www.the-afc.com/en/national/afc_u23_asian_cup.html/news/s-final-china-pr-power-past-vietnam-1"
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/s-final-china-pr-power-past-vietnam-1"
         }
       ]
     },
@@ -7603,6 +7794,10 @@
         {
           "label": "AFC U20 2023 final",
           "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/news/final_uzbekistan_1-0_iraq.html"
+        },
+        {
+          "label": "AFC U20 2023 tournament home",
+          "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
         }
       ]
     },
@@ -7794,6 +7989,10 @@
       ],
       "source_links": [
         {
+          "label": "AFC U20 China 2025 home",
+          "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
+        },
+        {
           "label": "AFC U20 China 2025 schedule",
           "url": "https://assets.the-afc.com/2025_AFC_U20_Asian_Cup/Finals/Downloads/Match_schedule/AFC-U20-Asian-Cup-China-2025-Match-Schedule-.pdf"
         },
@@ -7874,6 +8073,10 @@
         }
       ],
       "source_links": [
+        {
+          "label": "AFC U17 2023 archive",
+          "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup/archive/2023.html"
+        },
         {
           "label": "AFC U17 2023 stats archive",
           "url": "https://globalsportsarchive.com/en/soccer/competition/afc-u-17-asian-cup-2023-thailand/65417"

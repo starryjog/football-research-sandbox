@@ -216,6 +216,10 @@
         "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/home.html"
       },
       {
+        "label": "AFC U23 2024 archive",
+        "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/archive/2024.html"
+      },
+      {
         "label": "UAE 1-2 China PR match report",
         "url": "https://english.news.cn/20240422/fbac7e11b15e41af9aaebba2e8a3abb6/c.html"
       }
@@ -352,7 +356,7 @@
       },
       {
         "label": "China PR 3-0 Vietnam",
-        "url": "https://www.the-afc.com/en/national/www.the-afc.com/en/national/afc_u23_asian_cup.html/news/s-final-china-pr-power-past-vietnam-1"
+        "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/s-final-china-pr-power-past-vietnam-1"
       }
     ]
   },
@@ -417,6 +421,10 @@
       {
         "label": "AFC U20 2023 final",
         "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/news/final_uzbekistan_1-0_iraq.html"
+      },
+      {
+        "label": "AFC U20 2023 tournament home",
+        "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
       }
     ]
   },
@@ -608,6 +616,10 @@
     ],
     "source_links": [
       {
+        "label": "AFC U20 China 2025 home",
+        "url": "https://www.the-afc.com/en/national/afc_u20_asian_cup/home.html"
+      },
+      {
         "label": "AFC U20 China 2025 schedule",
         "url": "https://assets.the-afc.com/2025_AFC_U20_Asian_Cup/Finals/Downloads/Match_schedule/AFC-U20-Asian-Cup-China-2025-Match-Schedule-.pdf"
       },
@@ -688,6 +700,10 @@
       }
     ],
     "source_links": [
+      {
+        "label": "AFC U17 2023 archive",
+        "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup/archive/2023.html"
+      },
       {
         "label": "AFC U17 2023 stats archive",
         "url": "https://globalsportsarchive.com/en/soccer/competition/afc-u-17-asian-cup-2023-thailand/65417"
