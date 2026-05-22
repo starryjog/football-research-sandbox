@@ -4375,64 +4375,6 @@
     }
   },
   {
-    "id": "cn-pan-chaowei-2009",
-    "name": "Pan Chaowei",
-    "local_name": "Pan Chaowei",
-    "country": "China PR",
-    "birth_date": "2009-12-10",
-    "age_band": "u17",
-    "primary_position": "Midfielder",
-    "height_cm": 181,
-    "weight_kg": 75,
-    "registration_club": {
-      "name": "Chengdu Rongcheng FC",
-      "country": "China"
-    },
-    "training_pathway": [
-      {
-        "stage_label": "2026 报名归属",
-        "organization": "Chengdu Rongcheng FC",
-        "country": "China",
-        "note": "AFC U17 2026 终报名表列为当前俱乐部。"
-      }
-    ],
-    "focus_tags": [
-      "asia-u17-2026",
-      "china-youth"
-    ],
-    "tournament_participation": [
-      {
-        "competition_id": "afc-u17-2026",
-        "label": "AFC U17 2026 中国队终报名名单",
-        "team": "China PR U17",
-        "squad_status": "registered",
-        "appearances": null,
-        "goals": null,
-        "minutes": null,
-        "note": "AFC 于 2026-05-02 发布的终报名表列入最终 23 人名单。"
-      }
-    ],
-    "external_links": [
-      {
-        "type": "official",
-        "label": "AFC 2026 final squad list",
-        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
-      }
-    ],
-    "verification": {
-      "status": "verified",
-      "last_checked": "2026-05-22",
-      "notes": "基础信息来自 AFC 2026 终报名表（2026-05-02）；当前批量补录先保留官方注册拼写，后续再补个体外链与 native script。"
-    },
-    "names": {
-      "zh": "潘朝伟",
-      "en": "Pan Chaowei",
-      "native": "潘朝伟",
-      "ja": "",
-      "ko": ""
-    }
-  },
-  {
     "id": "cn-liu-kaiyuan-2010",
     "name": "Liu Kaiyuan",
     "local_name": "刘凯源",
@@ -4642,6 +4584,200 @@
       "zh": "江承恩",
       "en": "Jiang Chengen",
       "native": "江承恩",
+      "ja": "",
+      "ko": ""
+    }
+  },
+  {
+    "id": "cn-pan-chaowei-2010",
+    "name": "Pan Chaowei",
+    "local_name": "潘朝伟",
+    "country": "China PR",
+    "birth_date": "2010-02-25",
+    "age_band": "u17",
+    "primary_position": "Midfielder",
+    "height_cm": null,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Shandong Luneng Taishan Football School",
+      "country": "China"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "福建莆田出身",
+        "organization": "Putian youth football pathway",
+        "country": "China",
+        "note": "Transfermarkt 将其出生地登记为福建莆田，可作为其早期地域出身的公开旁证。"
+      },
+      {
+        "stage_label": "山东鲁能泰山足球学校主线",
+        "organization": "Shandong Luneng Taishan Football School",
+        "country": "China",
+        "note": "公开可核的 U14、U15、U17 足协集训通知长期将其所属单位写作山东鲁能泰山足球学校，应归入山东泰山 / 鲁能足校青训线，而非董路中国足球小将主培养线。"
+      },
+      {
+        "stage_label": "2024/04 U14赴日本拉练",
+        "organization": "China PR U14",
+        "country": "China",
+        "note": "中国足协 2024 年 4 月 U14 国家男子足球选拔队赴日本拉练通知中，以山东鲁能泰山足球学校球员身份入选。"
+      },
+      {
+        "stage_label": "2024/10 U14第四期集训",
+        "organization": "China PR U14",
+        "country": "China",
+        "note": "中国足协 2024 年 10 月 U14 国家男子足球选拔队第四期集训通知中继续以山东鲁能泰山足球学校球员身份入选。"
+      },
+      {
+        "stage_label": "2025/03 U15赴英国拉练",
+        "organization": "China PR U15",
+        "country": "China",
+        "note": "中国足协 2025 年 3 月 U15 国家男子足球选拔队赴英国拉练通知中入选，山东鲁能泰山足球学校同期入选球员还包括江乐上、彭熙然。"
+      },
+      {
+        "stage_label": "2025/04 U15欧足联发展杯",
+        "organization": "China PR U15",
+        "country": "China",
+        "note": "中国足协 2025 年 4 月 U15 国家男子足球选拔队赴白俄罗斯参加欧足联发展杯邀请赛通知中继续入选。"
+      },
+      {
+        "stage_label": "2025 山东泰山U15中青赛冠军",
+        "organization": "Shandong Taishan U15",
+        "country": "China",
+        "note": "中国足协 2025 年第四届中青赛 U15 决赛战报写到，山东泰山 U15 3 比 0 战胜广东铭途 A 队 U15，潘朝伟在第 80 分钟助攻彭熙然锁定胜局。"
+      },
+      {
+        "stage_label": "2026/01 U17第一期集训",
+        "organization": "Shandong Luneng Taishan Football School",
+        "country": "China",
+        "note": "中国足协 2026 年 1 月中国 U17 国家男子足球队第一期集训通知中入选 26 人名单，以 2010 年龄段球员身份被带入以 2009 年龄段为主体的备战体系。"
+      },
+      {
+        "stage_label": "2026/03 U17第二期集训",
+        "organization": "Shandong Luneng Taishan Football School",
+        "country": "China",
+        "note": "中国足协 2026 年 3 月中国 U17 国家男子足球队第二期集训通知中继续入选 28 人名单，队伍进入 U17 亚洲杯决赛阶段备战。"
+      },
+      {
+        "stage_label": "2026 亚洲杯报名归属",
+        "organization": "Shandong Luneng Taishan Football School / Shandong Taishan FC",
+        "country": "China",
+        "note": "AFC U17 2026 最终报名表列其为 15 号中场，俱乐部登记为山东泰山 FC；但足协多期集训通知长期将其所属单位写作山东鲁能泰山足球学校，当前更适合将培养归属和赛事报名归属拆开记录。"
+      }
+    ],
+    "focus_tags": [
+      "asia-u17-2026",
+      "china-youth"
+    ],
+    "tournament_participation": [
+      {
+        "competition_id": "afc-u17-2026",
+        "label": "AFC U17 2026 中国队终报名名单",
+        "team": "China PR U17",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "AFC 于 2026-05-02 发布的终报名表列入最终 23 人名单；报名表中身披 15 号、位置写作中场。"
+      },
+      {
+        "label": "2025 第四届中青赛U15决赛",
+        "team": "Shandong Taishan U15",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 0,
+        "minutes": null,
+        "note": "山东泰山 U15 3 比 0 战胜广东铭途 A 队 U15 夺冠，潘朝伟在第 80 分钟助攻彭熙然锁定胜局。"
+      },
+      {
+        "label": "2026 U17 亚洲杯小组赛阶段",
+        "team": "China PR U17",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": 0,
+        "minutes": null,
+        "note": "作为 2010 年龄段中场球员，被浮嶋敏连续放入小组赛首发体系；赛后采访中，浮嶋敏明确表示自己不觉得潘朝伟发挥有问题，并认为球队对日本一战的进球和控节奏都“从他那里开始”。"
+      },
+      {
+        "label": "2026 U17 亚洲杯半决赛对澳大利亚",
+        "team": "China PR U17",
+        "squad_status": "tracked",
+        "appearances": 0,
+        "goals": 0,
+        "minutes": 0,
+        "note": "中国足协半决赛战报写明，帅惟浩取代累计两张黄牌停赛的潘朝伟首发，说明其在此前阶段一直是教练组重要中场选择。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "official",
+        "label": "AFC 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+      },
+      {
+        "type": "transfermarkt",
+        "label": "Transfermarkt club squad listing",
+        "url": "https://www.transfermarkt.com/shandong-luneng-taishan-football-school/startseite/verein/85492"
+      },
+      {
+        "type": "official",
+        "label": "CFA U14 Japan tour notice",
+        "url": "https://www.thecfa.cn/jxtz/20240404/34028.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U14 fourth camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20241017/35159.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U15 UK tour notice",
+        "url": "https://www.thecfa.cn/jxtz/20250312/35731.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U15 UEFA Development Cup notice",
+        "url": "https://www.thecfa.cn/qttz/20250403/35820.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U15 final report",
+        "url": "https://www.thecfa.cn/qingchaoliansai/20250823/36829.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 first camp notice",
+        "url": "https://www.thecfa.cn/wqmdu17/20260415/37563.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 second camp notice",
+        "url": "https://www.thecfa.cn/wqmdu17/20260311/37414.html"
+      },
+      {
+        "type": "news",
+        "label": "Phoenix U17 squad recap",
+        "url": "https://i.ifeng.com/c/8sj26dliFnx"
+      },
+      {
+        "type": "news",
+        "label": "Sina interview on Pan Chaowei usage",
+        "url": "https://sports.sina.cn/2026-05-22/detail-inhytyys6211996.d.html?vt=4&wm=%2C%2F%2F%3Ffrom"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 semi-final report vs Australia",
+        "url": "https://www.thecfa.cn/zhongguozhidui/20260520/37694.html"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "last_checked": "2026-05-22",
+      "notes": "AFC 2026 最终报名表可核到其为 15 号中场、DOB 为 2010-02-25，报名俱乐部写作山东泰山 FC；Transfermarkt 俱乐部页可交叉验证生日并给出福建莆田出生地口径；中国足协 2024-2026 年 U14、U15、U17 多期通知与 2025 中青赛 U15 决赛战报，可连续拼出其山东鲁能泰山足球学校主线和跨年龄进入 U17 亚洲杯阵容的过程。身高、体重虽见于 AFC 报名表和第三方数据库，但当前不作为稳定权威档案字段硬填。公开资料不足以支持其属于董路中国足球小将主培养线，因此当前明确不加该标签。"
+    },
+    "names": {
+      "zh": "潘朝伟",
+      "en": "Pan Chaowei",
+      "native": "潘朝伟",
       "ja": "",
       "ko": ""
     }
