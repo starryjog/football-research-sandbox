@@ -549,54 +549,178 @@
     }
   },
   {
-    "id": "cn-zhang-xuyao-2010",
+    "id": "cn-zhang-xuyao-2009",
     "name": "Zhang Xuyao",
-    "local_name": "Zhang Xuyao",
+    "local_name": "张旭尧",
     "country": "China PR",
-    "birth_date": "2010-08-26",
+    "birth_date": "2009-03-22",
     "age_band": "u17",
-    "primary_position": "Defender",
-    "height_cm": 178,
-    "weight_kg": 71,
+    "primary_position": "Left-Back",
+    "height_cm": null,
+    "weight_kg": null,
     "registration_club": {
-      "name": "Zhejiang FC",
+      "name": "Shandong Luneng Taishan Football School",
       "country": "China"
     },
     "training_pathway": [
       {
-        "stage_label": "2026 报名归属",
-        "organization": "Zhejiang FC",
+        "stage_label": "滨州校园足球启蒙",
+        "organization": "Binzhou youth football pathway",
         "country": "China",
-        "note": "AFC U17 2026 终报名表列为当前俱乐部。"
+        "note": "滨州本地报道写到，他在校园足球体系中崭露头角，随后被鲁能足校看中并进入更系统的职业青训环境。当前更稳妥的公开口径是“滨州地方足球启蒙”，而不把具体学校写死。"
+      },
+      {
+        "stage_label": "山东鲁能泰山足球学校主线",
+        "organization": "Shandong Luneng Taishan Football School",
+        "country": "China",
+        "note": "中国足协 2024-2026 多期 U15、U16、U17 集训通知均将其列为山东鲁能泰山足球学校球员，说明其正式培养与注册主线稳定指向鲁能足校 / 山东泰山青训。"
+      },
+      {
+        "stage_label": "2024/11 U15赴日本拉练",
+        "organization": "China PR U15",
+        "country": "China",
+        "note": "体坛周报资源稿整理的 U15 国少 28 人名单中，张旭尧与徐曾富、张君豪、李钧鹏、孔玺诺等鲁能足校球员一起入选，属于 2009 年龄段国少核心选材池。"
+      },
+      {
+        "stage_label": "2025/03 U16欧洲拉练",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025-03-18 第一期 U16 集训通知将其列入名单，随队赴德国、法国、荷兰拉练。"
+      },
+      {
+        "stage_label": "2025/11 U17亚预赛周期",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025 年 U17 亚洲杯预选赛阶段战报显示，他在对东帝汶和斯里兰卡比赛中均取得进球，说明其在左后卫位置之外兼具前插与终结能力。"
+      },
+      {
+        "stage_label": "2026/01-03 U17决赛阶段备战",
+        "organization": "China PR U17",
+        "country": "China",
+        "note": "中国足协 2026 年第一期、第二期 U17 集训通知连续将其列入备战名单，继续以上东鲁能泰山足球学校球员身份进入浮嶋敏的后防主力轮换框架。"
+      },
+      {
+        "stage_label": "2026 数据库B队节点",
+        "organization": "Shandong Taishan B",
+        "country": "China",
+        "note": "截至 2026-05-22，Transfermarkt、Flashscore、Sofascore 等数据库已出现其山东泰山 B 队 / 山东泰山口径；当前更稳妥的写法是把 B 队视作数据库中的现阶段参赛节点，而正式国字号归属仍按鲁能足校处理。"
       }
     ],
     "focus_tags": [
       "asia-u17-2026",
-      "china-youth"
+      "china-youth",
+      "defender-watch",
+      "mixed-source"
     ],
     "tournament_participation": [
       {
-        "competition_id": "afc-u17-2026",
-        "label": "AFC U17 2026 中国队终报名名单",
-        "team": "China PR U17",
-        "squad_status": "registered",
+        "label": "2024 中国U15国少选拔队赴日本拉练",
+        "team": "China PR U15",
+        "squad_status": "selected",
         "appearances": null,
         "goals": null,
         "minutes": null,
-        "note": "AFC 于 2026-05-02 发布的终报名表列入最终 23 人名单。"
+        "note": "2024-11 的 U15 国少集训及赴日本拉练名单中，以山东鲁能泰山足球学校球员身份入选。"
+      },
+      {
+        "label": "2025 中国U16第一期集训及欧洲拉练",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025-03-18 通知列其进入浮嶋敏执教的 U16 名单，随队赴德国、法国、荷兰拉练。"
+      },
+      {
+        "label": "2025 U17亚洲杯预选赛",
+        "team": "China PR U16",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": 2,
+        "minutes": null,
+        "note": "中国队五战全胜晋级正赛；张旭尧在 14 比 0 东帝汶一战禁区中路推射破门，又在 8 比 0 斯里兰卡一战完成后点抽射得分，体现出左路前插和边中结合时的终结能力。"
+      },
+      {
+        "label": "2026 对印尼U17热身赛",
+        "team": "China PR U17",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 0,
+        "minutes": null,
+        "note": "新华社图片说明与数据库赛后内容可旁证其在 2026 年 2 月对印尼 U17 友谊赛中有射门镜头，说明其在左后卫位之外具备明显前插参与度。"
+      },
+      {
+        "competition_id": "afc-u17-2026",
+        "label": "AFC U17 2026 中国队报名名单",
+        "team": "China PR U17",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": 0,
+        "minutes": null,
+        "note": "2026 U17 亚洲杯阶段属于中国队后防主力之一；新华社英文稿点名其与何思凡、李钧鹏等鲁能足校球员持续首发，随队晋级八强并锁定 2026 U17 世界杯资格。"
       }
     ],
     "external_links": [
       {
+        "type": "transfermarkt",
+        "label": "Transfermarkt China U17 extended squad",
+        "url": "https://www.transfermarkt.com/china-u17/erweiterterkader/verein/26944"
+      },
+      {
+        "type": "news",
+        "label": "Tencent Binzhou local report",
+        "url": "https://view.inews.qq.com/k/20250410A03PI400?no-redirect=1&web_channel=wap"
+      },
+      {
+        "type": "news",
+        "label": "TTplus U15 squad summary",
+        "url": "https://resource.ttplus.cn/publish/app/data/2024/11/13/537229/share1.html"
+      },
+      {
         "type": "official",
-        "label": "AFC 2026 final squad list",
-        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+        "label": "CFA U16 first camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20250318/35764.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 first camp notice",
+        "url": "https://www.thecfa.cn/wqmdu17/20260415/37563.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 second camp notice",
+        "url": "https://www.thecfa.cn/wqmdu17/20260311/37414.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA report vs Timor-Leste",
+        "url": "https://www.thecfa.cn/zhongguozhidui/20251125/37104.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA report vs Sri Lanka",
+        "url": "https://www.thecfa.cn/zhongguozhidui/20251129/37112.html"
+      },
+      {
+        "type": "news",
+        "label": "Xinhua report on China reaching U17 World Cup",
+        "url": "https://app.xinhuanet.com/news/article.html?articleId=20260513ea3769a0091a459ca8a090e24b90fe7b"
+      },
+      {
+        "type": "news",
+        "label": "Xinhua English report on U17 semi-final",
+        "url": "https://english.news.cn/20260520/8978fa41da91498a803ece7149420601/c.html"
+      },
+      {
+        "type": "transfermarkt",
+        "label": "Transfermarkt Shandong Taishan B club profile",
+        "url": "https://www.transfermarkt.com/shandong-taishan-b/startseite/verein/115121"
       }
     ],
     "verification": {
       "status": "verified",
       "last_checked": "2026-05-22",
-      "notes": "基础信息来自 AFC 2026 终报名表（2026-05-02）；当前批量补录先保留官方注册拼写，后续再补个体外链与 native script。"
+      "notes": "生日与左后卫定位可由 Transfermarkt 中国 U17 扩展名单及第三方数据库交叉确认；中国足协 2024-2026 多期通知可连续拼出其从 U15、U16 到 U17 的鲁能足校国字号主线；对东帝汶和斯里兰卡的进球则可由足协战报直接核验。当前最大口径差异不在球员身份本身，而在“山东鲁能泰山足球学校”与“山东泰山 B 队”之间的现阶段归属表达，因此正式记录按足协口径落在鲁能足校，并在路径中保留数据库 B 队节点。身高体重仅见第三方数据库 177-178cm、67kg 左右口径，暂不硬填。"
     }
   },
   {

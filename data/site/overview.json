@@ -4859,15 +4859,15 @@
               "url": "https://www.transfermarkt.com/xiuhao-wang/profil/spieler/1283230"
             },
             "official_page": {
-              "status": "missing",
-              "url": ""
+              "status": "verified",
+              "url": "https://www.thecfa.cn/wqmdu17/20260311/37414.html"
             },
             "wikipedia": {
               "status": "missing",
               "url": ""
             },
             "ambiguity": "无明显重名歧义，但存在大量非权威百科镜像页。",
-            "missing_note": "河南洛阳口径的具名公开球员页与个人 Wikipedia 条目未检得。"
+            "missing_note": "已核到足协集训通知可作为官方具名旁证；但河南洛阳本地系统的独立官方球员页和个人 Wikipedia 条目仍未检得。"
           }
         ]
       },
@@ -5908,7 +5908,7 @@
         },
         {
           "squad_number": 5,
-          "player_id": "cn-zhang-xuyao-2010",
+          "player_id": "cn-zhang-xuyao-2009",
           "player": "Zhang Xuyao"
         },
         {
@@ -6018,7 +6018,7 @@
                 "player": "Qin Ziniu"
               },
               {
-                "player_id": "cn-zhang-xuyao-2010",
+                "player_id": "cn-zhang-xuyao-2009",
                 "player": "Zhang Xuyao"
               },
               {
@@ -6141,7 +6141,7 @@
                 "player": "Qin Ziniu"
               },
               {
-                "player_id": "cn-zhang-xuyao-2010",
+                "player_id": "cn-zhang-xuyao-2009",
                 "player": "Zhang Xuyao"
               },
               {
@@ -6239,7 +6239,7 @@
                 "player": "Nan Zixun"
               },
               {
-                "player_id": "cn-zhang-xuyao-2010",
+                "player_id": "cn-zhang-xuyao-2009",
                 "player": "Zhang Xuyao"
               },
               {
@@ -6379,7 +6379,7 @@
                 "player": "Li Junpeng"
               },
               {
-                "player_id": "cn-zhang-xuyao-2010",
+                "player_id": "cn-zhang-xuyao-2009",
                 "player": "Zhang Xuyao"
               },
               {
@@ -6459,7 +6459,7 @@
                 "player": "Li Junpeng"
               },
               {
-                "player_id": "cn-zhang-xuyao-2010",
+                "player_id": "cn-zhang-xuyao-2009",
                 "player": "Zhang Xuyao"
               },
               {
@@ -7249,6 +7249,7 @@
     "CE Europa B": "欧罗巴B队",
     "CE Hospitalet U16B": "奥斯皮塔莱特中心体育U16B队",
     "CF Badalona": "巴达洛纳CF",
+    "CF Badalona Youth": "巴达洛纳青年队",
     "Celtic": "凯尔特人",
     "Cerezo Osaka": "大阪樱花",
     "Cesena": "切塞纳",
@@ -7339,6 +7340,7 @@
     "Leicester City": "莱斯特城",
     "Liaoning Tieren": "辽宁铁人",
     "Liverpool": "利物浦",
+    "Luoyang Feixiang Football Club": "洛阳飞翔足球俱乐部",
     "Los Angeles FC": "洛杉矶FC",
     "Mainz 05": "美因茨",
     "Mallorca": "马略卡",
