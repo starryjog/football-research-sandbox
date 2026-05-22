@@ -1844,5 +1844,507 @@
       "2008 梯队和 2009-2011 梯队里，除秦子牛、江承恩外还有哪些人能真正进入成年职业一线队，当前还没有足够稳定的公开样本。",
       "女足线除了张琳艳之外，是否还能补出更多进入高水平联赛或国字号的代表样本，仍需继续扩线。"
     ]
+  },
+  {
+    "id": "luneng-football-school",
+    "name": "鲁能足校优秀青训档案",
+    "status": "in-progress",
+    "focus_tags": [
+      "luneng-football-school"
+    ],
+    "last_reviewed": "2026-05-23",
+    "summary": "鲁能足校的优势不只是“出过多少名将”，而是它长期把学校、职业俱乐部和国字号体系串成了一条相对稳定的通道。当前最稳妥的公开口径，是把它拆成三层一起看：第一层是学校累计产出规模，包括全国冠军、国字号人数和职业俱乐部输送；第二层是刘金东、韩鹏、周海滨、郑铮、刘彬彬、王彤、刘洋这类已经在中超和国字号兑现的代表；第三层是陈泽仕、依木兰、彭啸、史松宸以及 2009 年龄段国少这批仍在上升期的样本。",
+    "source_document": {
+      "title": "山东鲁能泰山足球学校 2024-2025 招生简章",
+      "path": "http://www.tsfc.org.cn/a/zhaoshengxinxi/2024/0613/2189.html"
+    },
+    "supporting_documents": [
+      {
+        "title": "山东泰山足球俱乐部官方简介",
+        "path": "https://www.lnts.com.cn/club/39.html",
+        "summary": "可核俱乐部层面对足校的长期定位，包括 1999-07-29 建校、2017 国家高水平体育后备人才基地、2019 亚足联青训学院奖，以及俱乐部官网当前仍保留的 66 个全国青少年冠军口径。"
+      },
+      {
+        "title": "2024-2025 招生简章",
+        "path": "http://www.tsfc.org.cn/a/zhaoshengxinxi/2024/0613/2189.html",
+        "summary": "当前最完整的学校口径来源，可核 23 块足球场、81 个全国冠军、8 个国际邀请赛冠军、296 名国字号球员、341 名职业俱乐部球员，以及刘金东、韩鹏、周海滨、郑铮、刘彬彬、王彤、刘洋等代表样本。"
+      },
+      {
+        "title": "人民网：山东鲁能足球学校用“满天星”编织青训梦",
+        "path": "http://sports.people.com.cn/n1/2019/1118/c22134-31460734.html",
+        "summary": "可核 2019 年学校已有 42 所人才基地、全年向各级国家队输送 34 名队员，以及“满天星计划”的选材网络。"
+      },
+      {
+        "title": "大众日报：探访鲁能足校② 以高度一体化改革促进青训提质增效",
+        "path": "https://dzrb.dzng.com/articleContent/5576_870388.html",
+        "summary": "可核 2021 年前后学校和一线队、巴西体育之间的高度一体化路径，以及 95% 教练员持证、文化教育与职业出口并重的培养逻辑。"
+      },
+      {
+        "title": "大众日报：山东泰山青训完美收官一年五冠",
+        "path": "https://dzrb.dzng.com/articleContent/5640_1116365.html",
+        "summary": "可核 2023 年学校 / 俱乐部梯队在 U13、U15、U17、U19 等层级拿到 5 个全国冠军，说明当前在校梯队竞争力仍然很强。"
+      },
+      {
+        "title": "山东泰山 U19 第三次问鼎青少年三大球运动会",
+        "path": "https://www.lnts.com.cn/news/13624.html",
+        "summary": "可核 2024 年 U19 梯队继续夺冠，说明鲁能足校高年龄段梯队仍维持全国领先水平。"
+      },
+      {
+        "title": "8 名泰山青训球员入选 U16 国足集训名单",
+        "path": "https://www.lnts.com.cn/news/14458.html",
+        "summary": "可核 2025-03-18 这一期 U16 国家队中有 8 名鲁能青训球员，直接对应当前 2009 年龄段主干。"
+      },
+      {
+        "title": "8 名泰山青训球员入选 U20 亚洲杯名单",
+        "path": "https://www.lnts.com.cn/news/14368.html",
+        "summary": "可核 2025 年 U20 亚洲杯中国队名单中，泰山青训背景球员达到 8 人，代表 2005 前后波次进入高龄国青阶段。"
+      },
+      {
+        "title": "人民网：近四年已为国字号输送两百余人次，11 个全国冠军",
+        "path": "http://sports.people.com.cn/n1/2026/0412/c22134-40457986.html",
+        "summary": "可核 2026-04-12 的最新阶段性回看：近四年 11 个全国冠军、青训球员走向职业赛场比例达 40%，以及彭啸、于金永等新一批样本开始接近一线队。"
+      },
+      {
+        "title": "何小珂回归一线队",
+        "path": "https://www.lnts.com.cn/news/14301.html",
+        "summary": "可作为巴西体育 / 海外融入式培养样本的代表节点，说明足校出口并不只是一条纯国内升队路径。"
+      }
+    ],
+    "scope_note": "这里的“鲁能足校优秀青训”既不等于山东泰山所有青训球员，也不等于只有在泰山一线队踢出来的人。更稳妥的边界是：优先记录在学校、俱乐部官网和主流权威媒体里被明确归入鲁能足校 / 泰山青训体系的样本，同时把“足校住训”“巴西体育融入式培养”“外部人才基地选送”这几种路径分开看。",
+    "role_model": [
+      "1999 到 2010 年代前期更偏“足校本部住训 + 直接为一线队供血”的传统模式，代表是韩鹏、周海滨、郑铮这条线。",
+      "2010 年代中后期开始叠加“满天星计划”和全国人才基地网络，扩大选材面，再回流到学校深造。",
+      "2020 年前后进入“高度一体化”阶段，强调学校、泰山一线队、巴西体育和各级梯队之间的联动培养。",
+      "2025 到 2026 的观察重点，已经从“能不能持续拿青年冠军”转向“能不能把 U20/U17 这几批更稳定地送上中超和国字号核心层”。"
+    ],
+    "timeline": [
+      {
+        "date": "1999-07-29",
+        "label": "学校成立",
+        "detail": "山东鲁能泰山足球学校成立，成为国内最早大规模、职业俱乐部主导的足校之一。"
+      },
+      {
+        "date": "2017-01",
+        "label": "国家后备人才基地",
+        "detail": "学校被国家体育总局命名为国家高水平体育后备人才基地，标志其在全国青训体系中的位置被正式确认。"
+      },
+      {
+        "date": "2019-11",
+        "label": "满天星与人才基地网络",
+        "detail": "人民网报道显示学校已建有 42 所人才基地、全年向各级国家队输送 34 名队员，青训模式从单一本部住训扩展到更大范围选材。"
+      },
+      {
+        "date": "2019-11",
+        "label": "亚足联青训学院奖",
+        "detail": "俱乐部官方简介写明，学校在 2019 年获得亚足联青训学院奖，成为其青训品牌的重要国际背书。"
+      },
+      {
+        "date": "2021-08",
+        "label": "高度一体化改革",
+        "detail": "大众日报回看稿把“学校、俱乐部、巴西体育”之间的高度一体化改革作为核心抓手，说明培养逻辑已不再局限于单纯足校模式。"
+      },
+      {
+        "date": "2023-12",
+        "label": "一年五冠",
+        "detail": "2023 年学校 / 俱乐部梯队在 U13、U15、U17、U19 等层级拿到 5 个全国冠军，继续维持国内顶级青训成绩。"
+      },
+      {
+        "date": "2024-06",
+        "label": "累计产出口径更新",
+        "detail": "2024-2025 招生简章写明，学校已获得 81 个全国冠军、8 个国际邀请赛冠军，培养出 296 名国字号球员和 341 名职业俱乐部球员。"
+      },
+      {
+        "date": "2025-02",
+        "label": "U20 亚洲杯 8 人入选",
+        "detail": "中国 U20 亚洲杯名单中，泰山青训背景球员达到 8 人，说明 2005 前后这一波已进入高龄国青兑现阶段。"
+      },
+      {
+        "date": "2025-03-18",
+        "label": "U16 国家队 8 人入选",
+        "detail": "2025-03-18 的 U16 国家队第一期名单中，8 名泰山青训球员入选，直接对应当前 2009 年龄段主干。"
+      },
+      {
+        "date": "2026-04-12",
+        "label": "四年 11 冠与 40% 职业化率",
+        "detail": "人民网 2026-04-12 回看稿显示，近四年学校拿到 11 个全国冠军，青训球员走向职业赛场的比例达到 40%。"
+      }
+    ],
+    "roster_views": [
+      {
+        "id": "first-generation-national-team-pillars",
+        "name": "首批国脚与中超主干样本",
+        "confidence": "A/B",
+        "description": "这组人构成了鲁能足校最早、最稳的品牌样本。关键不只是有人踢出来，而是长期撑起了山东队和国家队的一部分骨架。",
+        "players": [
+          {
+            "name": "Liu Jindong",
+            "local_name": "刘金东",
+            "role": "中场 / 后卫",
+            "club": "Shandong professional pathway",
+            "note": "招生简章直接列出的学校代表球员之一，属于早期国脚与俱乐部主干样本。"
+          },
+          {
+            "name": "Han Peng",
+            "local_name": "韩鹏",
+            "role": "中锋",
+            "club": "Shandong Luneng Taishan",
+            "note": "鲁能足校最经典的本土中锋样本之一，也是学校“直供一线队”的早期代表。"
+          },
+          {
+            "name": "Zhou Haibin",
+            "local_name": "周海滨",
+            "role": "中场",
+            "club": "Shandong professional pathway",
+            "note": "和韩鹏一起构成足校最早打出全国知名度的核心样本。"
+          },
+          {
+            "name": "Zheng Zheng",
+            "local_name": "郑铮",
+            "role": "后卫",
+            "club": "Shandong Taishan",
+            "note": "从足校到泰山队长期主力与国足常客，是中生代最稳定的成功样本之一。"
+          },
+          {
+            "name": "Zhang Chi",
+            "local_name": "张弛",
+            "role": "边路球员",
+            "club": "Shandong Taishan",
+            "note": "代表学校长期向一线队持续供血，而不仅靠单一黄金一代。"
+          },
+          {
+            "name": "Liu Binbin",
+            "local_name": "刘彬彬",
+            "role": "边锋",
+            "club": "Shandong Taishan",
+            "note": "招生简章点名代表球员之一，也是近年来国脚层面的标志边路样本。"
+          },
+          {
+            "name": "Wang Tong",
+            "local_name": "王彤",
+            "role": "后卫",
+            "club": "Shandong Taishan",
+            "note": "中后场主干样本，代表学校持续产出国脚级防守球员。"
+          },
+          {
+            "name": "Liu Yang",
+            "local_name": "刘洋",
+            "role": "左后卫",
+            "club": "Shandong Taishan",
+            "note": "学校官方点名的代表球员之一，体现鲁能足校在边后卫位置上的持续产出。"
+          },
+          {
+            "name": "Chen Pu",
+            "local_name": "陈蒲",
+            "role": "前场球员",
+            "club": "Shandong Taishan",
+            "note": "较新一代代表样本之一，连接早期足校模式和当前一线队轮换层。"
+          }
+        ]
+      },
+      {
+        "id": "current-u20-and-first-team-wave",
+        "name": "当前 U20 与一线队衔接主干",
+        "confidence": "B",
+        "description": "这组人最能体现鲁能足校现在的真实成色。和早年不同，当前难点不是青年赛夺冠，而是把 U20 主干更稳定地接到泰山一线队与职业联赛。",
+        "players": [
+          {
+            "name": "Peng Xiao",
+            "local_name": "彭啸",
+            "role": "后卫",
+            "club": "Shandong Taishan",
+            "note": "人民网 2026 回看稿点名样本之一，2025 年已在一线队完成多场出场。"
+          },
+          {
+            "name": "Yu Jinyong",
+            "local_name": "于金永",
+            "role": "门将",
+            "club": "Shandong Taishan",
+            "note": "新一代门将样本，已进入一线队视野，也是 U20 / U22 层的重要名字。"
+          },
+          {
+            "name": "Shi Songchen",
+            "local_name": "史松宸",
+            "role": "后卫",
+            "club": "Shandong Taishan youth pathway",
+            "note": "2025 U20 亚洲杯 8 名泰山青训样本之一。"
+          },
+          {
+            "name": "Chen Zeshi",
+            "local_name": "陈泽仕",
+            "role": "中场",
+            "club": "Shandong Taishan youth pathway",
+            "note": "U20 这拨中场主干样本之一，进入国家队高龄青年序列。"
+          },
+          {
+            "name": "Yimulan Abuduwaili",
+            "local_name": "依木兰",
+            "role": "中场",
+            "club": "Shandong Taishan youth pathway",
+            "note": "当前泰山青训和中国青年队都较有辨识度的中场样本。"
+          },
+          {
+            "name": "Ma Wulang Mijit",
+            "local_name": "买乌郎",
+            "role": "青年队球员",
+            "club": "Shandong Taishan youth pathway",
+            "note": "U20 这一波样本之一，体现泰山青训在多民族球员培养上的延展。"
+          },
+          {
+            "name": "Liu Qiwei",
+            "local_name": "刘骐玮",
+            "role": "青年队球员",
+            "club": "Shandong Taishan youth pathway",
+            "note": "2025 U20 8 人样本之一，补足这一拨的梯队轮廓。"
+          },
+          {
+            "name": "He Xiaoke",
+            "local_name": "何小珂",
+            "role": "前锋",
+            "club": "Shandong Taishan / overseas pathway",
+            "note": "更特殊的外向型样本，代表巴西体育和海外融入式培养路径，而不是单一足校本部住训模式。"
+          }
+        ]
+      },
+      {
+        "id": "current-u16-u17-pipeline",
+        "name": "2009 年龄段 U16/U17 当前主干",
+        "confidence": "A/B",
+        "description": "这组人直接对应 2025-03-18 的 U16 国家队八人名单，也是现在最值得继续跟踪的一拨鲁能足校在校生主干。",
+        "players": [
+          {
+            "name": "Kong Xinuo",
+            "local_name": "孔玺诺",
+            "role": "中场 / 多面手",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "2009 线中后场主干样本之一，长期出现在国少名单中。"
+          },
+          {
+            "name": "He Sifan",
+            "local_name": "何思凡",
+            "role": "边路球员",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "左路样本之一，和张旭尧共同构成当前这拨较完整的左路链条。"
+          },
+          {
+            "name": "Xiao Chenxi",
+            "local_name": "萧晨熙",
+            "role": "青年队球员",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "2025 U16 八人名单中的样本之一。"
+          },
+          {
+            "name": "Zhang Junhao",
+            "local_name": "张君豪",
+            "role": "青年队球员",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "当前 2009 线稳定入选样本之一。"
+          },
+          {
+            "name": "Li Junpeng",
+            "local_name": "李钧鹏",
+            "role": "中后卫",
+            "club": "Shandong Taishan B",
+            "note": "已经补有独立档案，是 2009 线当前最受关注的鲁能足校中卫样本。"
+          },
+          {
+            "name": "Lu Junbo",
+            "local_name": "路钧博",
+            "role": "青年队球员",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "2025 U16 八人名单样本之一。"
+          },
+          {
+            "name": "Xu Zengfu",
+            "local_name": "徐曾富",
+            "role": "青年队球员",
+            "club": "Shandong Luneng Taishan Football School",
+            "note": "当前 2009 线主干之一。"
+          },
+          {
+            "name": "Zhang Xuyao",
+            "local_name": "张旭尧",
+            "role": "左后卫",
+            "club": "Shandong Taishan B",
+            "note": "已补独立档案，当前国少左路主力级样本之一。"
+          }
+        ]
+      }
+    ],
+    "controversies": [
+      "学校 2024 招生简章写的是 81 个全国冠军、296 名国字号、341 名职业俱乐部球员，而俱乐部官网当前仍写 66 个全国青少年冠军；两者统计口径和截止日期显然不完全一致。",
+      "“鲁能足校球员”“泰山青训球员”“巴西体育融入式培养球员”在媒体里经常被混称，实际培养路径并不完全相同。",
+      "部分当前青年国脚在成年阶段可能先进入泰山 B 队、外租或全运队，并不一定直接升上一线队，若只按一线队样本评估会低估青训覆盖面。"
+    ],
+    "open_questions": [
+      "历史毕业生 341 人的完整职业名单尚未公开结构化披露，后续还需要继续拆出中超、中甲、中乙和海外去向。",
+      "何小珂这类外向型样本能否稳定兑现成年职业生涯，仍需要继续跟踪 2026 到 2028 的注册和出场。",
+      "2009 年龄段国少主干里，哪些人能在 2027 前后顺利进入泰山 B 队或一线队，目前还没有足够公开样本支撑结论。",
+      "学校“满天星计划”和 42 所人才基地后续是否明显改变了主力球员来源结构，仍需继续回看更细的地域和年龄段分布。"
+    ]
+  },
+  {
+    "id": "olympic-stars-germany",
+    "name": "“08奥运之星”赴德国项目档案",
+    "status": "in-progress",
+    "focus_tags": [
+      "olympic-stars-germany"
+    ],
+    "last_reviewed": "2026-05-23",
+    "summary": "这条线不能简单理解成“中国足协第一次整队留洋成功案例”。更稳妥的口径是把它拆成三段：第一段是 2004 年底以 1987 年龄段为主的 27 人首批赴德名单；第二段是 2005 年春天项目在巴特基辛根落地后，很快被 85 国青备战荷兰世青赛的需求借壳接续；第三段则是首批球员回国后分化为国脚主干、稳定职业球员和较快淡出三层结果。项目历史价值很大，但执行和后续管理并不顺，最终也没有成长为中国长期稳定输出欧洲职业队的标准路径。",
+    "source_document": {
+      "title": "新浪回顾：国奥08之星掀起留洋风暴 留德计划惊现谢幕危机",
+      "path": "https://sports.sina.cn/china/2017-06-29/detail-ifyhrxsk1440772.d.html"
+    },
+    "supporting_documents": [
+      {
+        "title": "搜狐：08之星赴德球员名单正式公布",
+        "path": "https://sports.sohu.com/20041128/n223209792.shtml",
+        "summary": "可核验首批 27 人赴德完整名单及原属俱乐部。"
+      },
+      {
+        "title": "搜狐：08之星今日离京赴德",
+        "path": "https://sports.sohu.com/20041208/n223375387.shtml",
+        "summary": "可核验 2004-12-08 首批出发、计划在巴特基辛根训练并踢巴伐利亚青年联赛的口径。"
+      },
+      {
+        "title": "CCTV：08之星今起赴德留学",
+        "path": "https://sports.cctv.com/20041208/101532.shtml",
+        "summary": "可旁证项目为中国足协与德国巴特基辛根合作、首批 27 人先行两年培养的框架。"
+      },
+      {
+        "title": "搜狐：08之星首批留德球员返京",
+        "path": "https://sports.sohu.com/20050308/n224576080.shtml",
+        "summary": "可核验首批留德球员在 2005-03-08 回国，准备参加邀请赛和十运预赛。"
+      },
+      {
+        "title": "搜狐：08之星与德国巴特基辛根正式签约",
+        "path": "https://sports.sohu.com/20050312/n224648284.shtml",
+        "summary": "可核验 2005-03-12 正式签约节点，以及“德国香河基地”式的包装口径。"
+      },
+      {
+        "title": "搜狐：08之星今起广撒英雄帖 50多人竞争赴德名额",
+        "path": "https://sports.sohu.com/20050329/n224914711.shtml",
+        "summary": "可核验 2005 年春季二次选秀、项目从首批 27 人转向更大范围重选的变化。"
+      },
+      {
+        "title": "搜狐：08之星重组计划胎死腹中 国青出征荷兰借壳留德",
+        "path": "https://sports.sohu.com/20050407/n225067043.shtml",
+        "summary": "可核验“08之星”在 2005 年世青赛前后被 85 国青借用框架的关键转折。"
+      }
+    ],
+    "scope_note": "这个专题当前只追“赴德国项目”本身，不把 1985 国青整届、2008 国奥整届或者同时代其他零散留洋都并进来。判断一名球员是否属于本专题，优先看他是否出现在 2004 首批 27 人、2005 春季重选名单，或后续被明确写作“08之星 / 08奥运之星”赴德体系成员。",
+    "role_model": [
+      "这是中国足球较早尝试整批少年球员长期驻德培养的项目，形式上比零散试训更接近“项目制留洋”。",
+      "首批 27 人的核心意图是服务 2008 奥运周期，但 2005 年很快与 85 国青备战世青赛需求叠合，造成品牌与名单边界变得混乱。",
+      "它没有沉淀成万达西班牙计划那样的多年稳定批次输出，而是更像一次高期待、强媒体包装、后续执行波动明显的试验。",
+      "项目的历史价值主要体现在早期集中输出与球员视野开阔，而非真正建立了可复制的德国职业化通道。"
+    ],
+    "timeline": [
+      {
+        "date": "2004-11",
+        "label": "首批名单公布",
+        "detail": "2004 年 11 月底，首批 27 人赴德名单对外公布，主体是 1987 年龄段球员，也夹杂个别 1985、1986 线样本。"
+      },
+      {
+        "date": "2004-12-08",
+        "label": "首批赴德出发",
+        "detail": "首批球员从北京出发前往德国巴特基辛根，计划接受为期两年的训练并参加当地青年联赛。"
+      },
+      {
+        "date": "2005-03-08",
+        "label": "首批短暂回国",
+        "detail": "首批留德球员回到北京，准备参加邀请赛和十运会预赛，说明项目初期并非完全封闭式常驻。"
+      },
+      {
+        "date": "2005-03-12",
+        "label": "中德正式签约",
+        "detail": "中国足协与巴特基辛根方面正式签约，外界一度把该地描述成中国足球新的海外训练基地。"
+      },
+      {
+        "date": "2005-03-29",
+        "label": "春季重选启动",
+        "detail": "项目重新面向 50 多名球员进行筛选，意味着首批 27 人并不是最终稳定框架。"
+      },
+      {
+        "date": "2005-04",
+        "label": "85 国青借壳接续",
+        "detail": "在荷兰世青赛周期临近时，08 之星的重组计划没有按原定单独推进，而是被 85 国青备战世青赛的需要借壳接续，项目边界开始模糊。"
+      },
+      {
+        "date": "2005-06",
+        "label": "荷兰世青赛兑现",
+        "detail": "陈涛、赵旭日、冯潇霆等 85 国青在荷兰世青赛打进 16 强，08 之星概念从“赴德青训项目”进一步扩展成更宽的奥运备战包装。"
+      },
+      {
+        "date": "2006-2007",
+        "label": "项目执行滑坡",
+        "detail": "后续回看口径显示，中德合作在比赛安排、承诺兑现和管理方式上争议渐增，项目逐步走向失速和名存实亡。"
+      }
+    ],
+    "roster_views": [
+      {
+        "id": "departure-list-2004",
+        "name": "2004 年首批 27 人赴德名单",
+        "confidence": "A/B",
+        "description": "这份视图严格对应 2004 年 11 月底公布、12 月初赴德出发的首批名单；它是“08之星”最清晰、最稳定的一版球员框架。",
+        "players": [
+          { "name": "Li Shuai", "local_name": "李帅", "role": "球员", "club": "Jinan Taishan Football School", "note": "首批赴德名单成员，原属济南泰山足球学校。" },
+          { "name": "Wang Dalei", "local_name": "王大雷", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员，后续成长为国脚级门将，是这一项目最醒目的兑现样本之一。" },
+          { "name": "Wang Chao", "local_name": "王超", "role": "球员", "club": "Beijing Guoan", "note": "首批赴德名单成员，原属北京国安梯队。" },
+          { "name": "Bai Lei", "local_name": "白磊", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员。" },
+          { "name": "Yao Jiangshan", "local_name": "姚江山", "role": "球员", "club": "Qingdao Hailifeng", "note": "首批赴德名单成员，后续在国内职业联赛长期效力。" },
+          { "name": "Cui Peng", "local_name": "崔鹏", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续进入山东鲁能和国字号主线。" },
+          { "name": "Mao Biao", "local_name": "毛彪", "role": "球员", "club": "Tianjin Teda", "note": "首批赴德名单成员，后续成为津门锋线代表样本之一。" },
+          { "name": "Wang Yongpo", "local_name": "王永珀", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续成为国脚级攻击型中场。" },
+          { "name": "Yang Xu", "local_name": "杨旭", "role": "球员", "club": "Liaoning FC", "note": "首批赴德名单成员，后续成长为国家队常备中锋。" },
+          { "name": "Wang Yang", "local_name": "王扬", "role": "球员", "club": "Liaoning FC", "note": "首批赴德名单成员。" },
+          { "name": "Liu Qing", "local_name": "刘清", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员。" },
+          { "name": "Wang Xiaolong", "local_name": "王晓龙", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续进入多支中超球队并有国字号经历。" },
+          { "name": "Wang Xiaolong", "local_name": "王啸龙", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员，需与山东线的王晓龙区分。" },
+          { "name": "Zhao Mingjian", "local_name": "赵明剑", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续成长为中超知名边后卫。" },
+          { "name": "Qin Sheng", "local_name": "秦升", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续在多支职业队长期效力。" },
+          { "name": "Zhang Wenzhao", "local_name": "张文钊", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续成为国脚级边路 / 前场球员。" },
+          { "name": "Zhang Lu", "local_name": "张鹭", "role": "球员", "club": "Henan Jianye", "note": "首批赴德名单成员，后续成长为国脚级门将。" },
+          { "name": "Lu Jianjun", "local_name": "吕建军", "role": "球员", "club": "Qingdao Hailifeng", "note": "首批赴德名单成员。" },
+          { "name": "Li Zhenhong", "local_name": "李真宏", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员。" },
+          { "name": "Huang Xiangdong", "local_name": "黄向东", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员。" },
+          { "name": "Ou Ya", "local_name": "欧亚", "role": "球员", "club": "Liaoning FC", "note": "首批赴德名单成员。" },
+          { "name": "Wu Lei", "local_name": "吴磊", "role": "球员", "club": "Guangdong Dongguan Nancheng Real Estate FC", "note": "首批赴德名单成员，需与上海海港的武磊区分。" },
+          { "name": "Huang Xiangyang", "local_name": "黄向阳", "role": "球员", "club": "Liaoning FC", "note": "首批赴德名单成员。" },
+          { "name": "Huang Jie", "local_name": "黄洁", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员。" },
+          { "name": "Li Shuaishuai", "local_name": "李帅帅", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员。" },
+          { "name": "Li Hao", "local_name": "李昊", "role": "球员", "club": "Dalian Tiedao", "note": "首批赴德名单成员。" },
+          { "name": "Liu Jianye", "local_name": "刘建业", "role": "球员", "club": "Shandong Luneng", "note": "首批赴德名单成员，后续成长为国家队长期后场 / 中场多面手。" }
+        ]
+      },
+      {
+        "id": "representative-outcomes",
+        "name": "后续职业兑现代表样本",
+        "confidence": "B",
+        "description": "这一视图不追求覆盖全部 27 人，而是把后来最容易在成年职业层面确认的兑现样本单独拎出来，说明项目并非没有产出，只是产出分布很不均匀。",
+        "players": [
+          { "name": "Wang Dalei", "local_name": "王大雷", "role": "门将", "club": "China PR / Shandong Taishan pathway", "note": "从赴德名单成员成长为国脚级门将，是这批人里职业高度最明确的一类样本。" },
+          { "name": "Wang Yongpo", "local_name": "王永珀", "role": "前腰 / 中场", "club": "Shandong Luneng pathway", "note": "后续成为中超和国家队重要攻击型中场，证明项目确实覆盖到高天赋球员。" },
+          { "name": "Cui Peng", "local_name": "崔鹏", "role": "中场", "club": "Shandong Luneng pathway", "note": "成年阶段在山东鲁能与国字号均有明确存在感。" },
+          { "name": "Liu Jianye", "local_name": "刘建业", "role": "中后场多面手", "club": "China PR / Jiangsu pathway", "note": "后续国家队与顶级联赛体量说明，这条计划并非只产出青年名气。" },
+          { "name": "Zhao Mingjian", "local_name": "赵明剑", "role": "边后卫", "club": "Shandong / Dalian pathway", "note": "成年职业阶段长期立足，是后卫线的典型兑现样本。" },
+          { "name": "Yang Xu", "local_name": "杨旭", "role": "中锋", "club": "Liaoning / Tianjin / China PR pathway", "note": "后来成为国足锋线常备人选，是前场最稳定的职业化代表之一。" },
+          { "name": "Zhang Lu", "local_name": "张鹭", "role": "门将", "club": "Henan / Tianjin pathway", "note": "成年阶段长期处于中超高层级门将序列。" },
+          { "name": "Zhang Wenzhao", "local_name": "张文钊", "role": "边路 / 前场", "club": "Shandong / Guangzhou pathway", "note": "说明这批人里也有成长为顶级联赛爆点型边锋的样本。" },
+          { "name": "Mao Biao", "local_name": "毛彪", "role": "前锋", "club": "Tianjin Teda pathway", "note": "属于稳定在国内职业联赛兑现的首批名单成员。" },
+          { "name": "Yao Jiangshan", "local_name": "姚江山", "role": "中后场球员", "club": "Qingdao Hainiu / Qingdao Hailifeng pathway", "note": "代表并非国脚级但仍长期完成职业化的样本。" }
+        ]
+      }
+    ],
+    "controversies": [
+      "“08之星”既可以特指 2004 年首批 27 人赴德名单，也会在 2005 年后被媒体泛指更宽的奥运备战海外培养计划，检索时必须先分清时间点。",
+      "项目前期宣传里的长期驻德、系统联赛、德甲德乙接口等口径，与实际执行之间存在明显落差，不能把初始包装直接当作已兑现事实。",
+      "首批 27 人里确实出现了大量后来的职业球员甚至国脚，但这不等于他们后来的全部成就都能直接归因于赴德项目本身。"
+    ],
+    "open_questions": [
+      "2005 年春季二次选秀和 85 国青借壳后的完整名单仍需继续补齐，当前专题只稳妥锁定了 2004 首批 27 人。",
+      "首批名单中李帅、白磊、黄向东、黄向阳、李真宏等人的后续职业轨迹，仍缺更完整的赛季级回填。",
+      "项目在 2006 年前后的具体收口机制、中德双方责任划分和财务 / 比赛安排争议，目前还需要更系统的档案型来源补强。"
+    ]
   }
 ]
