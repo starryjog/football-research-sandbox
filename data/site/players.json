@@ -5611,6 +5611,173 @@
     }
   },
   {
+    "id": "cn-li-dongchen-2010",
+    "name": "Li Dongchen",
+    "local_name": "李东宸",
+    "country": "China PR",
+    "birth_date": "2010-01-22",
+    "age_band": "u17",
+    "primary_position": "Centre-Back",
+    "height_cm": null,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Sant Cugat FC",
+      "country": "Spain"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "中国足球小将 2010 年龄段",
+        "organization": "China Football Boys",
+        "country": "China",
+        "note": "公开报道与项目专题资料都把李东宸放在中国足球小将 2010 队主线里；2023 年西班牙地中海杯 U13 组别最佳阵容口径中，他与张林峒一同被点名。"
+      },
+      {
+        "stage_label": "2024/02 奥斯皮塔莱特U14A首秀",
+        "organization": "CE L'Hospitalet U14A",
+        "country": "Spain",
+        "note": "澎湃号报道写到他在奥斯皮塔莱特 U14A 替补登场，完成公开可检的旅西首秀，这是目前较早、较清晰的西班牙比赛节点。"
+      },
+      {
+        "stage_label": "2024 中国U15第四期集训",
+        "organization": "China PR U15",
+        "country": "China",
+        "note": "中国足协 2024-06-20 U15 国家男子足球选拔队第四期集训通知中，将其所属单位写作“北京”，说明他当时仍保留国内选材口径。"
+      },
+      {
+        "stage_label": "2024/09 欧罗巴注册节点",
+        "organization": "CE Europa",
+        "country": "Spain",
+        "note": "中国足协 2024-09-24 U14 国家男子足球选拔队赴法国拉练通知中，将其所属单位登记为欧罗巴足球俱乐部，可视作旅西注册已切到欧罗巴的官方节点。"
+      },
+      {
+        "stage_label": "2025/26 圣库加特U16A节点",
+        "organization": "Sant Cugat FC U16A",
+        "country": "Spain",
+        "note": "2025/26 赛季公开总结口径显示其已进入圣库加特 U16A，在加泰罗尼亚 U16 荣誉联赛阶段有 27 次进入大名单、20 次首发、2 球，说明其已经从欧罗巴阶段转入圣库加特比赛环境。"
+      },
+      {
+        "stage_label": "2026 中国U16第二期集训",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2026-03-12 第二期集训通知中，将其所属单位列为圣库加特足球俱乐部，队伍随后赴法国参加蒙太古杯。"
+      }
+    ],
+    "focus_tags": [
+      "china-youth",
+      "overseas-europe",
+      "china-overseas-current",
+      "donglu-football-boys",
+      "defender-watch"
+    ],
+    "tournament_participation": [
+      {
+        "label": "2024 中国 U15 第四期集训",
+        "team": "China PR U15",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2024-06-20 通知列其以“北京”口径入选 U15 第四期集训及赴韩国拉练名单。"
+      },
+      {
+        "label": "2024 中国 U14 法国拉练",
+        "team": "China PR U14",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2024-09-24 通知列其以欧罗巴足球俱乐部球员身份赴法国欧塞尔青训中心拉练。"
+      },
+      {
+        "label": "2025/26 加泰罗尼亚U16荣誉联赛",
+        "team": "Sant Cugat FC U16A",
+        "squad_status": "tracked",
+        "appearances": 20,
+        "goals": 2,
+        "minutes": null,
+        "note": "公开赛季总结口径显示其 2025/26 赛季共 27 次进入大名单、20 次首发、打进 2 球；这组数据更适合作为旅西比赛量参考，而非足协权威注册字段。"
+      },
+      {
+        "label": "2026 中国 U16 第二期集训",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2026-03-12 通知列其以圣库加特足球俱乐部球员身份入选，备战 2027 U17 亚洲杯并参加法国蒙太古杯。"
+      },
+      {
+        "competition_id": "china-overseas-2026",
+        "label": "2026 中国现役留洋跟踪",
+        "team": "Sant Cugat FC",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "截至 2026-05-22，当前更稳妥的口径是已从欧罗巴转到圣库加特，属于中国足球小将 2010 线旅西后卫代表样本之一。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "profile",
+        "label": "Transfermarkt profile",
+        "url": "https://www.transfermarkt.com/dongchen-li/profil/spieler/1283236"
+      },
+      {
+        "type": "news",
+        "label": "The Paper overseas debut report",
+        "url": "https://www.thepaper.cn/newsDetail_forward_26272719"
+      },
+      {
+        "type": "official",
+        "label": "CFA U15 fourth camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20240620/34642.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U14 France training notice",
+        "url": "https://www.thecfa.cn/jxtz/20240924/35068.html"
+      },
+      {
+        "type": "news",
+        "label": "Dongqiudi Mediterranean Cup best XI recap",
+        "url": "https://m.dongqiudi.com/article/3391410.html"
+      },
+      {
+        "type": "news",
+        "label": "Sina Catalonia U16 season recap",
+        "url": "https://www.sina.cn/news/detail/5300574066574678.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 second camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20260312/37416.html"
+      },
+      {
+        "type": "news",
+        "label": "Sohu U16 Montaigu preview",
+        "url": "https://www.sohu.com/a/999779302_121145914"
+      },
+      {
+        "type": "news",
+        "label": "Sina throw-in clip recap",
+        "url": "https://www.sina.cn/news/detail/5218904022713226.html"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "last_checked": "2026-05-22",
+      "notes": "中国足球小将 2010 队身份、地中海杯最佳阵容口径，以及旅西主线可由懂球帝专题稿、澎湃号与项目公开材料交叉确认；中国足协 2024-06-20、2024-09-24 和 2026-03-12 三份正式通知连续给出了“北京 -> 欧罗巴 -> 圣库加特”的报名归属变化。生日 2010-01-22 当前主要来自 Transfermarkt，而非足协或俱乐部官方注册页，因此这里保留日期但不把它表述为权威官方字段。位置方面，公开报道常把他写作左中卫或后防线球员，这里先按更稳妥的 Centre-Back 归档。"
+    },
+    "names": {
+      "zh": "李东宸",
+      "en": "Li Dongchen",
+      "native": "李东宸",
+      "ja": "",
+      "ko": ""
+    }
+  },
+  {
     "id": "cn-zhang-lindong-2010",
     "name": "Zhang Lindong",
     "local_name": "张林峒",

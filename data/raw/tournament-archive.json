@@ -1596,6 +1596,620 @@
     ]
   },
   {
+    "id": "afc-u17-2004",
+    "confederation": "AFC",
+    "competition_name": "AFC U-17 Championship Japan 2004",
+    "level": "u17",
+    "edition_label": "2004",
+    "host": "Japan",
+    "date_range": {
+      "start": "2004-09-04",
+      "end": "2004-09-11"
+    },
+    "status": "completed",
+    "champion": "Japan",
+    "runner_up": "China PR",
+    "china_status": "runner-up",
+    "china_summary": "中国国少 3 战 2 胜 1 负，先后淘汰泰国和朝鲜闯入决赛，最终 1 比 3 负于日本获得亚军，并拿到 2005 秘鲁世少赛资格。",
+    "china_detail_scope": "squad",
+    "china_squad": [
+      {
+        "squad_number": 1,
+        "player": "Wang Dalei",
+        "position": "Goalkeeper",
+        "club": "Dalian Tielu",
+        "note": "这支 87 国少最早兑现到成年国字号的门将样本。"
+      },
+      {
+        "squad_number": 2,
+        "player": "Cui Nanri",
+        "position": "Defender",
+        "club": "Yanbian"
+      },
+      {
+        "squad_number": 3,
+        "player": "Zuo Junlong",
+        "position": "Defender/Midfielder/Forward"
+      },
+      {
+        "squad_number": 4,
+        "player": "Li Xuepeng",
+        "position": "Defender/Midfielder/Forward",
+        "note": "后续在成年队主要固定为左后卫。"
+      },
+      {
+        "squad_number": 5,
+        "player": "Gu Cao",
+        "position": "Defender",
+        "club": "Shanghai Shenhua"
+      },
+      {
+        "squad_number": 6,
+        "player": "Ma Leilei",
+        "position": "Defender/Midfielder/Forward"
+      },
+      {
+        "squad_number": 7,
+        "player": "Yu Dabao",
+        "position": "Forward",
+        "club": "Qingdao Hailifeng",
+        "note": "后续成长为成年国家队前锋与亚洲杯关键进球球员。"
+      },
+      {
+        "squad_number": 8,
+        "player": "Yang Jian",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Shenzhen Jianlibao"
+      },
+      {
+        "squad_number": 9,
+        "player": "Gu Jinjin",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Tianjin Teda"
+      },
+      {
+        "squad_number": 10,
+        "player": "Zhu Yifan",
+        "position": "Midfielder",
+        "club": "Beijing Hyundai"
+      },
+      {
+        "squad_number": 11,
+        "player": "Zhang Xu",
+        "position": "Goalkeeper",
+        "club": "Shandong Luneng"
+      },
+      {
+        "squad_number": 12,
+        "player": "Wang Gang",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Tianjin Teda"
+      },
+      {
+        "squad_number": 13,
+        "player": "Li Zhuangfei",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Shandong Luneng"
+      },
+      {
+        "squad_number": 14,
+        "player": "Du Longquan",
+        "position": "Midfielder",
+        "club": "Liaoning"
+      },
+      {
+        "squad_number": 15,
+        "player": "Wang Xuanhong",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Liaoning"
+      },
+      {
+        "squad_number": 16,
+        "player": "Deng Zhuoxiang",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Wuhan Huanghelou",
+        "note": "2004 官方赛会名单里的位置更靠后，后续在成年队转成中前场组织点。"
+      },
+      {
+        "squad_number": 17,
+        "player": "Gu Junjie",
+        "position": "Goalkeeper"
+      },
+      {
+        "squad_number": 18,
+        "player": "Yang Xu",
+        "position": "Forward",
+        "club": "Liaoning",
+        "note": "后续成长为中超与国家队长期中锋样本。"
+      },
+      {
+        "squad_number": 19,
+        "player": "Huang Jie",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Shanghai Shenhua"
+      },
+      {
+        "squad_number": 20,
+        "player": "Wang Weilong",
+        "position": "Defender/Midfielder/Forward",
+        "club": "Shandong Luneng"
+      }
+    ],
+    "china_matches": [
+      {
+        "date": "2004-09-04",
+        "stage": "Quarter-final",
+        "opponent": "Thailand",
+        "score_for": 2,
+        "score_against": 1,
+        "result": "W",
+        "china_contributions": []
+      },
+      {
+        "date": "2004-09-06",
+        "stage": "Semi-final",
+        "opponent": "Korea DPR",
+        "score_for": 2,
+        "score_against": 1,
+        "result": "W",
+        "china_contributions": [],
+        "china_lineup": {
+          "starters": [
+            { "player": "Wang Dalei" },
+            { "player": "Cui Nanri" },
+            { "player": "Gu Cao" },
+            { "player": "Yang Jian" },
+            { "player": "Gu Jinjin" },
+            { "player": "Li Zhuangfei" },
+            { "player": "Wang Xuanhong" },
+            { "player": "Deng Zhuoxiang" },
+            { "player": "Yang Xu" },
+            { "player": "Huang Jie" },
+            { "player": "Wang Weilong" }
+          ],
+          "substitutes": [
+            { "player": "Zuo Junlong" },
+            { "player": "Li Xuepeng" },
+            { "player": "Ma Leilei" },
+            { "player": "Yu Dabao" },
+            { "player": "Zhu Yifan" },
+            { "player": "Zhang Xu" },
+            { "player": "Wang Gang" },
+            { "player": "Du Longquan" },
+            { "player": "Gu Junjie" }
+          ]
+        }
+      },
+      {
+        "date": "2004-09-11",
+        "stage": "Final",
+        "opponent": "Japan",
+        "score_for": 1,
+        "score_against": 3,
+        "result": "L",
+        "note": "官方决赛名单注明 Li Zhuangfei 因累计原因未取得出场资格。",
+        "china_contributions": [],
+        "china_lineup": {
+          "starters": [
+            { "player": "Wang Dalei" },
+            { "player": "Cui Nanri" },
+            { "player": "Gu Cao" },
+            { "player": "Yu Dabao" },
+            { "player": "Yang Jian" },
+            { "player": "Zhu Yifan" },
+            { "player": "Wang Xuanhong" },
+            { "player": "Deng Zhuoxiang" },
+            { "player": "Yang Xu" },
+            { "player": "Huang Jie" },
+            { "player": "Wang Weilong" }
+          ],
+          "substitutes": [
+            { "player": "Zuo Junlong" },
+            { "player": "Li Xuepeng" },
+            { "player": "Ma Leilei" },
+            { "player": "Gu Jinjin" },
+            { "player": "Zhang Xu" },
+            { "player": "Wang Gang" },
+            { "player": "Du Longquan" },
+            { "player": "Gu Junjie" }
+          ]
+        }
+      }
+    ],
+    "china_key_players": [
+      {
+        "player": "Wang Dalei",
+        "goals": 0,
+        "assists": 0,
+        "role_note": "3 场全部进入主力门将序列，是这批球员里兑现到成年国家队最稳的名字。"
+      },
+      {
+        "player": "Deng Zhuoxiang",
+        "goals": 0,
+        "assists": 0,
+        "role_note": "2004 赛会官方名单里的站位比后期更靠后，后续则成长为中前场组织与定位球核心。"
+      },
+      {
+        "player": "Yu Dabao",
+        "goals": 0,
+        "assists": 0,
+        "role_note": "半决赛替补、决赛进入首发，是这批球员里后续成年国脚成色最高的前场样本之一。"
+      },
+      {
+        "player": "Yang Xu",
+        "goals": 0,
+        "assists": 0,
+        "role_note": "连续出现在半决赛和决赛首发端，是这批 87 国少后续最典型的中锋样本。"
+      },
+      {
+        "player": "Li Xuepeng",
+        "goals": 0,
+        "assists": 0,
+        "role_note": "当届仍处在多位置使用阶段，后续在成年职业线完成左后卫定型。"
+      }
+    ],
+    "source_links": [
+      {
+        "label": "AFC 2004 China PR team profile",
+        "url": "https://stats.the-afc.com/tournament/2/teams/109/profile"
+      },
+      {
+        "label": "AFC 2004 semi-final: Korea DPR 1-2 China PR",
+        "url": "https://stats.the-afc.com/match_report/176"
+      },
+      {
+        "label": "AFC 2004 final: China PR 1-3 Japan",
+        "url": "https://stats.the-afc.com/match_report/177"
+      },
+      {
+        "label": "2004 AFC U-17 Championship overview",
+        "url": "https://en.wikipedia.org/wiki/2004_AFC_U-17_Championship"
+      }
+    ]
+  },
+  {
+    "id": "fifa-u17-world-cup-2005",
+    "confederation": "FIFA",
+    "competition_name": "FIFA U-17 World Championship Peru 2005",
+    "level": "u17-world-cup",
+    "edition_label": "2005",
+    "host": "Peru",
+    "date_range": {
+      "start": "2005-09-16",
+      "end": "2005-10-02"
+    },
+    "status": "completed",
+    "champion": "Mexico",
+    "runner_up": "Brazil",
+    "china_status": "quarter-final",
+    "china_summary": "中国国少小组赛 1 胜 2 平保持不败出线，1/4 决赛 1 比 5 负于土耳其，止步八强。",
+    "china_detail_scope": "squad",
+    "china_squad": [
+      { "squad_number": 1, "player": "Wang Dalei", "position": "Goalkeeper", "club": "Dalian Tielu", "note": "后续成为成年国家队长期门将。" },
+      { "squad_number": 2, "player": "Cui Nanri", "position": "Defender", "club": "Yanbian" },
+      { "squad_number": 3, "player": "Gu Cao", "position": "Defender", "club": "Shanghai Shenhua" },
+      { "squad_number": 4, "player": "Tang Naixin", "position": "Defender", "club": "Wuhan Huanghelou" },
+      { "squad_number": 5, "player": "Yang Jian", "position": "Defender", "club": "Shenzhen Jianlibao" },
+      { "squad_number": 6, "player": "Zhu Yifan", "position": "Midfielder", "club": "Beijing Hyundai" },
+      { "squad_number": 7, "player": "Yu Dabao", "position": "Forward", "club": "Qingdao Hailifeng", "note": "后续成长为成年国脚前锋。" },
+      { "squad_number": 8, "player": "Wang Xuanhong", "position": "Midfielder", "club": "Liaoning" },
+      { "squad_number": 9, "player": "Deng Zhuoxiang", "position": "Midfielder", "club": "Wuhan Huanghelou", "note": "这届世少赛后继续成长为成年国脚与中前场组织者。" },
+      { "squad_number": 10, "player": "Yang Xu", "position": "Forward", "club": "Liaoning", "note": "后续成为中国成年队与中超长线中锋样本。" },
+      { "squad_number": 11, "player": "Huang Jie", "position": "Forward", "club": "Shanghai Shenhua" },
+      { "squad_number": 12, "player": "Wang Weilong", "position": "Defender", "club": "Shandong Luneng Taishan" },
+      { "squad_number": 13, "player": "Gu Jinjin", "position": "Goalkeeper", "club": "Tianjin Teda" },
+      { "squad_number": 14, "player": "Wang Gang", "position": "Defender", "club": "Tianjin Teda" },
+      { "squad_number": 15, "player": "Du Longquan", "position": "Midfielder", "club": "Liaoning" },
+      { "squad_number": 16, "player": "Li Zhuangfei", "position": "Defender", "club": "Shandong Luneng Taishan" },
+      { "squad_number": 17, "player": "Zhang Xu", "position": "Goalkeeper", "club": "Shandong Luneng Taishan" },
+      { "squad_number": 18, "player": "Cai Yaohui", "position": "Defender", "club": "Guangzhou Huanda" },
+      { "squad_number": 19, "player": "Chi Wenyi", "position": "Midfielder", "club": "Shenyang Jinde" },
+      { "squad_number": 20, "player": "Feng Shaoshun", "position": "Forward", "club": "Dalian Shide" }
+    ],
+    "china_matches": [
+      {
+        "date": "2005-09-17",
+        "stage": "Group A",
+        "opponent": "Costa Rica",
+        "score_for": 1,
+        "score_against": 1,
+        "result": "D",
+        "china_contributions": [
+          { "type": "goal", "player": "Tang Naixin", "minute": "17" }
+        ]
+      },
+      {
+        "date": "2005-09-20",
+        "stage": "Group A",
+        "opponent": "Peru",
+        "score_for": 1,
+        "score_against": 0,
+        "result": "W",
+        "china_contributions": [
+          { "type": "goal", "player": "Deng Zhuoxiang", "minute": "13" }
+        ]
+      },
+      {
+        "date": "2005-09-23",
+        "stage": "Group A",
+        "opponent": "Ghana",
+        "score_for": 1,
+        "score_against": 1,
+        "result": "D",
+        "china_contributions": [
+          { "type": "goal", "player": "Wang Xuanhong", "minute": "60" }
+        ]
+      },
+      {
+        "date": "2005-09-26",
+        "stage": "Quarter-final",
+        "opponent": "Turkey",
+        "score_for": 1,
+        "score_against": 5,
+        "result": "L",
+        "china_contributions": [
+          { "type": "goal", "player": "Yang Xu", "minute": "57" }
+        ]
+      }
+    ],
+    "china_key_players": [
+      { "player": "Tang Naixin", "goals": 1, "assists": 0, "role_note": "首战对哥斯达黎加率先破门，帮助中国队以平局起步。" },
+      { "player": "Deng Zhuoxiang", "goals": 1, "assists": 0, "role_note": "对东道主秘鲁的制胜球，让中国队掌握出线主动权。" },
+      { "player": "Wang Xuanhong", "goals": 1, "assists": 0, "role_note": "末轮对加纳扳平，帮助球队以不败战绩晋级八强。" },
+      { "player": "Yang Xu", "goals": 1, "assists": 0, "role_note": "1/4 决赛对土耳其打入中国队当场唯一进球。" },
+      { "player": "Wang Dalei", "goals": 0, "assists": 0, "role_note": "这届世少赛的主力门将，后续成为成年国家队长期门将样本。" }
+    ],
+    "source_links": [
+      {
+        "label": "2005 FIFA U-17 World Championship overview",
+        "url": "https://en.wikipedia.org/wiki/2005_FIFA_U-17_World_Championship"
+      },
+      {
+        "label": "2005 FIFA U-17 World Championship squads",
+        "url": "https://en.wikipedia.org/wiki/2005_FIFA_U-17_World_Championship_squads"
+      },
+      {
+        "label": "Every U-17 World Cup winner",
+        "url": "https://www.fifa.com/en/tournaments/mens/u17worldcup/articles/every-u17-world-cup-winner"
+      }
+    ]
+  },
+  {
+    "id": "fifa-u20-world-cup-2005",
+    "confederation": "FIFA",
+    "competition_name": "FIFA World Youth Championship Netherlands 2005",
+    "level": "u20-world-cup",
+    "edition_label": "2005",
+    "host": "Netherlands",
+    "date_range": {
+      "start": "2005-06-10",
+      "end": "2005-07-02"
+    },
+    "status": "completed",
+    "champion": "Argentina",
+    "runner_up": "Nigeria",
+    "china_status": "round-of-16",
+    "china_summary": "中国国青小组赛 3 战全胜头名出线，1/8 决赛 2 比 3 惜败德国，止步十六强。这个荷兰世青赛周期也是 85 国青最完整的一次成建制兑现。",
+    "china_detail_scope": "squad",
+    "china_squad": [
+      { "squad_number": 1, "player": "Zhang Lei", "position": "Goalkeeper", "club": "Dongguan Nancheng" },
+      { "squad_number": 2, "player": "Zhao Ming", "position": "Defender", "club": "Jilin Yanbian" },
+      { "squad_number": 3, "player": "Liu Yu", "position": "Defender", "club": "Sichuan Guancheng" },
+      { "squad_number": 4, "player": "Zheng Tao", "position": "Defender", "club": "Shaanxi Guoli" },
+      { "squad_number": 5, "player": "Feng Xiaoting", "position": "Defender", "club": "Dalian Shide", "note": "后续成长为成年国家队长期主力中卫。" },
+      { "squad_number": 6, "player": "Wang Hongliang", "position": "Midfielder", "club": "Shanghai Shenhua" },
+      { "squad_number": 7, "player": "Zhao Xuri", "position": "Midfielder", "club": "Dalian Shide", "note": "对土耳其一战有进球，后续进入成年国家队中场轮换。" },
+      { "squad_number": 8, "player": "Zhou Haibin", "position": "Midfielder", "club": "Shandong Luneng" },
+      { "squad_number": 9, "player": "Dong Fangzhuo", "position": "Forward", "club": "Manchester United", "note": "这届名单里最醒目的留洋标签之一。" },
+      { "squad_number": 10, "player": "Chen Tao", "position": "Midfielder", "club": "Shenyang Jinde", "note": "球队绝对核心，淘汰赛对德国梅开二度。" },
+      { "squad_number": 11, "player": "Zhu Ting", "position": "Forward", "club": "Dalian Shide" },
+      { "squad_number": 12, "player": "Yu Ziqian", "position": "Goalkeeper", "club": "Dalian Shide" },
+      { "squad_number": 13, "player": "Lu Lin", "position": "Midfielder", "club": "Guangzhou Rizhiquan" },
+      { "squad_number": 14, "player": "Mao Biao", "position": "Forward", "club": "Tianjin Teda" },
+      { "squad_number": 15, "player": "Yuan Weiwei", "position": "Defender", "club": "Shandong Luneng" },
+      { "squad_number": 16, "player": "Yang Cheng", "position": "Goalkeeper", "club": "Shandong Luneng" },
+      { "squad_number": 17, "player": "Tan Wangsong", "position": "Defender", "club": "Sichuan Guancheng" },
+      { "squad_number": 18, "player": "Gao Lin", "position": "Forward", "club": "Shanghai Shenhua", "note": "后续在成年国家队与俱乐部层面都长期兑现。" },
+      { "squad_number": 19, "player": "Zou You", "position": "Forward", "club": "Dalian Shide" },
+      { "squad_number": 20, "player": "Cui Peng", "position": "Midfielder", "club": "Shandong Luneng" },
+      { "squad_number": 21, "player": "Hao Junmin", "position": "Midfielder", "club": "Tianjin Teda", "note": "后续进入沙尔克与成年国家队主力线。" }
+    ],
+    "china_matches": [
+      {
+        "date": "2005-06-11",
+        "stage": "Group D",
+        "opponent": "Ukraine",
+        "score_for": 3,
+        "score_against": 2,
+        "result": "W",
+        "china_contributions": [
+          { "type": "goal", "player": "Chen Tao", "minute": "20" },
+          { "type": "goal", "player": "Zhu Ting", "minute": "24" },
+          { "type": "goal", "player": "Cui Peng", "minute": "60" }
+        ]
+      },
+      {
+        "date": "2005-06-14",
+        "stage": "Group D",
+        "opponent": "Turkey",
+        "score_for": 2,
+        "score_against": 1,
+        "result": "W",
+        "china_contributions": [
+          { "type": "goal", "player": "Tan Wangsong", "minute": "26" },
+          { "type": "goal", "player": "Zhao Xuri", "minute": "49" }
+        ]
+      },
+      {
+        "date": "2005-06-17",
+        "stage": "Group D",
+        "opponent": "Panama",
+        "score_for": 4,
+        "score_against": 1,
+        "result": "W",
+        "china_contributions": [
+          { "type": "goal", "player": "Zhou Haibin", "minute": "9" },
+          { "type": "goal", "player": "Gao Lin", "minute": "45" },
+          { "type": "goal", "player": "Hao Junmin", "minute": "76" },
+          { "type": "goal", "player": "Lu Lin", "minute": "90+1" }
+        ]
+      },
+      {
+        "date": "2005-06-21",
+        "stage": "Round of 16",
+        "opponent": "Germany",
+        "score_for": 2,
+        "score_against": 3,
+        "result": "L",
+        "china_contributions": [
+          { "type": "goal", "player": "Chen Tao", "minute": "61" },
+          { "type": "goal", "player": "Chen Tao", "minute": "90+3" }
+        ]
+      }
+    ],
+    "china_key_players": [
+      { "player": "Chen Tao", "goals": 3, "assists": 0, "role_note": "荷兰世青赛中国队头号进攻核心，小组赛点球破乌克兰、淘汰赛对德国梅开二度。" },
+      { "player": "Zhao Xuri", "goals": 1, "assists": 0, "role_note": "对土耳其的进球帮助中国队提前锁定出线主动权。" },
+      { "player": "Hao Junmin", "goals": 1, "assists": 0, "role_note": "末轮对巴拿马破门，这届比赛之后逐步进入成年国脚主干线。" },
+      { "player": "Feng Xiaoting", "goals": 0, "assists": 0, "role_note": "后防主线样本，后续成长为成年国家队长期主力中卫。" },
+      { "player": "Dong Fangzhuo", "goals": 0, "assists": 0, "role_note": "名单中最醒目的曼联背景球员，代表这批国青的留洋上限想象力。" }
+    ],
+    "source_links": [
+      {
+        "label": "2005 FIFA World Youth Championship overview",
+        "url": "https://en.wikipedia.org/wiki/2005_FIFA_World_Youth_Championship"
+      },
+      {
+        "label": "2005 FIFA World Youth Championship squads",
+        "url": "https://en.wikipedia.org/wiki/2005_FIFA_World_Youth_Championship_squads"
+      },
+      {
+        "label": "Every FIFA U-20 World Cup final",
+        "url": "https://www.fifa.com/en/articles/every-u-20-world-cup-final"
+      }
+    ]
+  },
+  {
+    "id": "toulon-tournament-2007",
+    "confederation": "Invitational",
+    "competition_name": "Toulon Tournament France 2007",
+    "level": "u23",
+    "edition_label": "2007",
+    "host": "France",
+    "date_range": {
+      "start": "2007-05-31",
+      "end": "2007-06-09"
+    },
+    "status": "completed",
+    "champion": "France",
+    "runner_up": "China PR",
+    "china_status": "runner-up",
+    "china_summary": "中国队小组赛 2 胜 1 平头名出线，半决赛点球淘汰科特迪瓦，决赛 1 比 3 负于法国获得亚军。这是中国队在土伦杯历史上最完整的一次淘汰赛兑现。",
+    "china_detail_scope": "squad",
+    "china_squad": [
+      { "squad_number": 1, "player": "Zeng Cheng", "position": "Goalkeeper", "club": "Wuhan Guanggu", "note": "后续成长为成年国家队门将主线。" },
+      { "squad_number": 2, "player": "Zhao Ming", "position": "Defender", "club": "Changsha Ginde" },
+      { "squad_number": 3, "player": "Liu Yu", "position": "Defender", "club": "Dalian Shide" },
+      { "squad_number": 4, "player": "Lv Jianjun", "position": "Defender", "club": "Harbin Yiteng" },
+      { "squad_number": 5, "player": "Wan Houliang", "position": "Defender", "club": "Shaanxi Baorong" },
+      { "squad_number": 6, "player": "Wang Hongliang", "position": "Midfielder", "club": "Shanghai Shenhua" },
+      { "squad_number": 7, "player": "Wang Shouting", "position": "Midfielder", "club": "Henan Jianye" },
+      { "squad_number": 8, "player": "Huang Xiyang", "position": "Midfielder", "club": "Chongqing Lifan" },
+      { "squad_number": 9, "player": "Jiang Ning", "position": "Forward", "club": "Qingdao Zhongneng", "note": "本届赛事中国队最稳定的锋线终结点之一。" },
+      { "squad_number": 10, "player": "Chen Tao", "position": "Midfielder", "club": "Changsha Ginde", "note": "前场核心，3 场淘汰赛前贡献 2 球。" },
+      { "squad_number": 11, "player": "Zhu Ting", "position": "Forward", "club": "Dalian Shide" },
+      { "squad_number": 12, "player": "Yang Xu", "position": "Forward", "club": "Liaoning FC" },
+      { "squad_number": 13, "player": "Cai Xi", "position": "Defender", "club": "Wuhan Guanggu" },
+      { "squad_number": 14, "player": "Bai Yuefeng", "position": "Defender", "club": "Xiamen Lanshi", "note": "后续进入成年国家队边路轮换。" },
+      { "squad_number": 15, "player": "Dai Lin", "position": "Defender", "club": "Liaoning FC", "note": "后续成长为成年国家队与中超长线中卫样本。" },
+      { "squad_number": 16, "player": "Zhang Sipeng", "position": "Goalkeeper", "club": "Beijing Guoan" },
+      { "squad_number": 17, "player": "Zheng Tao", "position": "Defender", "club": "Shaanxi Baorong" },
+      { "squad_number": 18, "player": "Dai Qinhua", "position": "Midfielder", "club": "Changsha Ginde" },
+      { "squad_number": 19, "player": "Jiang Chen", "position": "Forward", "club": "Tianjin Teda FC" },
+      { "squad_number": 20, "player": "Yu Hai", "position": "Midfielder", "club": "Vitesse", "note": "这届名单里最鲜明的欧洲注册背景球员，决赛打入中国队唯一进球。" }
+    ],
+    "china_matches": [
+      {
+        "date": "2007-06-01",
+        "stage": "Group B",
+        "opponent": "Portugal",
+        "score_for": 1,
+        "score_against": 1,
+        "result": "D",
+        "china_contributions": [
+          { "type": "goal", "player": "Chen Tao", "minute": "65" }
+        ]
+      },
+      {
+        "date": "2007-06-03",
+        "stage": "Group B",
+        "opponent": "Netherlands",
+        "score_for": 2,
+        "score_against": 1,
+        "result": "W",
+        "note": "公开赛果页可稳定核到 Jiang Ning 为中国队进球者，按赛果口径记为梅开二度。",
+        "china_contributions": [
+          { "type": "goal", "player": "Jiang Ning" },
+          { "type": "goal", "player": "Jiang Ning" }
+        ]
+      },
+      {
+        "date": "2007-06-05",
+        "stage": "Group B",
+        "opponent": "Ghana",
+        "score_for": 2,
+        "score_against": 1,
+        "result": "W",
+        "china_contributions": [
+          { "type": "goal", "player": "Chen Tao", "minute": "44" },
+          { "type": "goal", "player": "Jiang Ning", "minute": "65" }
+        ]
+      },
+      {
+        "date": "2007-06-07",
+        "stage": "Semi-final",
+        "opponent": "Cote d'Ivoire",
+        "score_for": 0,
+        "score_against": 0,
+        "result": "W",
+        "note": "90 分钟 0 比 0，点球大战中国队 5 比 3 晋级决赛。",
+        "china_contributions": []
+      },
+      {
+        "date": "2007-06-09",
+        "stage": "Final",
+        "opponent": "France",
+        "score_for": 1,
+        "score_against": 3,
+        "result": "L",
+        "china_contributions": [
+          { "type": "goal", "player": "Yu Hai", "minute": "75" }
+        ]
+      }
+    ],
+    "china_key_players": [
+      { "player": "Jiang Ning", "goals": 3, "assists": 0, "role_note": "小组赛对荷兰与加纳连续进球，是这届土伦杯中国队最稳定的锋线输出。" },
+      { "player": "Chen Tao", "goals": 2, "assists": 0, "role_note": "对葡萄牙、加纳分别破门，继续扮演前场核心。" },
+      { "player": "Yu Hai", "goals": 1, "assists": 0, "role_note": "决赛对法国打入中国队当场唯一进球，也是这届阵容里最鲜明的留洋样本之一。" },
+      { "player": "Zeng Cheng", "goals": 0, "assists": 0, "role_note": "半决赛 120 分钟零封科特迪瓦，并随队通过点球大战进入决赛。" },
+      { "player": "Dai Lin", "goals": 0, "assists": 0, "role_note": "这届土伦杯后防主线之一，后续进入成年国家队与中超长线核心序列。" }
+    ],
+    "source_links": [
+      {
+        "label": "2007 Toulon Tournament overview",
+        "url": "https://en.wikipedia.org/wiki/2007_Toulon_Tournament"
+      },
+      {
+        "label": "2007 Toulon Tournament squads",
+        "url": "https://en.wikipedia.org/wiki/2007_Toulon_Tournament_squads"
+      },
+      {
+        "label": "Maurice Revello archive 2007 edition",
+        "url": "https://www.mauricerevello.com/en/tournament/detail_bilan.php?id=38"
+      }
+    ]
+  },
+  {
     "id": "fifa-world-cup-2022",
     "confederation": "FIFA",
     "competition_name": "FIFA World Cup Qatar 2022",

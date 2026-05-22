@@ -304,7 +304,9 @@ const UI_COPY = {
     "overseas.history.meta.default": "当前筛选下 {count} 条当前已不在海外的历史样本",
     "overseas.history.meta.year": "{year} 年命中 {count} 条当年在海外的样本",
     "overseas.countryNotes.noNote": "暂无说明",
-    "overseas.countryNotes.empty": "当前没有可展示的国别说明。"
+    "overseas.countryNotes.empty": "当前没有可展示的国别说明。",
+    "overseas.countryNotes.playerCount": "{count} 人",
+    "overseas.countryNotes.sources": "来源"
   },
   en: {
     "page.home.title": "Youth Player Tracking Desk",
@@ -583,7 +585,9 @@ const UI_COPY = {
     "overseas.history.meta.default": "{count} historical records currently no longer abroad in this filter",
     "overseas.history.meta.year": "{count} records abroad in {year}",
     "overseas.countryNotes.noNote": "No note yet",
-    "overseas.countryNotes.empty": "No country note is available for display."
+    "overseas.countryNotes.empty": "No country note is available for display.",
+    "overseas.countryNotes.playerCount": "{count} players",
+    "overseas.countryNotes.sources": "Sources"
   }
 };
 
@@ -671,6 +675,7 @@ const STATUS_LABELS = {
 
 const CHINA_STATUS_LABELS = {
   "group-stage": { zh: "小组赛", en: "Group stage" },
+  "round-of-16": { zh: "十六强", en: "Round of 16" },
   "quarter-final": { zh: "八强", en: "Quarter-final" },
   "semi-final": { zh: "四强", en: "Semi-final" },
   champion: { zh: "冠军", en: "Champions" },
@@ -1938,8 +1943,11 @@ function getTournamentSquadEntries(tournament) {
 function renderTournamentSquadCard(entry) {
   const player = resolvePlayerReference(entry);
   const label = getPlayerReferenceLabel(entry);
-  const club = player?.registration_club?.name ?? t("common.pending");
-  const position = player ? formatPosition(player.primary_position) : t("players.card.positionPending");
+  const club = player?.registration_club?.name ?? localizeText(entry.club, t("common.pending"));
+  const position = player
+    ? formatPosition(player.primary_position)
+    : formatPosition(localizeText(entry.position, t("players.card.positionPending")));
+  const note = entry.note ? localizeText(entry.note) : "";
 
   return `
     <article class="player-card player-card-compact">
@@ -1950,6 +1958,7 @@ function renderTournamentSquadCard(entry) {
       <h3>${renderPlayerReference(entry)}</h3>
       <p>${escapeHtml(position)}</p>
       <p class="small-note">${escapeHtml(formatClubName(club))}</p>
+      ${note ? `<p class="small-note">${escapeHtml(note)}</p>` : ""}
     </article>
   `;
 }
@@ -2251,13 +2260,14 @@ function getOverseasCountryMap() {
   const historyCountries = state.overview.overseas_history.countries;
 
   for (const entry of historyCountries) {
-    map.set(entry.country, {
-      country: entry.country,
-      currentCount: 0,
-      verifiedRecords: entry.verified_records,
-      notes: entry.notes,
-      bucketFocus: entry.bucket_focus
-    });
+      map.set(entry.country, {
+        country: entry.country,
+        currentCount: 0,
+        verifiedRecords: entry.verified_records,
+        notes: entry.notes,
+        bucketFocus: entry.bucket_focus,
+        specialLists: entry.special_lists ?? []
+      });
   }
 
   for (const item of getCurrentOverseasItems()) {
@@ -2267,7 +2277,8 @@ function getOverseasCountryMap() {
         currentCount: 0,
         verifiedRecords: 0,
         notes: "",
-        bucketFocus: []
+        bucketFocus: [],
+        specialLists: []
       });
     }
     map.get(item.country).currentCount += 1;
@@ -3656,6 +3667,7 @@ function renderOverseasPage() {
             `
           )
           .join("")}
+        ${(selectedCountry.specialLists ?? []).map(renderOverseasSpecialListCard).join("")}
       `
     : `<div class="empty-inline">${escapeHtml(t("overseas.countryNotes.empty"))}</div>`;
 
@@ -3688,6 +3700,54 @@ function renderHistoricalRecordCard(record) {
       <ul class="mini-bullet-list">
         ${(record.notes ?? []).map((note) => `<li>${escapeHtml(localizeText(note))}</li>`).join("")}
       </ul>
+    </article>
+  `;
+}
+
+function renderOverseasSpecialListCard(list) {
+  const meta = [
+    localizeText(list.period),
+    Number.isInteger(list.player_count)
+      ? t("overseas.countryNotes.playerCount", { count: list.player_count })
+      : ""
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  return `
+    <article class="stack-card">
+      <h3>${escapeHtml(localizeText(list.name))}</h3>
+      ${meta ? `<p class="small-note">${escapeHtml(meta)}</p>` : ""}
+      <p>${escapeHtml(localizeText(list.summary))}</p>
+      ${(list.groups ?? [])
+        .map(
+          (group) => `
+            <div class="special-list-group">
+              <p class="timeline-label">${escapeHtml(localizeText(group.label))}</p>
+              ${group.note ? `<p class="small-note">${escapeHtml(localizeText(group.note))}</p>` : ""}
+              <p class="small-note">${escapeHtml(t("overseas.countryNotes.playerCount", { count: (group.players ?? []).length }))}</p>
+              <p>${escapeHtml((group.players ?? []).join("、"))}</p>
+            </div>
+          `
+        )
+        .join("")}
+      ${
+        (list.notes ?? []).length > 0
+          ? `
+            <ul class="mini-bullet-list">
+              ${(list.notes ?? []).map((note) => `<li>${escapeHtml(localizeText(note))}</li>`).join("")}
+            </ul>
+          `
+          : ""
+      }
+      ${
+        (list.source_links ?? []).length > 0
+          ? `
+            <p class="timeline-label">${escapeHtml(t("overseas.countryNotes.sources"))}</p>
+            <div class="pill-row">${renderLinkPills(list.source_links)}</div>
+          `
+          : ""
+      }
     </article>
   `;
 }

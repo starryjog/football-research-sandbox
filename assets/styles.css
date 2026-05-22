@@ -610,6 +610,12 @@ td {
   color: var(--muted);
 }
 
+.special-list-group + .special-list-group {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
 .summary-row {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) auto auto;
