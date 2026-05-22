@@ -1167,7 +1167,105 @@
             "minute": "71",
             "role": "starter"
           }
-        ]
+        ],
+        "china_lineup": {
+          "starters": [
+            {
+              "player_id": "cn-qin-ziniu-2010",
+              "player": "Qin Ziniu"
+            },
+            {
+              "player_id": "cn-jin-yucheng-2009",
+              "player": "Jin Yucheng"
+            },
+            {
+              "player_id": "cn-li-junpeng-2010",
+              "player": "Li Junpeng"
+            },
+            {
+              "player_id": "cn-nan-zixun-2010",
+              "player": "Nan Zixun"
+            },
+            {
+              "player_id": "cn-zhang-xuyao-2010",
+              "player": "Zhang Xuyao"
+            },
+            {
+              "player_id": "cn-pan-chaowei-2009",
+              "player": "Pan Chaowei"
+            },
+            {
+              "player_id": "cn-zhou-yunuo-2009",
+              "player": "Zhou Yunuo"
+            },
+            {
+              "player_id": "cn-shuai-weihao-2009",
+              "player": "Shuai Weihao"
+            },
+            {
+              "player_id": "cn-wan-xiang-2009",
+              "player": "Wan Xiang"
+            },
+            {
+              "player_id": "cn-he-sifan-2009",
+              "player": "He Sifan"
+            },
+            {
+              "player_id": "cn-zhao-songyuan-2009",
+              "player": "Zhao Songyuan"
+            }
+          ],
+          "substitutes": [
+            {
+              "player_id": "cn-zhu-yuxuan-2009",
+              "player": "Zhu Yuxuan"
+            },
+            {
+              "player_id": "cn-jiang-chengen-2010",
+              "player": "Jiang Chengen"
+            },
+            {
+              "player_id": "cn-zhang-bolin-2009",
+              "player": "Zhang Bolin"
+            },
+            {
+              "player_id": "cn-xie-jin-2009",
+              "player": "Xie Jin"
+            },
+            {
+              "player_id": "cn-kuang-zhaolei-2009",
+              "player": "Kuang Zhaolei"
+            },
+            {
+              "player_id": "cn-liu-zhicheng-2009",
+              "player": "Liu Zhicheng"
+            },
+            {
+              "player_id": "cn-peng-xianchen-2009",
+              "player": "Peng Xianchen"
+            },
+            {
+              "player_id": "cn-wang-heyi-2009",
+              "player": "Wang Heyi"
+            },
+            {
+              "player_id": "cn-kong-xinuo-2010",
+              "player": "Kong Xinuo"
+            },
+            {
+              "player_id": "cn-wang-xiuhao-2009",
+              "player": "Wang Xiuhao"
+            },
+            {
+              "player_id": "cn-bian-weihao-2009",
+              "player": "Bian Weihao"
+            },
+            {
+              "player_id": "cn-xu-zhengpeng-2010",
+              "player": "Xu Zhengpeng"
+            }
+          ]
+        }
       },
       {
         "date": "2026-05-15",
