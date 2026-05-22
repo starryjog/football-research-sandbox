@@ -497,6 +497,142 @@
                 "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%81%A5%E5%8A%9B%E5%AE%9D%E9%9D%92%E5%B9%B4%E9%98%9F"
               }
             ]
+          },
+          {
+            "id": "fifa-club-world-cup-china-pr-players",
+            "name": {
+              "zh": "参加过世俱杯的中国球员",
+              "en": "China PR players in the FIFA Club World Cup"
+            },
+            "period": "2013-2025",
+            "player_count": 27,
+            "summary": {
+              "zh": "按 FIFA 官方 squad list 口径，自广州恒大 2013 年首次代表中国俱乐部出战世俱杯，到周通随奥克兰城进入 2023 和 2025 两届名单，公开可核的中国球员共有 27 名独立样本。若按单届报名名单统计，则为 2013 广州恒大 18 人、2015 广州恒大淘宝 17 人、2023 奥克兰城 1 人、2025 奥克兰城 1 人。",
+              "en": "Using official FIFA squad-list criteria, there are 27 distinct China PR players publicly verifiable from Guangzhou Evergrande's 2013 Club World Cup debut to Zhou Tong's Auckland City selections in 2023 and 2025. Counting by tournament-entry squads, the figures are 18 for Guangzhou in 2013, 17 for Guangzhou in 2015, and Zhou Tong as the sole China PR player for Auckland City in both 2023 and 2025."
+            },
+            "groups": [
+              {
+                "label": {
+                  "zh": "2013 广州恒大世俱杯名单中的中国球员",
+                  "en": "China PR players in Guangzhou Evergrande's 2013 Club World Cup squad"
+                },
+                "note": {
+                  "zh": "按 FIFA 2013 官方 23 人名单去掉 4 名外援后整理。",
+                  "en": "Derived from the official 23-man FIFA squad list after removing the four foreign players."
+                },
+                "players": [
+                  "杨君",
+                  "李帅",
+                  "曾诚",
+                  "赵鹏",
+                  "张琳芃",
+                  "冯潇霆",
+                  "弋腾",
+                  "荣昊",
+                  "孙祥",
+                  "冯俊彦",
+                  "郑智",
+                  "秦升",
+                  "赵旭日",
+                  "黄博文",
+                  "冯仁亮",
+                  "杨超声",
+                  "高林",
+                  "胡威威"
+                ]
+              },
+              {
+                "label": {
+                  "zh": "2015 广州恒大淘宝世俱杯名单中的中国球员",
+                  "en": "China PR players in Guangzhou Evergrande Taobao's 2015 Club World Cup squad"
+                },
+                "note": {
+                  "zh": "按 FIFA 2015 官方 23 人名单去掉 6 名外援后整理。",
+                  "en": "Derived from the official 23-man FIFA squad list after removing the six foreign players."
+                },
+                "players": [
+                  "曾诚",
+                  "方镜淇",
+                  "李帅",
+                  "梅方",
+                  "张琳芃",
+                  "冯潇霆",
+                  "荣昊",
+                  "邹正",
+                  "刘健",
+                  "郑智",
+                  "黄博文",
+                  "王上源",
+                  "郑龙",
+                  "高林",
+                  "于汉超",
+                  "李学鹏",
+                  "赵旭日"
+                ]
+              },
+              {
+                "label": {
+                  "zh": "2023 奥克兰城世俱杯名单中的中国球员",
+                  "en": "China PR players in Auckland City's 2023 Club World Cup squad"
+                },
+                "note": {
+                  "zh": "FIFA 沙特 2023 官方名单里，奥克兰城唯一的中国球员是周通。",
+                  "en": "Zhou Tong was the only China PR player in Auckland City's official FIFA Saudi Arabia 2023 squad list."
+                },
+                "players": [
+                  "周通"
+                ]
+              },
+              {
+                "label": {
+                  "zh": "2025 奥克兰城世俱杯名单中的中国球员",
+                  "en": "China PR players in Auckland City's 2025 Club World Cup squad"
+                },
+                "note": {
+                  "zh": "FIFA 2025 官方名单里，奥克兰城仍只有周通一名中国球员。",
+                  "en": "Zhou Tong remained Auckland City's only China PR player in the official FIFA 2025 squad list."
+                },
+                "players": [
+                  "周通"
+                ]
+              }
+            ],
+            "notes": [
+              {
+                "zh": "这张专题名单按官方 squad list 统计“参赛球员”，不等于所有人都在世俱杯正式出场。若只按正式出场口径统计，人数会少于这里的名单。",
+                "en": "This list uses official squad-list inclusion as the criterion for participation and does not imply every player logged match minutes. A minutes-played-only list would be shorter."
+              },
+              {
+                "zh": "周通是目前唯一可核到以非中国俱乐部身份参加世俱杯的中国球员；他 2023 年随奥克兰城参加旧版 7 队赛制，2025 年又进入扩军后的 32 队版名单。",
+                "en": "Zhou Tong is currently the only publicly verifiable China PR player to reach the Club World Cup with a non-Chinese club. He did so with Auckland City in the seven-team 2023 edition and again in the expanded 32-team 2025 tournament."
+              },
+              {
+                "zh": "这里按 China PR 国籍口径整理，不把香港、澳门、中华台北球员与外籍归化前经历混入同一张名单。",
+                "en": "This list is limited to China PR nationality and does not merge in Hong Kong, Macau, Chinese Taipei, or pre-naturalization histories from other national contexts."
+              }
+            ],
+            "source_links": [
+              {
+                "label": "FIFA Club World Cup Morocco 2013 - List of Players",
+                "url": "https://web.archive.org/web/20141029071102/http://www.fifadata.com/document/FCWC/2013/pdf/FCWC_2013_SquadLists.pdf"
+              },
+              {
+                "label": "FIFA Club World Cup Japan 2015 - List of Players",
+                "url": "https://web.archive.org/web/20151211024602/http://fifadata.com/document/FCWC/2015/pdf/FCWC_2015_SquadLists.pdf"
+              },
+              {
+                "label": "FIFA Club World Cup Saudi Arabia 2023 - Squad Lists",
+                "url": "https://fdp.fifa.org/assetspublic/ce119/pdf/SquadLists-English.pdf"
+              },
+              {
+                "label": "FIFA Club World Cup 2025 - Squad Lists",
+                "url": "https://fdp.fifa.org/assetspublic/ce233/pdf/SquadLists-English.pdf"
+              },
+              {
+                "label": "新华网：通讯：周通，一个人的世俱杯",
+                "url": "https://www.news.cn/sports/20250624/9a03a8d41841484ca53b2e66710d94ae/c.html"
+              }
+            ]
           }
         ],
         "big_five_appearance_checklist": {

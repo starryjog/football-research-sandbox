@@ -2,32 +2,96 @@
   {
     "id": "cn-jin-yucheng-2009",
     "name": "Jin Yucheng",
-    "local_name": "金宇成",
+    "local_name": "金昱成",
     "country": "China PR",
     "birth_date": "2009-06-15",
     "age_band": "u17",
-    "primary_position": "Defender",
-    "height_cm": 178,
-    "weight_kg": 67,
+    "primary_position": "Centre-Back",
+    "height_cm": null,
+    "weight_kg": null,
     "registration_club": {
       "name": "NK Lokomotiva Zagreb",
       "country": "Croatia"
     },
     "training_pathway": [
       {
-        "stage_label": "2026 报名归属",
+        "stage_label": "奥地利出生 / 克罗地亚成长节点",
+        "organization": "Central Europe family / youth pathway",
+        "country": "Austria",
+        "note": "公开资料与媒体报道均将其出生地指向奥地利圣珀尔滕，并长期在克罗地亚萨格勒布足球环境中成长；这条线和国内校园、足校或足球小将体系不同，更接近海外成长型后卫样本。"
+      },
+      {
+        "stage_label": "萨格勒布火车头青训节点",
         "organization": "NK Lokomotiva Zagreb",
         "country": "Croatia",
-        "note": "AFC U17 2026 终报名表列为当前俱乐部。"
+        "note": "Transfermarkt 当前将其登记在萨格勒布火车头体系，主位置为中后卫、副位置为右后卫；这也是他进入中国国少视野前最稳定的公开俱乐部归属。"
+      },
+      {
+        "stage_label": "2025/06 U16第三期补招",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025-06-30 补充通知中，为备战 U17 亚洲杯预选赛与参加沈阳和平杯，补招萨格勒布火车头球员金昱成进入中国 U16 第三期国内集训。"
+      },
+      {
+        "stage_label": "2025/09 U16第四期集训",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025 年第四期 U16 集训通知继续将其列入名单，归属单位仍为萨格勒布火车头，开始进入 2026 U17 亚洲杯预选赛备战主线。"
+      },
+      {
+        "stage_label": "2025/11 U16第五期集训",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025 年第五期 U16 集训通知中继续入选 30 人名单，所属单位仍为萨格勒布火车头足球俱乐部。"
+      },
+      {
+        "stage_label": "2026/03 U17第二期集训",
+        "organization": "China PR U17",
+        "country": "China",
+        "note": "中国 U17 国家男子足球队 2026 年第二期集训通知继续将其列入名单，备战 U17 亚洲杯决赛阶段。"
+      },
+      {
+        "stage_label": "2026 亚洲杯报名归属",
+        "organization": "NK Lokomotiva Zagreb",
+        "country": "Croatia",
+        "note": "AFC U17 2026 终报名表列其当前俱乐部为萨格勒布火车头；公开首发口径中，他在本届正赛常以 2 号后卫身份担任右后卫或右侧后防角色。"
       }
     ],
     "focus_tags": [
       "asia-u17-2026",
       "china-youth",
       "overseas-europe",
-      "china-overseas-current"
+      "china-overseas-current",
+      "defender-watch"
     ],
     "tournament_participation": [
+      {
+        "label": "2025 中国 U16 第三期集训 / 沈阳和平杯",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025-06-30 补充通知显示，其以萨格勒布火车头球员身份被补招进入 U16 第三期国内集训并参加和平杯。"
+      },
+      {
+        "label": "2025 中国 U16 第四期集训",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025 年第四期 U16 集训通知列其继续入选，进入 U17 亚洲杯预选赛备战名单。"
+      },
+      {
+        "label": "2025 U17 亚洲杯预选赛",
+        "team": "China PR U16",
+        "squad_status": "registered",
+        "appearances": 1,
+        "goals": 0,
+        "minutes": null,
+        "note": "中国足协 2025-12-01 战报显示，末轮对孟加拉国相较上一轮轮换 4 人，金昱成进入首发；中国队五战全胜、42 球 0 失球晋级正赛。"
+      },
       {
         "competition_id": "afc-u17-2026",
         "label": "AFC U17 2026 中国队报名名单",
@@ -36,7 +100,7 @@
         "appearances": null,
         "goals": null,
         "minutes": null,
-        "note": "截至 2026-05-22 已进入当前赛事决赛阶段观察名单。"
+        "note": "截至 2026-05-23 已进入本届赛事决赛阶段名单；公开首发口径显示其在对卡塔尔、对沙特和对澳大利亚阶段都以 2 号后卫身份进入后防线，更多承担右后卫 / 右中卫角色。"
       },
       {
         "competition_id": "china-overseas-2026",
@@ -58,13 +122,43 @@
       {
         "type": "transfermarkt",
         "label": "Transfermarkt profile",
-        "url": "https://www.transfermarkt.nl/yucheng-jin/profil/spieler/1422019"
+        "url": "https://www.transfermarkt.com/yucheng-jin/profil/spieler/1422019"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 third camp supplementary notice",
+        "url": "https://www.thecfa.cn/jxtz/20250630/36638.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 fourth camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20250925/36930.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 fifth camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20251104/37051.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 qualifiers report",
+        "url": "https://www.thecfa.cn/zhongguozhidui/20251201/37115.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 second camp notice",
+        "url": "https://www.thecfa.cn/wqmdu17/20260311/37414.html"
+      },
+      {
+        "type": "news",
+        "label": "Sina background recap",
+        "url": "https://www.sina.cn/news/detail/5180352868128136.html"
       }
     ],
     "verification": {
       "status": "verified",
-      "last_checked": "2026-05-22",
-      "notes": "AFC U17 终报名表可直接校对其当前归属为克罗地亚的 NK Lokomotiva Zagreb，当前按现役留洋样本保留。"
+      "last_checked": "2026-05-23",
+      "notes": "Transfermarkt 可核生日、奥地利圣珀尔滕出生地、当前萨格勒布火车头归属，以及“中后卫主位 / 右后卫副位”的位置口径；中国足协 2025-06-30、2025-09、2025-11 与 2026-03 多期通知可以连续拼出其从补招进入 U16 到进入 U17 亚洲杯周期的时间线；U17 预选赛末轮战报与正赛首发公开口径又补强了他在中国队更多承担右后卫 / 右侧后防角色这一用法。身高、体重与家庭背景主要来自第三方数据库和媒体，不作为当前最核心的权威字段，因此这里暂不硬填体型数据。"
     }
   },
   {
