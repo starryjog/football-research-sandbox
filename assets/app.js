@@ -698,7 +698,7 @@ const TAG_LABELS = {
   "csl-u21-current": { zh: "中超 U21", en: "CSL U21" },
   "csl-u23-overseas": { zh: "中超 U23 留洋", en: "CSL U23 overseas" },
   "defender-watch": { zh: "后卫观察", en: "Defender watch" },
-  "donglu-football-boys": { zh: "董路足球小将", en: "Donglu Football Boys" },
+  "donglu-football-boys": { zh: "中国足球小将", en: "Donglu Football Boys" },
   "europe-other": { zh: "欧洲其他联赛", en: "Other European leagues" },
   "germany-pathway": { zh: "德国路径", en: "Germany pathway" },
   homegrown: { zh: "本土培养", en: "Homegrown" },
@@ -2462,11 +2462,15 @@ function renderFocusTournamentCard(tournament) {
 function renderProjectCard(project) {
   const goal = project.goal ? localizeText(project.goal) : localizeText(project.summary);
   const completed = project.completed ? localizeText(project.completed) : "";
+  const tagChips = (project.focus_tags ?? [])
+    .map((tag) => `<span class="chip">${escapeHtml(formatTag(tag))}</span>`)
+    .join("");
   return `
     <article class="stack-card">
       <div class="chip-row">
         <span class="chip">${escapeHtml(getLabel(PROJECT_PRIORITY_LABELS, project.priority, project.priority))}</span>
         <span class="chip">${formatStatus(project.status)}</span>
+        ${tagChips}
       </div>
       <h3>${escapeHtml(project.name)}</h3>
       <p>${escapeHtml(t("home.project.goal", { value: goal }))}</p>
