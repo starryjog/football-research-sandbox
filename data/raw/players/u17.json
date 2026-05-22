@@ -223,6 +223,162 @@
     }
   },
   {
+    "id": "cn-gu-boyu-2009",
+    "name": "Gu Boyu",
+    "local_name": "顾博宇",
+    "country": "China PR",
+    "birth_date": "2009-01-17",
+    "birth_place": "Shijiazhuang, Hebei, China PR",
+    "age_band": "u17",
+    "primary_position": "Defender",
+    "height_cm": null,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Shanghai Shenhua Youth",
+      "country": "China"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "2022 清华附中U13全国决赛节点",
+        "organization": "Tsinghua University High School",
+        "country": "China",
+        "note": "中国足协 2022-11-26 中青赛 U13 决赛战报显示，他代表清华附中 U13 首发，对阵山东泰山 U13；同队名单中还有南子勋、赵松源、汪修昊等后来进入 09 国少主线的球员。"
+      },
+      {
+        "stage_label": "中国足球小将09背景",
+        "organization": "China Football Boys",
+        "country": "China",
+        "note": "2025-01-17 董路公开发文将顾博宇明确称作“中国足球小将09队员”；2024 年足球小将西班牙拉练名单中，他又以“上海申花足球俱乐部”归属进入比赛名单。"
+      },
+      {
+        "stage_label": "上海申花青训主线",
+        "organization": "Shanghai Shenhua Youth",
+        "country": "China",
+        "note": "Transfermarkt 当前将其列为上海申花青年队后卫；结合 2025-2026 中国足协多期国少通知，当前更稳妥的正式培养归属应写作上海申花青训体系。"
+      },
+      {
+        "stage_label": "2025 U16 呼和浩特节点",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025-05-13 第二期 U16 集训通知将其列为上海申花球员，随队参加呼和浩特国际足球锦标赛并继续备战 U17 亚洲杯预选赛。"
+      },
+      {
+        "stage_label": "2025 U16 沈阳和平杯节点",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025-06-16 第三期 U16 集训通知继续将其列入名单；马德兴与比赛阵容口径显示，他进入和平杯 25 人名单并在对日本 U16 一战替补登场。"
+      },
+      {
+        "stage_label": "2026 U17 亚洲杯终筛",
+        "organization": "China PR U17",
+        "country": "China",
+        "note": "2026-03-11 中国足协 U17 第二期集训名单将其列入 28 人备战阵容；赴西亚前又进入 25 人候补名单，但因位置和战术原因未进入最终 23 人正式报名。"
+      }
+    ],
+    "focus_tags": [
+      "asia-u17-2026",
+      "china-youth",
+      "donglu-football-boys",
+      "defender-watch"
+    ],
+    "tournament_participation": [
+      {
+        "label": "2025 中国U16第二期集训及呼和浩特国际足球锦标赛",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025-05-13 通知显示其以上海申花球员身份入选；内蒙古赛后报道与赛前首发信息可旁证其在对澳大利亚 U16 一战首发，并有头球攻门画面。"
+      },
+      {
+        "label": "2025 沈阳和平杯",
+        "team": "China PR U16",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "2025-07 的 25 人名单口径将其列为 5 号后卫、所属上海申花；对日本 U16 一战第 65 分钟替补南子勋登场，说明其处于后防轮换竞争序列。"
+      },
+      {
+        "label": "2026 中国U17第二期集训",
+        "team": "China PR U17",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2026-03-11 通知显示其继续以“上海申花”归属入选 U17 第二期集训名单，作为亚洲杯决赛阶段前的后防候选。"
+      },
+      {
+        "competition_id": "afc-u17-2026",
+        "label": "AFC U17 2026 赛前25人备战名单",
+        "team": "China PR U17",
+        "squad_status": "tracked",
+        "appearances": 0,
+        "goals": 0,
+        "minutes": 0,
+        "note": "赴西亚前进入 25 人备战名单，但最终未进入 23 人正式报名阵容；凤凰网转述北青口径将其与艾力卡木·伊力洪列为因位置和战术原因落选的最后两人。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "transfermarkt",
+        "label": "Transfermarkt profile",
+        "url": "https://www.transfermarkt.us/boyu-gu/profil/spieler/1412278"
+      },
+      {
+        "type": "official",
+        "label": "CFA U13 final report",
+        "url": "https://www.thecfa.cn/qingchaoliansai/20221126/31939.html"
+      },
+      {
+        "type": "news",
+        "label": "Sina birthday post on Gu Boyu and He Haoyuan",
+        "url": "https://www.sina.cn/news/detail/5123926470953858.html"
+      },
+      {
+        "type": "news",
+        "label": "PP Sport Football Boys Spain squad list",
+        "url": "https://www.ppsport.com/360news/news/2208159.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 second camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20250513/36466.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 third camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20250616/36584.html"
+      },
+      {
+        "type": "news",
+        "label": "Inner Mongolia report on Hohhot title run",
+        "url": "https://m.nmgnews.com.cn/nmgxw/system/2025/06/02/030162168.shtml"
+      },
+      {
+        "type": "news",
+        "label": "Tencent Peace Cup match report vs Japan",
+        "url": "https://view.inews.qq.com/a/20250704A089CK00"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 second camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20260311/37413.html"
+      },
+      {
+        "type": "news",
+        "label": "Ifeng report on final U17 cuts",
+        "url": "https://h5.ifeng.com/c/vivoArticle/v002K6mwFkZV--alWjC2cH6ZS81c4H7VGPQ02qGy1KtbmqLY__?isNews=1&showComments=0"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "last_checked": "2026-05-22",
+      "notes": "Transfermarkt 可核生日、出生地、位置和当前上海申花青年队归属；中青赛 U13 决赛战报、董路公开发文与足球小将西班牙名单可交叉确认其清华附中早期节点和足球小将 09 背景；中国足协 2025-2026 多期 U16/U17 通知与和平杯、落选名单报道可连续拼出其从国少主力考察圈到 U17 亚洲杯终筛落选的轨迹。位置上当前以 Defender 保留，并在说明中注明其兼具中后卫、边中卫和中后场防守轮换属性；身高体重暂无稳定权威口径，因此不硬填。"
+    }
+  },
+  {
     "id": "cn-kuang-zhaolei-2009",
     "name": "Kuang Zhaolei",
     "local_name": "邝兆镭",

@@ -1,9 +1,9 @@
 {
   "generated_at": "2026-05-22",
   "stats": {
-    "player_count": 160,
+    "player_count": 162,
     "country_count": 4,
-    "foreign_registration_count": 25
+    "foreign_registration_count": 26
   },
   "tournaments": [
     {
@@ -5898,7 +5898,7 @@
         },
         {
           "squad_number": 3,
-          "player_id": "cn-nan-zixun-2010",
+          "player_id": "cn-nan-zixun-2009",
           "player": "Nan Zixun"
         },
         {
@@ -6022,7 +6022,7 @@
                 "player": "Zhang Xuyao"
               },
               {
-                "player_id": "cn-nan-zixun-2010",
+                "player_id": "cn-nan-zixun-2009",
                 "player": "Nan Zixun"
               },
               {
@@ -6145,7 +6145,7 @@
                 "player": "Zhang Xuyao"
               },
               {
-                "player_id": "cn-nan-zixun-2010",
+                "player_id": "cn-nan-zixun-2009",
                 "player": "Nan Zixun"
               },
               {
@@ -6235,7 +6235,7 @@
                 "player": "Li Junpeng"
               },
               {
-                "player_id": "cn-nan-zixun-2010",
+                "player_id": "cn-nan-zixun-2009",
                 "player": "Nan Zixun"
               },
               {
@@ -6371,7 +6371,7 @@
                 "player": "Qin Ziniu"
               },
               {
-                "player_id": "cn-nan-zixun-2010",
+                "player_id": "cn-nan-zixun-2009",
                 "player": "Nan Zixun"
               },
               {
@@ -6451,7 +6451,7 @@
                 "player": "Qin Ziniu"
               },
               {
-                "player_id": "cn-nan-zixun-2010",
+                "player_id": "cn-nan-zixun-2009",
                 "player": "Nan Zixun"
               },
               {
@@ -7403,6 +7403,7 @@
     "Shandong Luneng Taishan Football School": "山东鲁能泰山足球学校",
     "Shanghai Port FC": "上海海港",
     "Shanghai Shenhua FC": "上海申花",
+    "Shanghai Shenhua Youth": "上海申花青年队",
     "Shenzhen Peng City FC": "深圳鹏城",
     "Shijiazhuang Gongfu FC": "石家庄功夫",
     "Shimizu S-Pulse": "清水心跳",

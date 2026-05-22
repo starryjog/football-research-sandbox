@@ -174,55 +174,178 @@
     }
   },
   {
-    "id": "cn-nan-zixun-2010",
+    "id": "cn-nan-zixun-2009",
     "name": "Nan Zixun",
-    "local_name": "Nan Zixun",
+    "local_name": "南子勋",
     "country": "China PR",
-    "birth_date": "2010-03-11",
+    "birth_date": "2009-03-23",
     "age_band": "u17",
-    "primary_position": "Goalkeeper",
-    "height_cm": 189,
-    "weight_kg": 84,
+    "primary_position": "Centre-Back",
+    "height_cm": null,
+    "weight_kg": null,
     "registration_club": {
-      "name": "Henan FC",
+      "name": "Tsinghua University High School",
       "country": "China"
     },
     "training_pathway": [
       {
-        "stage_label": "2026 报名归属",
-        "organization": "Henan FC",
+        "stage_label": "2018 足球小将09早期节点",
+        "organization": "Donglu Football Boys 09",
         "country": "China",
-        "note": "AFC U17 2026 终报名表列为当前俱乐部。"
+        "note": "2018 年中国足球小将赴西班牙参加曼努埃尔卢克杯相关公开名单中，南子勋已在 14 人出征阵容之内，可作为其属于足球小将 09 早期成员的直接旁证。"
+      },
+      {
+        "stage_label": "2022 清华附中U13节点",
+        "organization": "Tsinghua University High School",
+        "country": "China",
+        "note": "中国足协首届中国青少年足球联赛 U13 组决赛战报可核其代表清华附中 U13 首发，对手为山东泰山 U13，说明其此时已进入清华附中 09 年龄段主线。"
+      },
+      {
+        "stage_label": "2025/03 U16第一期集训",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025 年第一期 U16 集训及赴德国、法国、荷兰拉练通知中，以清华大学附属中学球员身份入选。"
+      },
+      {
+        "stage_label": "2025/09 清华附中中青赛夺冠",
+        "organization": "Tsinghua University High School",
+        "country": "China",
+        "note": "2025 年第四届中青赛 U17 组决赛，清华附中 2 比 1 击败重庆南开，南子勋打入球队第二球，并在赛后与陈柄汐、周雨诺、赵松源一起进入新一届 U16 国家男足。"
+      },
+      {
+        "stage_label": "2025/11 U16第五期集训",
+        "organization": "China PR U16",
+        "country": "China",
+        "note": "中国足协 2025 年第五期 U16 集训通知中，与周雨诺、南子勋、赵松源、陈柄汐等清华附中球员一同备战 2026 U17 亚洲杯预选赛。"
+      },
+      {
+        "stage_label": "2026/03 U17第二期集训",
+        "organization": "China PR U17",
+        "country": "China",
+        "note": "中国 U17 国家男子足球队 2026 年第二期集训通知继续将其列入名单，归属单位仍为清华大学附属中学。"
+      },
+      {
+        "stage_label": "2026 亚洲杯报名归属",
+        "organization": "Tsinghua University High School",
+        "country": "China",
+        "note": "AFC U17 2026 最终报名表列其当前俱乐部为清华大学附属中学；赛事公开名单与媒体转述口径中常见其身披 3 号。"
       }
     ],
     "focus_tags": [
       "asia-u17-2026",
       "china-youth",
-      "donglu-football-boys"
+      "donglu-football-boys",
+      "school-system",
+      "defender-watch"
     ],
     "tournament_participation": [
       {
-        "competition_id": "afc-u17-2026",
-        "label": "AFC U17 2026 中国队终报名名单",
-        "team": "China PR U17",
-        "squad_status": "registered",
+        "label": "2018 中国足球小将西班牙拉练名单",
+        "team": "China Football Boys 09",
+        "squad_status": "tracked",
         "appearances": null,
         "goals": null,
         "minutes": null,
-        "note": "AFC 于 2026-05-02 发布的终报名表列入最终 23 人名单。"
+        "note": "搜狐公开名单可核其属于 2018 年中国足球小将 09 西班牙出征成员。"
+      },
+      {
+        "label": "2022 中国青少年足球联赛U13决赛",
+        "team": "Tsinghua University High School U13",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 0,
+        "minutes": null,
+        "note": "代表清华附中 U13 首发参加首届中青赛 U13 组决赛。"
+      },
+      {
+        "label": "2025 中国 U16 第一期集训及欧洲拉练",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025-03-18 通知列其以清华附中球员身份入选，赴德国、法国、荷兰拉练。"
+      },
+      {
+        "label": "2025 第四届中青赛U17组",
+        "team": "Tsinghua University High School U17",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": 1,
+        "minutes": null,
+        "note": "决赛对重庆南开打进清华附中第二球，帮助球队 2 比 1 夺冠。"
+      },
+      {
+        "label": "2025 中国 U16 第五期集训",
+        "team": "China PR U16",
+        "squad_status": "selected",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "中国足协 2025-11-04 通知列其入选备战 2026 U17 亚洲杯预选赛名单。"
+      },
+      {
+        "competition_id": "afc-u17-2026",
+        "label": "AFC U17 2026 中国队报名名单",
+        "team": "China PR U17",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": 0,
+        "minutes": null,
+        "note": "AFC 于 2026-05-02 发布的最终 23 人名单中列其为后卫；公开首发名单显示其在半决赛对澳大利亚时以 3 号中卫身份首发。"
       }
     ],
     "external_links": [
       {
+        "type": "transfermarkt",
+        "label": "Transfermarkt profile",
+        "url": "https://www.transfermarkt.com/zixun-nan/profil/spieler/1347942"
+      },
+      {
+        "type": "news",
+        "label": "Sohu report on 2018 Football Boys squad",
+        "url": "https://www.sohu.com/a/280230136_498693"
+      },
+      {
+        "type": "official",
+        "label": "CFA U13 final report",
+        "url": "https://www.thecfa.cn/qingchaoliansai/20221126/31939.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 first camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20250318/35764.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U17 title report",
+        "url": "https://www.thecfa.cn/qingchaoliansai/20250930/36951.html"
+      },
+      {
+        "type": "official",
+        "label": "CFA U16 fifth camp notice",
+        "url": "https://www.thecfa.cn/jxtz/20251104/37051.html"
+      },
+      {
         "type": "official",
         "label": "AFC 2026 final squad list",
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+      },
+      {
+        "type": "news",
+        "label": "Zhibo8 semifinal lineup report",
+        "url": "https://news.zhibo8.com/zuqiu/2026-05-20/6a0c7b017b7danative.htm"
+      },
+      {
+        "type": "news",
+        "label": "Sohu interview before semifinal",
+        "url": "https://www.sohu.com/a/1024892449_267106"
       }
     ],
     "verification": {
       "status": "verified",
       "last_checked": "2026-05-22",
-      "notes": "基础信息来自 AFC 2026 终报名表（2026-05-02）；当前批量补录先保留官方注册拼写，后续再补个体外链与 native script。"
+      "notes": "Transfermarkt 可核生日、位置与清华附中当前归属；2018 足球小将名单和 2022 中青赛 U13 决赛战报可拼出其从足球小将 09 到清华附中的早期路径；中国足协 2025-2026 多期集训通知与中青赛 U17 决赛战报可核其国字号时间线与夺冠进球；AFC 最终报名表和 2026-05-20 半决赛公开首发名单可核其本届亚洲杯为中国 U17 后卫，并常见身披 3 号。身高、体重和惯用脚当前缺少稳定权威口径，因此暂不硬填。"
     }
   },
   {
