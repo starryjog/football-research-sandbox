@@ -8,7 +8,7 @@
       name="description"
       content="查看单项赛事的时间范围、中国战绩、比赛明细、关键球员与来源链接。"
     />
-    <link rel="stylesheet" href="./assets/styles.css?v=20260523-tournament-match-order" />
+    <link rel="stylesheet" href="./assets/styles.css?v=20260523-tournament-detail-cache-fix" />
   </head>
   <body data-page="tournament-detail">
     <div class="site-shell">
@@ -51,6 +51,18 @@
               </div>
             </div>
             <div id="tournamentDetailContext" class="stack-list"></div>
+          </section>
+
+          <section id="tournamentDetailRegionalHistorySection" class="content-panel" hidden>
+            <div class="section-head">
+              <div>
+                <p class="eyebrow" data-i18n="tournamentDetail.history.eyebrow">History</p>
+                <h2 data-i18n="tournamentDetail.history.title">中日韩历届战绩</h2>
+              </div>
+            </div>
+            <p id="tournamentDetailRegionalHistoryScope" class="hero-side-note"></p>
+            <div id="tournamentDetailRegionalHistorySummary" class="summary-grid"></div>
+            <div id="tournamentDetailRegionalHistoryTable"></div>
           </section>
 
           <section class="dashboard-grid">
@@ -102,6 +114,6 @@
       </footer>
     </div>
 
-    <script type="module" src="./assets/app.js?v=20260523-tournament-match-order"></script>
+    <script type="module" src="./assets/app.js?v=20260523-tournament-detail-cache-fix"></script>
   </body>
 </html>

@@ -1,7 +1,20 @@
 const page = document.body.dataset.page;
-const pageDate = document.body.dataset.date || "2026-05-22";
+const pageDate = document.body.dataset.date || "2026-05-23";
 const LANGUAGE_STORAGE_KEY = "youth-tracker-language";
-const SITE_DATA_VERSION = "20260522-overseas-year-jump";
+const SITE_ASSET_VERSION =
+  (() => {
+    const script = document.querySelector('script[src*="./assets/app.js"], script[src*="/assets/app.js"], script[src*="assets/app.js"]');
+    if (!script?.src) {
+      return "";
+    }
+
+    try {
+      return new URL(script.src, window.location.href).searchParams.get("v") ?? "";
+    } catch {
+      return "";
+    }
+  })() || pageDate.replaceAll("-", "");
+const SITE_DATA_VERSION = SITE_ASSET_VERSION;
 
 const state = {
   language: "zh",
@@ -188,6 +201,17 @@ const UI_COPY = {
     "tournamentDetail.context.headline": "当前摘要",
     "tournamentDetail.context.focusTeams": "重点队伍",
     "tournamentDetail.context.empty": "当前只有基础赛事档案，还没有额外专题说明。",
+    "tournamentDetail.history.eyebrow": "History",
+    "tournamentDetail.history.title": "中日韩历届战绩",
+    "tournamentDetail.history.empty": "当前这条赛事还没有补到中日韩历届战绩。",
+    "tournamentDetail.history.appearances": "决赛圈 {count} 次",
+    "tournamentDetail.history.bestFinish": "最佳：{stage}",
+    "tournamentDetail.history.bestYears": "最佳届次：{years}",
+    "tournamentDetail.history.table.edition": "届次",
+    "tournamentDetail.history.table.host": "举办地",
+    "tournamentDetail.history.table.china": "中国",
+    "tournamentDetail.history.table.japan": "日本",
+    "tournamentDetail.history.table.korea": "韩国",
     "tournamentDetail.squad.eyebrow": "Squad List",
     "tournamentDetail.squad.title": "中国完整名单",
     "tournamentDetail.squad.empty": "当前还没有录入中国完整名单。",
@@ -472,6 +496,17 @@ const UI_COPY = {
     "tournamentDetail.context.headline": "Current headline",
     "tournamentDetail.context.focusTeams": "Focus teams",
     "tournamentDetail.context.empty": "Only the base archive record is available for this tournament so far.",
+    "tournamentDetail.history.eyebrow": "History",
+    "tournamentDetail.history.title": "China, Japan and Korea Republic by edition",
+    "tournamentDetail.history.empty": "No East Asia edition history is attached to this tournament yet.",
+    "tournamentDetail.history.appearances": "{count} finals appearances",
+    "tournamentDetail.history.bestFinish": "Best: {stage}",
+    "tournamentDetail.history.bestYears": "Best editions: {years}",
+    "tournamentDetail.history.table.edition": "Edition",
+    "tournamentDetail.history.table.host": "Host",
+    "tournamentDetail.history.table.china": "China PR",
+    "tournamentDetail.history.table.japan": "Japan",
+    "tournamentDetail.history.table.korea": "Korea Republic",
     "tournamentDetail.squad.eyebrow": "Squad List",
     "tournamentDetail.squad.title": "China full squad",
     "tournamentDetail.squad.empty": "No China full-squad record has been added for this tournament yet.",
@@ -690,6 +725,18 @@ const CHINA_STATUS_LABELS = {
   qualified: { zh: "已晋级", en: "Qualified" },
   "did-not-qualify": { zh: "未晋级", en: "Did not qualify" },
   "did-not-participate": { zh: "未参赛", en: "Did not participate" }
+};
+
+const TOURNAMENT_HISTORY_STAGE_LABELS = {
+  Champion: { zh: "冠军", en: "Champions" },
+  "Runners-up": { zh: "亚军", en: "Runners-up" },
+  "Quarter-finals": { zh: "八强", en: "Quarter-finals" },
+  "Round of 16": { zh: "十六强", en: "Round of 16" },
+  "Round of 32": { zh: "三十二强", en: "Round of 32" },
+  "Group stage": { zh: "小组赛", en: "Group stage" },
+  Qualified: { zh: "已获资格", en: "Qualified" },
+  "Did not qualify": { zh: "未晋级", en: "Did not qualify" },
+  "Did not enter": { zh: "未报名参赛", en: "Did not enter" }
 };
 
 const CONTRIBUTION_TYPE_LABELS = {
@@ -1509,6 +1556,10 @@ function formatChinaStatus(status) {
   return getLabel(CHINA_STATUS_LABELS, status, status ?? "-");
 }
 
+function formatTournamentHistoryStage(stage) {
+  return getLabel(TOURNAMENT_HISTORY_STAGE_LABELS, stage, stage ?? "-");
+}
+
 function formatContributionType(type) {
   return getLabel(CONTRIBUTION_TYPE_LABELS, type, type ?? "-");
 }
@@ -1999,6 +2050,58 @@ function renderTournamentSquadCard(entry) {
       <p class="small-note">${escapeHtml(formatClubName(club))}</p>
       ${note ? `<p class="small-note">${escapeHtml(note)}</p>` : ""}
     </article>
+  `;
+}
+
+function renderRegionalHistorySummaryCard(entry) {
+  const bestYears = (entry.best_years ?? []).join(" / ");
+
+  return `
+    <article class="stack-card">
+      <h3>${escapeHtml(formatCountryName(entry.country))}</h3>
+      <p>${escapeHtml(t("tournamentDetail.history.appearances", { count: entry.appearances ?? 0 }))}</p>
+      <p>${escapeHtml(t("tournamentDetail.history.bestFinish", { stage: formatTournamentHistoryStage(entry.best_finish) }))}</p>
+      ${bestYears ? `<p class="small-note">${escapeHtml(t("tournamentDetail.history.bestYears", { years: bestYears }))}</p>` : ""}
+      ${entry.note ? `<p class="small-note">${escapeHtml(localizeText(entry.note))}</p>` : ""}
+    </article>
+  `;
+}
+
+function renderRegionalHistoryTable(history) {
+  const rows = history?.editions ?? [];
+  if (rows.length === 0) {
+    return `<div class="empty-inline">${escapeHtml(t("tournamentDetail.history.empty"))}</div>`;
+  }
+
+  return `
+    <div class="table-shell">
+      <table>
+        <thead>
+          <tr>
+            <th>${escapeHtml(t("tournamentDetail.history.table.edition"))}</th>
+            <th>${escapeHtml(t("tournamentDetail.history.table.host"))}</th>
+            <th>${escapeHtml(t("tournamentDetail.history.table.china"))}</th>
+            <th>${escapeHtml(t("tournamentDetail.history.table.japan"))}</th>
+            <th>${escapeHtml(t("tournamentDetail.history.table.korea"))}</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows
+            .map(
+              (row) => `
+                <tr>
+                  <td>${escapeHtml(String(row.edition ?? "-"))}</td>
+                  <td>${escapeHtml(formatCountryName(row.host ?? "-"))}</td>
+                  <td>${escapeHtml(formatTournamentHistoryStage(row.china_pr))}</td>
+                  <td>${escapeHtml(formatTournamentHistoryStage(row.japan))}</td>
+                  <td>${escapeHtml(formatTournamentHistoryStage(row.korea_republic))}</td>
+                </tr>
+              `
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>
   `;
 }
 
@@ -3215,6 +3318,10 @@ function renderTournamentDetailPage() {
   const body = document.querySelector("#tournamentDetailBody");
   const stats = document.querySelector("#tournamentDetailStats");
   const context = document.querySelector("#tournamentDetailContext");
+  const regionalHistorySection = document.querySelector("#tournamentDetailRegionalHistorySection");
+  const regionalHistoryScope = document.querySelector("#tournamentDetailRegionalHistoryScope");
+  const regionalHistorySummary = document.querySelector("#tournamentDetailRegionalHistorySummary");
+  const regionalHistoryTable = document.querySelector("#tournamentDetailRegionalHistoryTable");
   const squad = document.querySelector("#tournamentDetailSquad");
   const matches = document.querySelector("#tournamentDetailMatches");
   const keyPlayers = document.querySelector("#tournamentDetailKeyPlayers");
@@ -3341,6 +3448,20 @@ function renderTournamentDetailPage() {
         </article>
       `
       : `<div class="empty-inline">${escapeHtml(t("tournamentDetail.context.empty"))}</div>`;
+
+  const regionalHistory = archiveTournament?.regional_history;
+  regionalHistorySection.hidden = !regionalHistory;
+  if (regionalHistory) {
+    regionalHistoryScope.textContent = localizeText(regionalHistory.scope_note, t("common.pending"));
+    regionalHistorySummary.innerHTML = (regionalHistory.team_summaries ?? [])
+      .map(renderRegionalHistorySummaryCard)
+      .join("");
+    regionalHistoryTable.innerHTML = renderRegionalHistoryTable(regionalHistory);
+  } else {
+    regionalHistoryScope.textContent = "";
+    regionalHistorySummary.innerHTML = "";
+    regionalHistoryTable.innerHTML = "";
+  }
 
   const displayMatches = getDisplayChinaMatches(archiveTournament?.china_matches);
   const squadEntries = archiveTournament ? getTournamentSquadEntries(archiveTournament) : [];

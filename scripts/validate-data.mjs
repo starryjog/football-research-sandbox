@@ -182,6 +182,36 @@ function validateChinaMenYouthCoaches(archive) {
   }
 }
 
+function validateRegionalHistory(history, tournamentId) {
+  assert(typeof history === "object" && history !== null, `Invalid regional_history on ${tournamentId}`);
+  assert(Array.isArray(history.team_summaries), `Invalid regional_history team_summaries on ${tournamentId}`);
+  assert(Array.isArray(history.editions), `Invalid regional_history editions on ${tournamentId}`);
+
+  for (const summary of history.team_summaries) {
+    assert(summary.country, `Missing regional_history country on ${tournamentId}`);
+    assert(
+      Number.isInteger(summary.appearances),
+      `Invalid regional_history appearances on ${tournamentId}:${summary.country}`
+    );
+    assert(summary.best_finish, `Missing regional_history best_finish on ${tournamentId}:${summary.country}`);
+    assert(
+      Array.isArray(summary.best_years),
+      `Invalid regional_history best_years on ${tournamentId}:${summary.country}`
+    );
+  }
+
+  for (const edition of history.editions) {
+    assert(edition.edition, `Missing regional_history edition on ${tournamentId}`);
+    assert(edition.host, `Missing regional_history host on ${tournamentId}:${edition.edition}`);
+    assert(edition.china_pr, `Missing regional_history China PR result on ${tournamentId}:${edition.edition}`);
+    assert(edition.japan, `Missing regional_history Japan result on ${tournamentId}:${edition.edition}`);
+    assert(
+      edition.korea_republic,
+      `Missing regional_history Korea Republic result on ${tournamentId}:${edition.edition}`
+    );
+  }
+}
+
 export async function validateData() {
   const dataset = await loadDataset();
   const playerIds = new Set();
@@ -299,6 +329,9 @@ export async function validateData() {
     assert(Array.isArray(tournament.china_key_players), `Invalid china_key_players on ${tournament.id}`);
     if (tournament.china_squad !== undefined) {
       assert(Array.isArray(tournament.china_squad), `Invalid china_squad on ${tournament.id}`);
+    }
+    if (tournament.regional_history !== undefined) {
+      validateRegionalHistory(tournament.regional_history, tournament.id);
     }
   }
 
