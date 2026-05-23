@@ -268,8 +268,11 @@ const UI_COPY = {
     "tournaments.archive.noChinaMatches": "中国队在该赛事无已录入比赛，或未参赛。",
     "tournaments.archive.chinaSummary": "中国战绩：{summary}",
     "tournaments.archive.chinaStage": "中国阶段：{stage}",
+    "tournaments.archive.lineupToggle": "中国阵容{formation}",
     "tournaments.archive.lineupTitle": "中国首发{formation}",
     "tournaments.archive.benchTitle": "中国替补名单",
+    "tournaments.archive.substituteMinute": "{minute}' 替补出场",
+    "tournaments.archive.substituteUnused": "未出场",
     "tournaments.card.open": "查看赛事",
     "overseas.hero.eyebrow": "Overseas Tracker",
     "overseas.hero.title": "留洋专页",
@@ -549,8 +552,11 @@ const UI_COPY = {
     "tournaments.archive.noChinaMatches": "No China match has been recorded for this tournament, or China did not qualify.",
     "tournaments.archive.chinaSummary": "China summary: {summary}",
     "tournaments.archive.chinaStage": "China stage: {stage}",
+    "tournaments.archive.lineupToggle": "China lineup{formation}",
     "tournaments.archive.lineupTitle": "China starting XI{formation}",
     "tournaments.archive.benchTitle": "China bench",
+    "tournaments.archive.substituteMinute": "on {minute}'",
+    "tournaments.archive.substituteUnused": "unused",
     "tournaments.card.open": "View tournament",
     "overseas.hero.eyebrow": "Overseas Tracker",
     "overseas.hero.title": "Overseas tracker",
@@ -1853,6 +1859,21 @@ function renderContributionItem(entry) {
   return `<li>${formatContributionType(entry.type)}: ${renderPlayerReference(entry)}${entry.minute ? ` ${escapeHtml(entry.minute)}'` : ""}${entry.role ? ` · ${formatContributionRole(entry.role)}` : ""}</li>`;
 }
 
+function formatLineupSubstituteNote(item) {
+  if (item.minute) {
+    return t("tournaments.archive.substituteMinute", { minute: item.minute });
+  }
+  if (item.status === "unused") {
+    return t("tournaments.archive.substituteUnused");
+  }
+  return "";
+}
+
+function renderLineupItem(item, options = {}) {
+  const note = options.showSubstituteNote ? formatLineupSubstituteNote(item) : "";
+  return `<li>${renderPlayerReference(item)}${note ? ` <span class="lineup-entry-meta">· ${escapeHtml(note)}</span>` : ""}</li>`;
+}
+
 function renderStartingLineup(match, options = {}) {
   const starters = match.china_lineup?.starters ?? [];
   const substitutes = options.includeSubstitutes ? match.china_lineup?.substitutes ?? [] : [];
@@ -1867,22 +1888,25 @@ function renderStartingLineup(match, options = {}) {
       : formationSuffix;
 
   return `
-    <div class="archive-lineup">
-      <p class="small-note">${escapeHtml(t("tournaments.archive.lineupTitle", { formation: formationLabel }))}</p>
-      <ul class="mini-bullet-list">
-        ${starters.map((item) => `<li>${renderPlayerReference(item)}</li>`).join("")}
-      </ul>
-      ${
-        substitutes.length > 0
-          ? `
-            <p class="small-note">${escapeHtml(t("tournaments.archive.benchTitle"))}</p>
-            <ul class="mini-bullet-list">
-              ${substitutes.map((item) => `<li>${renderPlayerReference(item)}</li>`).join("")}
-            </ul>
-          `
-          : ""
-      }
-    </div>
+    <details class="archive-lineup-toggle">
+      <summary>${escapeHtml(t("tournaments.archive.lineupToggle", { formation: formationLabel }))}</summary>
+      <div class="archive-lineup">
+        <p class="small-note">${escapeHtml(t("tournaments.archive.lineupTitle", { formation: formationLabel }))}</p>
+        <ul class="mini-bullet-list">
+          ${starters.map((item) => renderLineupItem(item)).join("")}
+        </ul>
+        ${
+          substitutes.length > 0
+            ? `
+              <p class="small-note">${escapeHtml(t("tournaments.archive.benchTitle"))}</p>
+              <ul class="mini-bullet-list">
+                ${substitutes.map((item) => renderLineupItem(item, { showSubstituteNote: true })).join("")}
+              </ul>
+            `
+            : ""
+        }
+      </div>
+    </details>
   `;
 }
 
@@ -1914,6 +1938,19 @@ function renderTournamentDetailMatchCard(match) {
       ${renderTournamentMatchContent(match, { includeSubstitutes: true })}
     </article>
   `;
+}
+
+function getDisplayChinaMatches(matches) {
+  return [...(matches ?? [])]
+    .map((match, index) => ({ match, index }))
+    .sort((left, right) => {
+      const dateCompare = String(right.match.date ?? "").localeCompare(String(left.match.date ?? ""));
+      if (dateCompare !== 0) {
+        return dateCompare;
+      }
+      return right.index - left.index;
+    })
+    .map((entry) => entry.match);
 }
 
 function renderTournamentKeyPlayerCard(entry) {
@@ -3305,6 +3342,7 @@ function renderTournamentDetailPage() {
       `
       : `<div class="empty-inline">${escapeHtml(t("tournamentDetail.context.empty"))}</div>`;
 
+  const displayMatches = getDisplayChinaMatches(archiveTournament?.china_matches);
   const squadEntries = archiveTournament ? getTournamentSquadEntries(archiveTournament) : [];
   squad.innerHTML =
     squadEntries.length > 0
@@ -3312,8 +3350,8 @@ function renderTournamentDetailPage() {
       : `<div class="empty-inline">${escapeHtml(t("tournamentDetail.squad.empty"))}</div>`;
 
   matches.innerHTML =
-    (archiveTournament?.china_matches ?? []).length > 0
-      ? archiveTournament.china_matches.map(renderTournamentDetailMatchCard).join("")
+    displayMatches.length > 0
+      ? displayMatches.map(renderTournamentDetailMatchCard).join("")
       : `<div class="empty-inline">${escapeHtml(t("tournaments.archive.noChinaMatches"))}</div>`;
 
   keyPlayers.innerHTML =
@@ -3432,14 +3470,15 @@ function renderTournamentsPage() {
 
 function renderArchiveTournamentCard(tournament) {
   const titleResult = getTournamentResultSummary(tournament);
+  const displayMatches = getDisplayChinaMatches(tournament.china_matches);
   const matches =
-    (tournament.china_matches ?? []).length > 0
-      ? tournament.china_matches
+    displayMatches.length > 0
+      ? displayMatches
           .map(
             (match) => `
               <article class="archive-match">
                 <strong>${escapeHtml(localizeText(match.stage))} · ${formatDate(match.date)}</strong>
-                ${renderTournamentMatchContent(match)}
+                ${renderTournamentMatchContent(match, { includeSubstitutes: true })}
               </article>
             `
           )
