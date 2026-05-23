@@ -707,6 +707,10 @@
       {
         "label": "AFC U17 2023 stats archive",
         "url": "https://globalsportsarchive.com/en/soccer/competition/afc-u-17-asian-cup-2023-thailand/65417"
+      },
+      {
+        "label": "Wikipedia 2023 AFC U-17 Asian Cup",
+        "url": "https://en.wikipedia.org/wiki/2023_AFC_U-17_Asian_Cup"
       }
     ]
   },
@@ -829,6 +833,10 @@
       {
         "label": "China PR 1-2 Uzbekistan detailed events",
         "url": "https://www.365scores.com/en-us/football/match/afc-u17-asian-cup-7960/china-u17-uzbekistan-u17-5280-5291-7960"
+      },
+      {
+        "label": "Wikipedia 2025 AFC U-17 Asian Cup",
+        "url": "https://en.wikipedia.org/wiki/2025_AFC_U-17_Asian_Cup"
       }
     ]
   },
@@ -1514,7 +1522,7 @@
         "score_for": 2,
         "score_against": 3,
         "result": "L",
-        "note": "按 Futbol24 比赛页回填，决赛在沙特吉达进行，中国队上半场先后被 Tafuku Satomi、Kakeru Saito、Maki Kitahara 破门，半场 0 比 3 落后；下半场第 49 分钟万项追回一球，第 79 分钟赵松源点球再追一球，但最终仍以 2 比 3 惜败日本。",
+        "note": "按多方比赛页与赛后报道回填，决赛在沙特吉达进行，中国队上半场先后被 Tafuku Satomi、Kakeru Saito、Maki Kitahara 破门，半场 0 比 3 落后；下半场第 49 分钟万项追回一球，第 79 分钟赵松源点球再追一球，但最终仍以 2 比 3 惜败日本。",
         "china_contributions": [
           {
             "type": "goal",
@@ -1730,6 +1738,10 @@
         "url": "https://www.futbol24.com/match/2026/05/22/international/AFC/U17-Championship/2026/Final/China-U17/vs/Japan-U17"
       },
       {
+        "label": "Wikipedia 2026 AFC U-17 Asian Cup",
+        "url": "https://en.wikipedia.org/wiki/2026_AFC_U-17_Asian_Cup"
+      },
+      {
         "label": "China U17 2-3 Japan U17 report and lineups",
         "url": "https://www.ppsports.com/article/news/2540731.html"
       },
@@ -1744,6 +1756,32 @@
       {
         "label": "Shuai wants to go all the way with China PR",
         "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/shuai-wants-to-go-all-the-way-with-china-pr"
+      }
+    ]
+  },
+  {
+    "id": "afc-u16-2018",
+    "confederation": "AFC",
+    "competition_name": "AFC U-16 Championship Malaysia 2018",
+    "level": "u17",
+    "edition_label": "2018",
+    "host": "Malaysia",
+    "date_range": {
+      "start": "2018-09-20",
+      "end": "2018-10-07"
+    },
+    "status": "completed",
+    "champion": "Japan",
+    "runner_up": "Tajikistan",
+    "china_status": "did-not-participate",
+    "china_summary": "这是 AFC 该年龄层最后一届以 U16 名义进行的正赛，中国队未进入决赛圈；2020 届因疫情取消后，赛事到 2023 年才以 U17 Asian Cup 名义恢复。",
+    "china_detail_scope": "none",
+    "china_matches": [],
+    "china_key_players": [],
+    "source_links": [
+      {
+        "label": "Wikipedia 2018 AFC U-16 Championship",
+        "url": "https://en.wikipedia.org/wiki/2018_AFC_U-16_Championship"
       }
     ]
   },

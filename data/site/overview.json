@@ -27,6 +27,8 @@
       "notes": [
         "2026-05-22 决赛，中国 U17 半场 0 比 3 落后，下半场由万项和赵松源追到 2 比 3，最终不敌日本获得亚军。",
         "日本在 2026-05-22 决赛 3 比 2 击败中国队，拿到这一年龄层的又一座亚洲冠军。",
+        "本届原定 16 队参赛，但朝鲜退赛后实际以 15 队完成赛事。",
+        "中国队借此锁定队史第 6 次 U17 / U16 世少赛（世少杯 / U17 世界杯）资格。",
         "乌兹别克斯坦 U17 在 2026-05-20 半决赛点球负于日本，止步四强。",
         "中国、日本、韩国的 U17 基础球员数据，统一以 AFC 于 2026-05-02 发布的最终报名表为准。"
       ],
@@ -47,9 +49,9 @@
           "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/afcu17-japan-win-thrilling-shootout-to-advance-to-final"
         },
         {
-          "label": "Futbol24 final: China U17 2-3 Japan U17",
-          "publisher": "Futbol24",
-          "url": "https://www.futbol24.com/match/2026/05/22/international/AFC/U17-Championship/2026/Final/China-U17/vs/Japan-U17"
+          "label": "Wikipedia 2026 AFC U-17 Asian Cup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_AFC_U-17_Asian_Cup"
         }
       ]
     },
@@ -154,6 +156,8 @@
       "headline": "上一届参考赛事，用来衔接乌兹别克斯坦 2025 冠军班底与 2026 延续情况。",
       "notes": [
         "乌兹别克斯坦在 2025 年夺冠，Sadriddin Khasanov 获评赛事 MVP。",
+        "这届也是该年龄层改制为 U17 后的第二届正赛，并对应卡塔尔 2025 世少赛资格分配。",
+        "沙特从 2025 到 2028 连续四届承办该项赛事，2025 是这轮四连办的起点。",
         "中国队 1 胜 2 负未能从小组出线，也未拿到当届世少赛资格。",
         "这条线可与 2026 年中国 U17 的 2009/2010 混编样本做直接对照。"
       ],
@@ -167,6 +171,11 @@
           "label": "AFC Uzbekistan MVP report",
           "publisher": "AFC",
           "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/uzbekistan%E2%80%99s-khasanov-takes-most-valuable-player-award"
+        },
+        {
+          "label": "Wikipedia 2025 AFC U-17 Asian Cup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_AFC_U-17_Asian_Cup"
         }
       ]
     },
@@ -265,6 +274,7 @@
       ],
       "headline": "中国 U17 小组赛出局，但王钰栋 3 球成为这届中国队最显眼的个人样本。",
       "notes": [
+        "这是 2018 年最后一届 AFC U16 正赛、2020 届因疫情取消后，改制为 AFC U17 Asian Cup 的首届赛事。",
         "日本在决赛 3 比 0 击败韩国，拿到改制后首冠与该年龄层历史第四冠。",
         "中国队 1 平 2 负小组出局，其中对澳大利亚一战打出 3 比 5 的开放比赛。",
         "这是 2025、2026 两届 U17 数据库向前回看的最近起点。"
@@ -279,6 +289,42 @@
           "label": "AFC U17 Thailand 2023 match schedule",
           "publisher": "AFC",
           "url": "https://assets.the-afc.com/2023_AFC_U17_Asian_Cup/Downloads/AFC-U17-Asian-Cup-Thailand-2023-Match-Schedule.pdf.pdf"
+        },
+        {
+          "label": "Wikipedia 2023 AFC U-17 Asian Cup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_AFC_U-17_Asian_Cup"
+        }
+      ]
+    },
+    {
+      "id": "afc-u16-2018",
+      "name": "AFC U-16 Championship Malaysia 2018",
+      "short_name": "AFC U16 2018",
+      "focus_level": "reference",
+      "status": "completed",
+      "last_checked": "2026-05-23",
+      "date_range": {
+        "start": "2018-09-20",
+        "end": "2018-10-07"
+      },
+      "focus_teams": [
+        "Japan",
+        "Tajikistan",
+        "Korea Republic",
+        "Australia"
+      ],
+      "headline": "这是 AFC 该年龄层最后一届以 U16 名义进行的正赛，也是 2023 改制为 U17 前最近的谱系锚点。",
+      "notes": [
+        "日本在决赛 1 比 0 击败塔吉克斯坦夺冠。",
+        "中国队未进入 2018 决赛圈，因此这里主要保留赛制与谱系意义，不强行补中国比赛明细。",
+        "2020 届原计划继续以 U16 举办，但因疫情取消；到 2023 才以 U17 名义恢复。"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia 2018 AFC U-16 Championship",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_AFC_U-16_Championship"
         }
       ]
     },
@@ -4568,7 +4614,7 @@
       "focus_tags": [
         "donglu-football-boys"
       ],
-      "last_reviewed": "2026-05-22",
+      "last_reviewed": "2026-05-23",
       "summary": "这不是单一球队，而是叠在一起的两层结构：一层是以 2009 年龄段为核心、随后扩展到 2010、2014、2015、2016 等多年龄段的民间青训与比赛平台；另一层是董路主导的 2034 杯 U12 全国赛事平台。公开资料里较稳妥的做法，是先按批次整理公开可核主干，再把 2024 年足协 U15 第四期集训可交叉确认的 9 名球员与 2025 年 6 月荷兰杯 21 人赛会名单单列管理，同时把 2034 杯按届次、赛果和分区赛规模单独建档。",
       "source_document": {
         "title": "deep-research-report.md",
@@ -4649,6 +4695,11 @@
           "title": "搜狐：中国足球小将打造卓越2016球队，首站试训选拔即将在西安",
           "path": "https://www.sohu.com/a/933685959_362070",
           "summary": "可核验 2016 梯队 2025 年 9 月西安、10 月深圳等试训选拔安排。"
+        },
+        {
+          "title": "直播吧：中国足球小将西班牙曼努埃尔杯2016名单公布，共12名球员入选",
+          "path": "https://news.zhibo8.com/zuqiu/2025-10-31/690420b6197a5native.htm",
+          "summary": "可核验兰汶霖等 2016 年龄段球员进入西班牙曼努埃尔杯名单，并旁证 2016 梯队已进入国际交流比赛阶段。"
         },
         {
           "title": "国家体育总局：2034杯第三届小学生足球大会（U12）总决赛开幕",
@@ -5163,7 +5214,7 @@
             "胡泓磊",
             "杨博轩"
           ],
-          "note": "这批是公开口径最完整的后续成建制梯队之一，首批 16 人名单与成队时间节点都较清晰。",
+          "note": "这批是公开口径最完整的后续成建制梯队之一，首批 16 人名单与成队时间节点都较清晰；胡泓磊可按公开 16 人名单直接归入中国足球小将 2014 梯队首批入选样本。",
           "source_titles": [
             "新浪新闻：2014梯队苏州海选最终16人名单",
             "哔哩哔哩专栏：中国足球小将2014梯队-传承梦想，再次启航！"
@@ -5211,10 +5262,13 @@
           "label": "2016梯队 / 2016选拔队",
           "time_window": "2025-09 起公开启动打造与选拔；2026 年已有外战报道",
           "confidence": "C",
-          "verified_players": [],
-          "note": "当前公开文字名单仍不完整，已可确认的是西安站、深圳站等试训选拔安排，以及项目已进入初期组队阶段。",
+          "verified_players": [
+            "兰汶霖"
+          ],
+          "note": "当前公开文字名单仍不完整，但已可确认兰汶霖通过城市选拔进入 2016 梯队，并进入西班牙曼努埃尔杯 2016 名单，说明这一批已进入国际交流比赛阶段。",
           "source_titles": [
-            "搜狐：中国足球小将打造卓越2016球队，首站试训选拔即将在西安"
+            "搜狐：中国足球小将打造卓越2016球队，首站试训选拔即将在西安",
+            "直播吧：中国足球小将西班牙曼努埃尔杯2016名单公布，共12名球员入选"
           ]
         }
       ],
@@ -8086,6 +8140,10 @@
         {
           "label": "AFC U17 2023 stats archive",
           "url": "https://globalsportsarchive.com/en/soccer/competition/afc-u-17-asian-cup-2023-thailand/65417"
+        },
+        {
+          "label": "Wikipedia 2023 AFC U-17 Asian Cup",
+          "url": "https://en.wikipedia.org/wiki/2023_AFC_U-17_Asian_Cup"
         }
       ]
     },
@@ -8208,6 +8266,10 @@
         {
           "label": "China PR 1-2 Uzbekistan detailed events",
           "url": "https://www.365scores.com/en-us/football/match/afc-u17-asian-cup-7960/china-u17-uzbekistan-u17-5280-5291-7960"
+        },
+        {
+          "label": "Wikipedia 2025 AFC U-17 Asian Cup",
+          "url": "https://en.wikipedia.org/wiki/2025_AFC_U-17_Asian_Cup"
         }
       ]
     },
@@ -8893,7 +8955,7 @@
           "score_for": 2,
           "score_against": 3,
           "result": "L",
-          "note": "按 Futbol24 比赛页回填，决赛在沙特吉达进行，中国队上半场先后被 Tafuku Satomi、Kakeru Saito、Maki Kitahara 破门，半场 0 比 3 落后；下半场第 49 分钟万项追回一球，第 79 分钟赵松源点球再追一球，但最终仍以 2 比 3 惜败日本。",
+          "note": "按多方比赛页与赛后报道回填，决赛在沙特吉达进行，中国队上半场先后被 Tafuku Satomi、Kakeru Saito、Maki Kitahara 破门，半场 0 比 3 落后；下半场第 49 分钟万项追回一球，第 79 分钟赵松源点球再追一球，但最终仍以 2 比 3 惜败日本。",
           "china_contributions": [
             {
               "type": "goal",
@@ -9109,6 +9171,10 @@
           "url": "https://www.futbol24.com/match/2026/05/22/international/AFC/U17-Championship/2026/Final/China-U17/vs/Japan-U17"
         },
         {
+          "label": "Wikipedia 2026 AFC U-17 Asian Cup",
+          "url": "https://en.wikipedia.org/wiki/2026_AFC_U-17_Asian_Cup"
+        },
+        {
           "label": "China U17 2-3 Japan U17 report and lineups",
           "url": "https://www.ppsports.com/article/news/2540731.html"
         },
@@ -9123,6 +9189,32 @@
         {
           "label": "Shuai wants to go all the way with China PR",
           "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/shuai-wants-to-go-all-the-way-with-china-pr"
+        }
+      ]
+    },
+    {
+      "id": "afc-u16-2018",
+      "confederation": "AFC",
+      "competition_name": "AFC U-16 Championship Malaysia 2018",
+      "level": "u17",
+      "edition_label": "2018",
+      "host": "Malaysia",
+      "date_range": {
+        "start": "2018-09-20",
+        "end": "2018-10-07"
+      },
+      "status": "completed",
+      "champion": "Japan",
+      "runner_up": "Tajikistan",
+      "china_status": "did-not-participate",
+      "china_summary": "这是 AFC 该年龄层最后一届以 U16 名义进行的正赛，中国队未进入决赛圈；2020 届因疫情取消后，赛事到 2023 年才以 U17 Asian Cup 名义恢复。",
+      "china_detail_scope": "none",
+      "china_matches": [],
+      "china_key_players": [],
+      "source_links": [
+        {
+          "label": "Wikipedia 2018 AFC U-16 Championship",
+          "url": "https://en.wikipedia.org/wiki/2018_AFC_U-16_Championship"
         }
       ]
     },

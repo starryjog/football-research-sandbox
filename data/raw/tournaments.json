@@ -20,6 +20,8 @@
     "notes": [
       "2026-05-22 决赛，中国 U17 半场 0 比 3 落后，下半场由万项和赵松源追到 2 比 3，最终不敌日本获得亚军。",
       "日本在 2026-05-22 决赛 3 比 2 击败中国队，拿到这一年龄层的又一座亚洲冠军。",
+      "本届原定 16 队参赛，但朝鲜退赛后实际以 15 队完成赛事。",
+      "中国队借此锁定队史第 6 次 U17 / U16 世少赛（世少杯 / U17 世界杯）资格。",
       "乌兹别克斯坦 U17 在 2026-05-20 半决赛点球负于日本，止步四强。",
       "中国、日本、韩国的 U17 基础球员数据，统一以 AFC 于 2026-05-02 发布的最终报名表为准。"
     ],
@@ -40,9 +42,9 @@
         "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/afcu17-japan-win-thrilling-shootout-to-advance-to-final"
       },
       {
-        "label": "Futbol24 final: China U17 2-3 Japan U17",
-        "publisher": "Futbol24",
-        "url": "https://www.futbol24.com/match/2026/05/22/international/AFC/U17-Championship/2026/Final/China-U17/vs/Japan-U17"
+        "label": "Wikipedia 2026 AFC U-17 Asian Cup",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_AFC_U-17_Asian_Cup"
       }
     ]
   },
@@ -147,6 +149,8 @@
     "headline": "上一届参考赛事，用来衔接乌兹别克斯坦 2025 冠军班底与 2026 延续情况。",
     "notes": [
       "乌兹别克斯坦在 2025 年夺冠，Sadriddin Khasanov 获评赛事 MVP。",
+      "这届也是该年龄层改制为 U17 后的第二届正赛，并对应卡塔尔 2025 世少赛资格分配。",
+      "沙特从 2025 到 2028 连续四届承办该项赛事，2025 是这轮四连办的起点。",
       "中国队 1 胜 2 负未能从小组出线，也未拿到当届世少赛资格。",
       "这条线可与 2026 年中国 U17 的 2009/2010 混编样本做直接对照。"
     ],
@@ -160,6 +164,11 @@
         "label": "AFC Uzbekistan MVP report",
         "publisher": "AFC",
         "url": "https://www.the-afc.com/en/national/afc_u17_asian_cup.html/news/uzbekistan%E2%80%99s-khasanov-takes-most-valuable-player-award"
+      },
+      {
+        "label": "Wikipedia 2025 AFC U-17 Asian Cup",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025_AFC_U-17_Asian_Cup"
       }
     ]
   },
@@ -258,6 +267,7 @@
     ],
     "headline": "中国 U17 小组赛出局，但王钰栋 3 球成为这届中国队最显眼的个人样本。",
     "notes": [
+      "这是 2018 年最后一届 AFC U16 正赛、2020 届因疫情取消后，改制为 AFC U17 Asian Cup 的首届赛事。",
       "日本在决赛 3 比 0 击败韩国，拿到改制后首冠与该年龄层历史第四冠。",
       "中国队 1 平 2 负小组出局，其中对澳大利亚一战打出 3 比 5 的开放比赛。",
       "这是 2025、2026 两届 U17 数据库向前回看的最近起点。"
@@ -272,6 +282,42 @@
         "label": "AFC U17 Thailand 2023 match schedule",
         "publisher": "AFC",
         "url": "https://assets.the-afc.com/2023_AFC_U17_Asian_Cup/Downloads/AFC-U17-Asian-Cup-Thailand-2023-Match-Schedule.pdf.pdf"
+      },
+      {
+        "label": "Wikipedia 2023 AFC U-17 Asian Cup",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2023_AFC_U-17_Asian_Cup"
+      }
+    ]
+  },
+  {
+    "id": "afc-u16-2018",
+    "name": "AFC U-16 Championship Malaysia 2018",
+    "short_name": "AFC U16 2018",
+    "focus_level": "reference",
+    "status": "completed",
+    "last_checked": "2026-05-23",
+    "date_range": {
+      "start": "2018-09-20",
+      "end": "2018-10-07"
+    },
+    "focus_teams": [
+      "Japan",
+      "Tajikistan",
+      "Korea Republic",
+      "Australia"
+    ],
+    "headline": "这是 AFC 该年龄层最后一届以 U16 名义进行的正赛，也是 2023 改制为 U17 前最近的谱系锚点。",
+    "notes": [
+      "日本在决赛 1 比 0 击败塔吉克斯坦夺冠。",
+      "中国队未进入 2018 决赛圈，因此这里主要保留赛制与谱系意义，不强行补中国比赛明细。",
+      "2020 届原计划继续以 U16 举办，但因疫情取消；到 2023 才以 U17 名义恢复。"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia 2018 AFC U-16 Championship",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2018_AFC_U-16_Championship"
       }
     ]
   },
