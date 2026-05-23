@@ -226,5 +226,90 @@
       "last_checked": "2026-05-22",
       "notes": "出生日期、位置和当前俱乐部由公开球员资料页与大连英博 2026 赛季名单交叉确认。"
     }
+  },
+  {
+    "id": "cn-li-yuxuan-2006",
+    "name": "LI Yuxuan",
+    "local_name": "李雨轩",
+    "country": "China PR",
+    "birth_date": "2006-07-03",
+    "age_band": "u21",
+    "primary_position": "Forward",
+    "height_cm": null,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Beijing Pengrui Tongcheng",
+      "country": "China"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "2025 中冠射手榜节点",
+        "organization": "Beijing Tongzhou Pengrui Tongcheng",
+        "country": "China",
+        "note": "球天下 2025 中冠射手榜口径可核其在北京通州鹏瑞通程名下已有 1 球纪录。"
+      },
+      {
+        "stage_label": "2026 公开 roster 节点",
+        "organization": "Beijing Pengrui Tongcheng",
+        "country": "China",
+        "note": "Tipsme、Sofascore 与 Scores24 当前公开页可交叉确认其为北京鹏瑞球员，号码 2 号，位置前锋。"
+      },
+      {
+        "stage_label": "2026-05-21 中冠比赛节点",
+        "organization": "Beijing Pengrui Tongcheng",
+        "country": "China",
+        "note": "竞彩网比赛页显示其在乌兰察布青年人 1 比 6 北京鹏瑞通程一战于第 36、68 分钟梅开二度。"
+      }
+    ],
+    "focus_tags": [
+      "china-youth",
+      "u21-watch",
+      "china-domestic-club",
+      "cfa-amateur-club"
+    ],
+    "tournament_participation": [
+      {
+        "competition_id": "csl-2026",
+        "label": "2026 国内成年俱乐部 U21 观察样本",
+        "team": "Beijing Pengrui Tongcheng",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": 2,
+        "minutes": null,
+        "note": "截至 2026-05-23，可公开核到其在 2026-05-21 中冠对乌兰察布青年人一战梅开二度。当前 competition_id 先借用国内俱乐部观察口径，不等同于中超注册。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "profile",
+        "label": "Tipsme Beijing squad page",
+        "url": "https://tipsme.hk/team/squad/teamId/dn1m1gh1k41moep"
+      },
+      {
+        "type": "profile",
+        "label": "Sofascore player profile",
+        "url": "https://www.sofascore.com/zh/football/player/yuxuan-li/2567620"
+      },
+      {
+        "type": "profile",
+        "label": "Scores24 player profile",
+        "url": "https://scores24.live/en/soccer/p-li-yuxuan-1"
+      },
+      {
+        "type": "match",
+        "label": "Jingcai match page: Ulanqab 1-6 Beijing Pengrui Tongcheng",
+        "url": "https://www.jingcai.com/live/detail-4519716"
+      },
+      {
+        "type": "stats",
+        "label": "QTX 2025 middle champions scorers",
+        "url": "https://m.data.qtx.com/sheshoubang/nA6qGmd75p_qrWX5Zp7el.html"
+      }
+    ],
+    "verification": {
+      "status": "verified",
+      "last_checked": "2026-05-23",
+      "notes": "生日与前锋位置由 Sofascore 和 Scores24 交叉确认；Tipsme 阵容页补充其为北京通州鹏瑞通达 / 北京鹏瑞通程 2 号前锋。需注意不要与另一名 2010-04-27 出生、China U16 口径的同名李雨轩混淆。"
+    }
   }
 ]
