@@ -1696,6 +1696,120 @@
     }
   },
   {
+    "id": "cn-xu-bohan-2006",
+    "name": "Xu Bohan",
+    "local_name": "徐博涵",
+    "country": "China PR",
+    "birth_date": "2006-02-08",
+    "age_band": "u21",
+    "primary_position": "Defender",
+    "height_cm": null,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Beijing Tongcheng Football Club",
+      "country": "China"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "2023 北京三高 U16 节点",
+        "organization": "Beijing Sangao U16",
+        "country": "China",
+        "note": "北京市足球协会 2023 年追加处罚公告可核其当时为北京三高 U16 球员，说明其至少在这一阶段处于北京校园强队培养链。"
+      },
+      {
+        "stage_label": "2023 摩洛哥世界中学生锦标赛",
+        "organization": "The High School Affiliated to Renmin University of China",
+        "country": "China",
+        "note": "北航新闻网 2025 年新生报道将徐博涵列为北航高水平运动队新生之一，并写到他曾随人大附中参加 2023 年摩洛哥世界中学生足球锦标赛。"
+      },
+      {
+        "stage_label": "2025 北航大体联世界杯节点",
+        "organization": "Beihang University",
+        "country": "China",
+        "note": "新华社 2025 年国际大体联足球世界杯战报可核其代表北京航空航天大学出战对奥克兰大学比赛。"
+      },
+      {
+        "stage_label": "2026 北京通程名单口径",
+        "organization": "Beijing Tongcheng Football Club",
+        "country": "China",
+        "note": "媒体发布的 2026 年北京通程球员名单将其列为 24 号后卫，生日为 2006-02-08。"
+      }
+    ],
+    "focus_tags": [
+      "china-youth",
+      "u21-watch",
+      "school-system",
+      "beijing-campus-football"
+    ],
+    "tournament_participation": [
+      {
+        "label": "2023 世界中学生足球锦标赛",
+        "team": "The High School Affiliated to Renmin University of China",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "北航高水平运动队新生报道将其列入曾参加 2023 年摩洛哥世界中学生足球锦标赛的球员样本。"
+      },
+      {
+        "label": "2025 国际大体联足球世界杯",
+        "team": "Beihang University",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 0,
+        "minutes": null,
+        "note": "新华社 2025-09-23 对北航不敌奥克兰大学的战报中可核其进入出场名单。"
+      },
+      {
+        "label": "2026 北京通程一线队名单",
+        "team": "Beijing Tongcheng Football Club",
+        "squad_status": "registered",
+        "appearances": null,
+        "goals": 0,
+        "minutes": null,
+        "note": "媒体公布的 2026 赛季北京通程名单将其列为 24 号后卫。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "official",
+        "label": "BFA disciplinary notice",
+        "url": "https://www.bfaweb.cn/m/index.php?c=article&id=1231",
+        "note": "用于校对其在 2023 年北京三高 U16 阶段的身份。"
+      },
+      {
+        "type": "official",
+        "label": "BUAA freshman intake report",
+        "url": "https://news.buaa.edu.cn/info/1006/66899.htm",
+        "note": "用于补其进入北航高水平运动队及人大附中 / 2023 摩洛哥世界中学生锦标赛背景。"
+      },
+      {
+        "type": "news",
+        "label": "Xinhua FISU Football World Cup report",
+        "url": "https://www.news.cn/sports/20250923/4f4b309537604f3db82f509ff4874712/c.html",
+        "note": "用于校对其代表北航出战国际大体联足球世界杯。"
+      },
+      {
+        "type": "news",
+        "label": "Sina Beijing Tongcheng roster page",
+        "url": "https://www.sina.cn/news/detail/5285731516025470.html",
+        "note": "用于校对 2006-02-08 生日以及北京通程 24 号后卫名单口径。"
+      }
+    ],
+    "verification": {
+      "status": "mixed-source",
+      "last_checked": "2026-05-23",
+      "notes": "北航与北京三高两个节点可由北航新闻网和北京市足协页面直接对照；2025 年国际大体联足球世界杯出场记录可由新华社战报核到。当前最弱的一环是 2026 北京通程注册口径与生日字段，主要依赖媒体发布的球员名单，因此整体仍按 mixed-source 处理。"
+    },
+    "names": {
+      "zh": "徐博涵",
+      "en": "Xu Bohan",
+      "native": "徐博涵",
+      "ja": "",
+      "ko": ""
+    }
+  },
+  {
     "id": "cn-kuai-jiwen-2006",
     "name": "Kuai Jiwen",
     "local_name": "蒯纪闻",
