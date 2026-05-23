@@ -706,5 +706,142 @@
       "last_checked": "2026-05-23",
       "notes": "北航与北京三高两个节点可由北航新闻网和北京市足协页面直接对照；2025 年国际大体联足球世界杯出场记录可由新华社战报核到。当前最弱的一环是 2026 北京通程注册口径与生日字段，主要依赖媒体发布的球员名单，因此整体仍按 mixed-source 处理。"
     }
+  },
+  {
+    "id": "cn-cheng-xiyang-2006",
+    "name": "Cheng Xiyang",
+    "local_name": "程曦阳",
+    "country": "China PR",
+    "birth_date": "2006-08-17",
+    "age_band": "u21",
+    "primary_position": "Forward",
+    "height_cm": 176,
+    "weight_kg": null,
+    "registration_club": {
+      "name": "Beijing Tongcheng Football Club",
+      "country": "China"
+    },
+    "training_pathway": [
+      {
+        "stage_label": "2018 中国足协 U12 选拔",
+        "organization": "China CFA U-12 Selection",
+        "country": "China",
+        "note": "U-12 Junior Soccer World Challenge 2018 官方名单将其列为 12 号 WF 程曦阳，英文注册名 CHENG Xiyang，生日 2006-08-17。"
+      },
+      {
+        "stage_label": "2022 北京三高 U16 节点",
+        "organization": "Beijing Sangao U16",
+        "country": "China",
+        "note": "公开图片报道可核其随北京三高 U16 参加 2022 北京市希望杯，并获 U17 组最佳射手，说明其较早就在北京校园强队体系内承担前场终结角色。"
+      },
+      {
+        "stage_label": "2025 北航大体联世界杯节点",
+        "organization": "Beihang University",
+        "country": "China",
+        "note": "北航国际合作部转载的国际大体联足球世界杯战报显示，其代表北京航空航天大学男足出战，并在对智利天主教大学一战罚入点球。"
+      },
+      {
+        "stage_label": "2026 北京鹏瑞 / 通程一线队口径",
+        "organization": "Beijing Tongcheng Football Club",
+        "country": "China",
+        "note": "2026 赛季公开比赛页与媒体稿在“北京鹏瑞通程”“北京通州鹏瑞”“北京通州鹏瑞通达”“北京通程”之间存在异名，但均能持续核到程曦阳为该队 2006 年龄段前锋样本，并在足协杯与中冠阶段取得进球。"
+      }
+    ],
+    "focus_tags": [
+      "china-youth",
+      "u21-watch",
+      "school-system",
+      "striker-watch"
+    ],
+    "tournament_participation": [
+      {
+        "label": "2018 U-12 Junior Soccer World Challenge",
+        "team": "China CFA U-12 Selection",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "官方名单列其为 12 号翼锋（WF），是目前公开可核的最早全国层面赛会记录之一。"
+      },
+      {
+        "label": "2022 北京市希望杯 U17 组",
+        "team": "Beijing Sangao U16",
+        "squad_status": "tracked",
+        "appearances": null,
+        "goals": null,
+        "minutes": null,
+        "note": "公开图片报道将其列为北京三高 U16 球员，并写到他获得该届 U17 组最佳射手。"
+      },
+      {
+        "label": "2025 国际大体联足球世界杯",
+        "team": "Beihang University",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 1,
+        "minutes": null,
+        "note": "北航对智利天主教大学一战以 1 比 0 取胜，程曦阳罚入制胜点球。"
+      },
+      {
+        "label": "2026 中国足协杯第二轮",
+        "team": "Beijing Tongcheng Football Club",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 1,
+        "minutes": null,
+        "note": "公开赛况与媒体稿均可核其在 2 比 1 击败贵州对手一战中制造关键输出；较稳妥的下限是打入点球，媒体稿另称其完成一球一助。"
+      },
+      {
+        "label": "2026 中冠区域赛对乌兰察布青年人",
+        "team": "Beijing Tongcheng Football Club",
+        "squad_status": "tracked",
+        "appearances": 1,
+        "goals": 1,
+        "minutes": null,
+        "note": "公开赛况页显示北京队 6 比 1 取胜，程曦阳在第 11 分钟首开纪录。"
+      }
+    ],
+    "external_links": [
+      {
+        "type": "official",
+        "label": "U-12 Junior Soccer World Challenge 2018 CFA squad page",
+        "url": "https://u12-juniorsoccer-wc.com/2018/team/cfa/index.html",
+        "note": "用于校对其 2018 年中国足协 U12 选拔身份、英文注册名、位置和生日。"
+      },
+      {
+        "type": "school",
+        "label": "BUAA FISU Football World Cup report",
+        "url": "https://global.buaa.edu.cn/info/1038/4884.htm",
+        "note": "用于校对其代表北航在 2025 国际大体联足球世界杯对智利天主教大学一战攻入点球。"
+      },
+      {
+        "type": "stats",
+        "label": "Tipsme Beijing Tongzhou Pengrui Tongda squad",
+        "url": "https://tipsme.hk/team/squad/teamId/dn1m1gh1k41moep",
+        "note": "用于校对该队公开阵容页中程曦阳作为前锋样本的登记口径。"
+      },
+      {
+        "type": "news",
+        "label": "Sina CFA Cup report",
+        "url": "https://www.sina.cn/news/detail/5290442309771863.html",
+        "note": "用于校对其在 2026 足协杯第二轮制造关键输出的报道口径。"
+      },
+      {
+        "type": "stats",
+        "label": "Sofascore Ulanqab Youth vs Beijing Pengrui",
+        "url": "https://www.sofascore.com/football/match/ulanqab-youth-beijing-pengrui/MdOisfuQj",
+        "note": "用于校对其在 2026-05-21 对乌兰察布青年人一战第 11 分钟破门。"
+      },
+      {
+        "type": "transfermarkt",
+        "label": "Transfermarkt profile",
+        "url": "https://www.transfermarkt.co.uk/xiyang-cheng/profil/spieler/1430174",
+        "note": "用于对照生日、身高、国籍和当前北京鹏瑞相关注册口径。"
+      }
+    ],
+    "verification": {
+      "status": "mixed-source",
+      "last_checked": "2026-05-23",
+      "notes": "2018 U12 世界挑战赛名单可直接校对程曦阳的英文注册名、生日与翼锋角色；2022 北京三高 U16、2025 北航大体联世界杯、2026 足协杯与中冠阶段，可以由校园与媒体赛况拼出其持续的前场使用轨迹。当前主要不确定项有两类：一是俱乐部公开名称在“北京鹏瑞通程 / 北京通州鹏瑞 / 北京通州鹏瑞通达 / 北京通程”之间存在异名；二是号码口径在不同聚合页中见过 8 号与 77 号，因此当前条目只把其稳定信息固定为 2006 年生前锋样本。"
+    }
   }
 ]
