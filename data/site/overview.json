@@ -12747,9 +12747,9 @@
             "period": "2000-07 to 2001-02",
             "matches": 20,
             "wins": 6,
-            "draws": 7,
-            "losses": 7,
-            "points": 25,
+            "draws": 9,
+            "losses": 5,
+            "points": 27,
             "outcome": {
               "zh": "赛季中途离任，球队最终由罗伯托·曼奇尼带完联赛。",
               "en": "Left during the season, with Roberto Mancini completing the league campaign."
@@ -12763,9 +12763,9 @@
             "period": "2001-07 to 2001-11",
             "matches": 9,
             "wins": 4,
-            "draws": 5,
-            "losses": 0,
-            "points": 17,
+            "draws": 3,
+            "losses": 2,
+            "points": 15,
             "outcome": {
               "zh": "赛季初期离任，随后由卡洛·安切洛蒂接手。",
               "en": "Left early in the season before Carlo Ancelotti took over."
