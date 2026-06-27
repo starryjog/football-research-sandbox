@@ -17,6 +17,40 @@ const requiredPlayerFields = [
   "verification"
 ];
 
+const allowedVerificationStatuses = new Set([
+  "verified",
+  "mixed-source",
+  "provisional",
+  "needs-review",
+  "conflict",
+  "stale",
+  "rejected"
+]);
+
+const allowedExternalLinkTypes = new Set([
+  "official",
+  "club",
+  "stats",
+  "news",
+  "wikipedia",
+  "transfermarkt",
+  "school",
+  "profile",
+  "match",
+  "reference"
+]);
+
+const allowedSquadStatuses = new Set([
+  "registered",
+  "tracked",
+  "pending-transfer",
+  "called-up",
+  "selected",
+  "withdrawn",
+  "unknown",
+  "used"
+]);
+
 function assert(condition, message) {
   if (!condition) {
     throw new Error(message);
@@ -25,6 +59,63 @@ function assert(condition, message) {
 
 function isIsoDate(value) {
   return /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
+function normalizeIdentityName(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .trim()
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]/gu, "");
+}
+
+function getIdentityKeys(player) {
+  const names = [
+    player.name,
+    player.local_name,
+    player.names?.zh,
+    player.names?.en,
+    player.names?.native,
+    player.names?.ja,
+    player.names?.ko
+  ];
+  return [...new Set(names.map(normalizeIdentityName).filter(Boolean))].map(
+    (name) => `${player.birth_date}|${name}`
+  );
+}
+
+function validateExternalLink(link, label) {
+  assert(typeof link === "object" && link !== null, `Invalid external link on ${label}`);
+  assert(
+    allowedExternalLinkTypes.has(link.type),
+    `Invalid external link type "${link.type}" on ${label}`
+  );
+  assert(typeof link.label === "string" && link.label.length > 0, `Missing external link label on ${label}`);
+  assert(/^https?:\/\//.test(link.url), `Invalid external link url on ${label}`);
+}
+
+function validateVerificationBlock(verification, label) {
+  assert(typeof verification === "object" && verification !== null, `Invalid verification block on ${label}`);
+  assert(
+    allowedVerificationStatuses.has(verification.status),
+    `Invalid verification status "${verification.status}" on ${label}`
+  );
+  assert(isIsoDate(verification.last_checked), `Invalid verification last_checked on ${label}`);
+  assert(
+    typeof verification.notes === "string" && verification.notes.length > 0,
+    `Missing verification notes on ${label}`
+  );
+
+  if (verification.evidence !== undefined) {
+    assert(Array.isArray(verification.evidence), `Invalid verification evidence list on ${label}`);
+    for (const evidence of verification.evidence) {
+      assert(evidence.field, `Missing evidence field on ${label}`);
+      assert(evidence.claim, `Missing evidence claim on ${label}`);
+      assert(evidence.source_label, `Missing evidence source_label on ${label}`);
+      assert(/^https?:\/\//.test(evidence.source_url), `Invalid evidence source_url on ${label}`);
+      assert(isIsoDate(evidence.checked_at), `Invalid evidence checked_at on ${label}`);
+    }
+  }
 }
 
 function validateMarketValuePoint(point, playerId, label) {
@@ -318,6 +409,7 @@ function validateRegionalHistory(history, tournamentId) {
 export async function validateData() {
   const dataset = await loadDataset();
   const playerIds = new Set();
+  const playerIdentityKeys = new Map();
   const tournamentIds = new Set(dataset.tournaments.map((item) => item.id));
   const overseasBucketIds = new Set(dataset.overseasHistory.bucket_definition ?? []);
 
@@ -347,20 +439,27 @@ export async function validateData() {
       }
     }
     assert(player.external_links.length > 0, `Empty external_links for ${player.id}`);
-    assert(
-      player.external_links.every((link) => /^https?:\/\//.test(link.url)),
-      `Invalid link url for ${player.id}`
-    );
-    assert(
-      player.tournament_participation.every(
-        (entry) => !entry.competition_id || tournamentIds.has(entry.competition_id)
-      ),
-      `Unknown competition_id on player ${player.id}`
-    );
-    assert(
-      player.verification?.status && player.verification?.last_checked,
-      `Invalid verification block for ${player.id}`
-    );
+    for (const link of player.external_links) {
+      validateExternalLink(link, player.id);
+    }
+    for (const entry of player.tournament_participation) {
+      assert(
+        !entry.competition_id || tournamentIds.has(entry.competition_id),
+        `Unknown competition_id on player ${player.id}`
+      );
+      assert(
+        allowedSquadStatuses.has(entry.squad_status),
+        `Invalid squad_status "${entry.squad_status}" on player ${player.id}`
+      );
+    }
+    validateVerificationBlock(player.verification, player.id);
+    for (const identityKey of getIdentityKeys(player)) {
+      const previousPlayer = playerIdentityKeys.get(identityKey);
+      if (previousPlayer !== undefined && previousPlayer.id !== player.id) {
+        throw new Error(`Possible duplicate player identity: ${previousPlayer.id} and ${player.id}`);
+      }
+      playerIdentityKeys.set(identityKey, player);
+    }
     if (player.league_system_override !== undefined) {
       assert(
         typeof player.league_system_override === "string" && player.league_system_override.length > 0,
