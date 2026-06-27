@@ -51,6 +51,16 @@ const allowedSquadStatuses = new Set([
   "used"
 ]);
 
+const allowedSourceLayerTypes = new Set([
+  "afc-registration",
+  "national-fa-profile",
+  "club-academy-profile",
+  "school-profile",
+  "league-registration"
+]);
+
+const allowedSourceLayerConfidence = new Set(["high", "medium", "low"]);
+
 function assert(condition, message) {
   if (!condition) {
     throw new Error(message);
@@ -92,6 +102,26 @@ function validateExternalLink(link, label) {
   );
   assert(typeof link.label === "string" && link.label.length > 0, `Missing external link label on ${label}`);
   assert(/^https?:\/\//.test(link.url), `Invalid external link url on ${label}`);
+}
+
+function validateSourceLayer(layer, label) {
+  assert(typeof layer === "object" && layer !== null, `Invalid source layer on ${label}`);
+  assert(
+    allowedSourceLayerTypes.has(layer.type),
+    `Invalid source layer type "${layer.type}" on ${label}`
+  );
+  assert(typeof layer.label === "string" && layer.label.length > 0, `Missing source layer label on ${label}`);
+  assert(/^https?:\/\//.test(layer.url), `Invalid source layer url on ${label}`);
+  assert(isIsoDate(layer.checked_at), `Invalid source layer checked_at on ${label}`);
+  assert(
+    allowedSourceLayerConfidence.has(layer.confidence),
+    `Invalid source layer confidence "${layer.confidence}" on ${label}`
+  );
+  assert(typeof layer.claim === "string" && layer.claim.length > 0, `Missing source layer claim on ${label}`);
+  assert(Array.isArray(layer.fields) && layer.fields.length > 0, `Invalid source layer fields on ${label}`);
+  for (const field of layer.fields) {
+    assert(typeof field === "string" && field.length > 0, `Invalid source layer field on ${label}`);
+  }
 }
 
 function validateVerificationBlock(verification, label) {
@@ -441,6 +471,12 @@ export async function validateData() {
     assert(player.external_links.length > 0, `Empty external_links for ${player.id}`);
     for (const link of player.external_links) {
       validateExternalLink(link, player.id);
+    }
+    if (player.source_layers !== undefined) {
+      assert(Array.isArray(player.source_layers), `Invalid source_layers on ${player.id}`);
+      for (const layer of player.source_layers) {
+        validateSourceLayer(layer, player.id);
+      }
     }
     for (const entry of player.tournament_participation) {
       assert(

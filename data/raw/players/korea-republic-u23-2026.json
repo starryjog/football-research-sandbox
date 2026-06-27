@@ -19,6 +19,12 @@
         "organization": "Gimcheon Sangmu",
         "country": "Korea Republic",
         "note": "AFC U23 2026 终报名表列为当前俱乐部。"
+      },
+      {
+        "stage_label": "2025/26 留洋资料节点",
+        "organization": "Portimonense SC",
+        "country": "Portugal",
+        "note": "Portimonense 官方球员页作为海外资料节点保留；与 AFC 报名表的 Gimcheon Sangmu 归属分层记录，后续需复核是否为同名或注册时点差异。"
       }
     ],
     "focus_tags": [
@@ -56,10 +62,48 @@
         "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/vietnam-edge-korea-republic-on-penalties-to-finish-third"
       }
     ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final registration confirms Moon Hyunho as a Korea Republic U23 registered player and records Gimcheon Sangmu as the tournament registration organization."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "Gimcheon Sangmu official site",
+        "url": "https://www.gimcheonfc.com/",
+        "checked_at": "2026-06-28",
+        "confidence": "low",
+        "fields": [
+          "training_pathway"
+        ],
+        "claim": "Gimcheon Sangmu official site is retained as the organization-level military club layer; an individual player page still needs to be captured."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "Portimonense official profile",
+        "url": "https://www.portimonensesad.portimonense.pt/jogador.php?id=1312",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "training_pathway"
+        ],
+        "claim": "Portimonense profile is kept as a separate overseas pathway node because it does not match the AFC Gimcheon registration club field."
+      }
+    ],
     "verification": {
-      "status": "verified",
-      "last_checked": "2026-05-23",
-      "notes": "AFC 于 2025-12-30 发布的 final registration 可核其 U23 报名身份；Portimonense 官方 2025/26 一线队球员页仍将其列在队内，因此当前继续按葡萄牙职业体系中的韩国 U23 留洋样本处理。"
+      "status": "mixed-source",
+      "last_checked": "2026-06-28",
+      "notes": "AFC final registration 将 Moon Hyunho 的赛事报名归属列为 Gimcheon Sangmu；Portimonense 官方球员页作为海外资料节点保留。两者不直接互相覆盖，后续需复核是否为同名、注册时点差异或来源误配。"
     }
   },
   {
@@ -179,6 +223,34 @@
         "type": "official",
         "label": "AFC U23 2026 final registration",
         "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "league-registration",
+        "label": "K League profile",
+        "url": "https://www.kleague.com/record/playerDetail.do?playerId=20240215",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "registration_club",
+          "birth_date",
+          "height_cm",
+          "weight_kg",
+          "training_pathway"
+        ],
+        "claim": "K League profile confirms current Gyeongnam FC registration and basic profile fields for Bae Hyunseo."
+      },
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "AFC final registration keeps the Korea Republic U23 tournament-roster layer separate from the current league registration."
       }
     ],
     "verification": {
@@ -347,6 +419,33 @@
         "type": "official",
         "label": "AFC third-place report: Vietnam beat Korea Republic on penalties",
         "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/vietnam-edge-korea-republic-on-penalties-to-finish-third"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final registration confirms Lee Chanouk as a Korea Republic U23 registered player and records Gimcheon Sangmu as the tournament registration organization."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "Gimcheon Sangmu official site",
+        "url": "https://www.gimcheonfc.com/",
+        "checked_at": "2026-06-28",
+        "confidence": "low",
+        "fields": [
+          "training_pathway"
+        ],
+        "claim": "Gimcheon Sangmu official site is retained as the organization-level military club layer; an individual player page still needs to be captured."
       }
     ],
     "verification": {
@@ -534,6 +633,45 @@
         "type": "official",
         "label": "AFC U23 2026 final registration",
         "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "league-registration",
+        "label": "J.League profile",
+        "url": "https://www.jleague.jp/player/1651218/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "registration_club",
+          "birth_date",
+          "height_cm",
+          "weight_kg",
+          "training_pathway"
+        ],
+        "claim": "J.League player profile confirms current Kataller Toyama registration and basic profile fields for Kim Taewon."
+      },
+      {
+        "type": "league-registration",
+        "label": "J.League transfer announcement",
+        "url": "https://www.jleague.jp/news/article/32994/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "training_pathway"
+        ],
+        "claim": "J.League transfer announcement supports the Japan-based overseas pathway layer for this Korea Republic U23 sample."
+      },
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "AFC final registration keeps the Korea Republic U23 tournament-roster layer separate from the current league registration."
       }
     ],
     "verification": {
@@ -989,6 +1127,34 @@
         "type": "official",
         "label": "AFC third-place report: Vietnam beat Korea Republic on penalties",
         "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/vietnam-edge-korea-republic-on-penalties-to-finish-third"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "club-academy-profile",
+        "label": "Portimonense official profile",
+        "url": "https://www.portimonensesad.portimonense.pt/jogador.php?id=1312",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "Portimonense official profile supports the Portugal-based overseas club layer for Kim Yonghak."
+      },
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final registration confirms Kim Yonghak as a Korea Republic U23 registered player and records Portimonense SC as the tournament registration organization."
       }
     ],
     "verification": {

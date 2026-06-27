@@ -37,6 +37,7 @@ flowchart LR
 - `registration_club.name` 和 `registration_club.country` 必须是字符串。
 - `training_pathway` 不能为空，每一步至少有 `stage_label`、`organization`、`country`。
 - `external_links` 不能为空，且每条必须有合法 `type`、`label`、`http/https url`。
+- `source_layers` 如存在，必须是数组；每条需有合法 `type`、`label`、`url`、`checked_at`、`confidence`、`fields` 和 `claim`。
 - `tournament_participation[].competition_id` 如存在，必须能对应 `data/raw/tournaments.json`。
 - `squad_status` 必须来自允许枚举。
 - `verification.status` 必须来自允许枚举，`notes` 必填。
@@ -91,6 +92,20 @@ flowchart LR
 - `withdrawn`
 - `unknown`
 - `used`
+
+`source_layers.type`：
+
+- `afc-registration`
+- `national-fa-profile`
+- `club-academy-profile`
+- `school-profile`
+- `league-registration`
+
+`source_layers.confidence`：
+
+- `high`
+- `medium`
+- `low`
 
 ## 不校验内容
 

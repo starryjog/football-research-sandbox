@@ -39,6 +39,35 @@
 
 程序校验要求：每条 `external_links` 必须带 `type`、`label`、`url`，且 `url` 必须是 `http` 或 `https`。
 
+## source_layers
+
+`source_layers` 是可选增强字段，用来说明某个事实由哪一层来源支撑。它不替代 `external_links`：`external_links` 仍是原始外链清单，`source_layers` 则负责把外链、字段和事实 claim 绑定起来。
+
+允许类型：
+
+| 类型 | 使用场景 |
+| --- | --- |
+| `afc-registration` | AFC 终报名 PDF、赛事 registration 文件。 |
+| `national-fa-profile` | JFA、KFA、CFA 等国家/地区足协名单、队伍页或球员 profile。 |
+| `club-academy-profile` | 俱乐部官网、梯队页面、俱乐部公告或军队球队官网。 |
+| `school-profile` | 高中、大学、校园足球队页面；若暂只有 AFC 报名字段，应在 `claim` 中说明仍需补个体页。 |
+| `league-registration` | J.League、K League、联赛当前注册或转会公告。 |
+
+每条 `source_layers` 必须包含：
+
+- `type`：来源层类型。
+- `label` 和 `url`：可读标题和原始链接。
+- `checked_at`：核验日期，格式 `YYYY-MM-DD`。
+- `confidence`：`high`、`medium` 或 `low`。
+- `fields`：该来源支撑的字段，例如 `registration_club`、`training_pathway`、`tournament_participation`。
+- `claim`：简短说明该来源具体支撑什么，不要扩大来源能证明的事实范围。
+
+低 confidence 的典型场景：
+
+- 只有组织级官网，没有个体球员 profile。
+- AFC 报名字段能确认学校/俱乐部归属，但学校/俱乐部个人页还没捕获。
+- 来源之间存在时点差异，需要保留多条路径而不是互相覆盖。
+
 ## squad_status
 
 | 状态 | 使用标准 |
@@ -138,6 +167,7 @@
 - `verification.last_checked` 日期格式。
 - `verification.notes` 必填。
 - `external_links.type` 枚举、标签和 URL 格式。
+- `source_layers` 的类型、confidence、字段列表、claim 和 URL/日期格式。
 - `squad_status` 枚举。
 - `competition_id` 必须存在于赛事表。
 - 重复 `player.id`。
