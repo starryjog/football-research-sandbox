@@ -78,6 +78,58 @@
         "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url"
       }
     ],
+    "source_layers": [
+      {
+        "type": "league-registration",
+        "label": "J.League profile",
+        "url": "https://www.jleague.jp/player/1636506/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "registration_club",
+          "birth_date",
+          "height_cm",
+          "weight_kg",
+          "training_pathway"
+        ],
+        "claim": "J.League player profile confirms current FC Tokyo registration and basic profile fields for Masataka Kobayashi."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "JFA U-21 Korea trip squad",
+        "url": "https://www.jfa.jp/national_team/u21_2026/20260329/news/00036144/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "training_pathway"
+        ],
+        "claim": "JFA squad announcement confirms the national-team pathway node for the 2026 U-21 Korea trip sample."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "FC Tokyo U-23 call-up announcement",
+        "url": "https://www.fctokyo.co.jp/en/news/18181",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "training_pathway"
+        ],
+        "claim": "FC Tokyo announcement provides a club source for the U-23 call-up context without replacing the current J.League registration field."
+      },
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "AFC final registration keeps the Japan U23 tournament-roster layer separate from the current league registration."
+      }
+    ],
     "verification": {
       "status": "verified",
       "last_checked": "2026-05-22",
@@ -212,6 +264,46 @@
         "type": "official",
         "label": "AFC U23 2026 final registration",
         "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "league-registration",
+        "label": "J.League profile",
+        "url": "https://www.jleague.jp/player/1643995/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "registration_club",
+          "birth_date",
+          "height_cm",
+          "weight_kg",
+          "training_pathway"
+        ],
+        "claim": "J.League player profile confirms current Fukushima United registration and basic profile fields for Kaito Tsuchiya."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "JFA U-21 Korea trip squad",
+        "url": "https://www.jfa.jp/national_team/u21_2026/20260329/news/00036144/",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "training_pathway"
+        ],
+        "claim": "JFA squad announcement confirms the national-team pathway node for the 2026 U-21 Korea trip sample."
+      },
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "AFC final registration keeps the Japan U23 tournament-roster layer separate from the current league registration."
       }
     ],
     "verification": {
@@ -380,6 +472,34 @@
         "type": "official",
         "label": "AFC final report: Japan 4-0 China PR",
         "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup.html/news/japan-power-past-china-pr-to-clinch-third-title"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U23 2026 final registration",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final registration confirms Kosei Ogura as a Japan U23 registered player and records Hosei University as the tournament registration organization."
+      },
+      {
+        "type": "school-profile",
+        "label": "AFC U23 2026 university registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U23_Asian_Cup_/Finals/Squad_Lists/AFC-U23-Asian-Cup-2026-Final-Registration.pdf?source=url",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The university pathway layer is captured from the AFC registration field; an individual Hosei University player page remains a follow-up source."
       }
     ],
     "verification": {

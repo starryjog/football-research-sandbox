@@ -25,6 +25,7 @@ erDiagram
   players ||--o{ player_pathways : has
   players ||--o{ player_competitions : has
   players ||--o{ player_links : has
+  players ||--o{ player_source_layers : has
   overseas_buckets ||--o{ overseas_records : has
 
   players {
@@ -74,6 +75,18 @@ erDiagram
     TEXT link_type
     TEXT label
     TEXT url
+  }
+
+  player_source_layers {
+    TEXT player_id FK
+    INTEGER layer_order
+    TEXT layer_type
+    TEXT label
+    TEXT url
+    TEXT checked_at
+    TEXT confidence
+    TEXT fields_json
+    TEXT claim
   }
 
   tournaments {
@@ -181,6 +194,7 @@ erDiagram
 | `player_pathways` | `players[].training_pathway` | 球员青训、学校、项目和俱乐部路径，按 `stage_order` 排序。 |
 | `player_competitions` | `players[].tournament_participation` | 球员赛事报名、出场、进球、分钟和名单状态。 |
 | `player_links` | `players[].external_links` | 球员外部来源链接。 |
+| `player_source_layers` | `players[].source_layers` | 可选来源层级说明；把来源类型、支撑字段、confidence 和 claim 结构化。 |
 | `tournaments` | `data/raw/tournaments.json` | 当前重点赛事卡。 |
 | `projects` | `data/raw/projects.json` | 专题项目卡。 |
 | `overseas_buckets` | `data/raw/overseas-history.json` 的国家层 | 留洋国家线、bucket 说明、代表样本数量和备注。 |

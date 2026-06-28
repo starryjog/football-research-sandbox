@@ -77,6 +77,19 @@ export async function syncSqlite() {
       FOREIGN KEY (player_id) REFERENCES players(id) ON DELETE CASCADE
     );
 
+    CREATE TABLE player_source_layers (
+      player_id TEXT NOT NULL,
+      layer_order INTEGER NOT NULL,
+      layer_type TEXT NOT NULL,
+      label TEXT NOT NULL,
+      url TEXT NOT NULL,
+      checked_at TEXT NOT NULL,
+      confidence TEXT NOT NULL,
+      fields_json TEXT NOT NULL,
+      claim TEXT NOT NULL,
+      FOREIGN KEY (player_id) REFERENCES players(id) ON DELETE CASCADE
+    );
+
     CREATE TABLE tournaments (
       id TEXT PRIMARY KEY,
       name TEXT NOT NULL,
@@ -199,6 +212,11 @@ export async function syncSqlite() {
       player_id, link_order, link_type, label, url
     ) VALUES (?, ?, ?, ?, ?)
   `);
+  const insertSourceLayer = db.prepare(`
+    INSERT INTO player_source_layers (
+      player_id, layer_order, layer_type, label, url, checked_at, confidence, fields_json, claim
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
   const insertTournament = db.prepare(`
     INSERT INTO tournaments (
       id, name, short_name, focus_level, status, last_checked, start_date, end_date,
@@ -292,6 +310,20 @@ export async function syncSqlite() {
 
     player.external_links.forEach((link, index) => {
       insertLink.run(player.id, index, link.type, link.label, link.url);
+    });
+
+    (player.source_layers ?? []).forEach((layer, index) => {
+      insertSourceLayer.run(
+        player.id,
+        index,
+        layer.type,
+        layer.label,
+        layer.url,
+        layer.checked_at,
+        layer.confidence,
+        toJson(layer.fields),
+        layer.claim
+      );
     });
   }
 

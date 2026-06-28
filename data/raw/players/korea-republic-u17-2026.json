@@ -146,6 +146,45 @@
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
       }
     ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U17 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final squad list confirms Seung Min Lee as a Korea Republic U17 registered player and records Boin High School as the tournament registration organization."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "KFA U17 national team page",
+        "url": "https://www.kfa.or.kr/national/?act=mu_17",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "KFA U17 team page provides the national-federation layer for Korea Republic U17 context; AFC remains the player-level roster source."
+      },
+      {
+        "type": "school-profile",
+        "label": "AFC U17 2026 school registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The school pathway layer for Seung Min Lee is currently captured from the AFC club field as Boin High School; an individual school squad or profile source remains a follow-up source."
+      }
+    ],
     "verification": {
       "status": "verified",
       "last_checked": "2026-05-22",
@@ -195,6 +234,45 @@
         "type": "official",
         "label": "AFC 2026 final squad list",
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U17 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final squad list confirms Geon Woo Park as a Korea Republic U17 registered player and records Ulsan HD FC U18 as the tournament registration organization."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "KFA U17 national team page",
+        "url": "https://www.kfa.or.kr/national/?act=mu_17",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "KFA U17 team page provides the national-federation layer for Korea Republic U17 context; AFC remains the player-level roster source."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "AFC U17 2026 club registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The academy layer for Geon Woo Park is currently captured from the AFC club field as Ulsan HD FC U18; an individual club profile remains a follow-up source."
       }
     ],
     "verification": {

@@ -197,6 +197,45 @@
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
       }
     ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U17 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final squad list confirms Rei Ono as a Japan U17 registered player and records Bayer 04 Leverkusen U17 as the tournament registration organization."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "JFA U17 Asian Cup squad announcement",
+        "url": "https://www.jfa.jp/national_team/u17_2026/news/00036263/",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "JFA team-level announcement provides the national-federation layer for the Japan U17 AFC Asian Cup squad context."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "AFC U17 2026 club registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The academy layer for Rei Ono is currently captured from the AFC club field as Bayer 04 Leverkusen U17; an individual club profile remains a follow-up source."
+      }
+    ],
     "verification": {
       "status": "verified",
       "last_checked": "2026-05-22",
@@ -297,6 +336,45 @@
         "type": "official",
         "label": "AFC 2026 final squad list",
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U17 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final squad list confirms Aran Sato as a Japan U17 registered player and records RC Strasbourg Alsace as the tournament registration organization."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "JFA U17 Asian Cup squad announcement",
+        "url": "https://www.jfa.jp/national_team/u17_2026/news/00036263/",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "JFA team-level announcement provides the national-federation layer for the Japan U17 AFC Asian Cup squad context."
+      },
+      {
+        "type": "club-academy-profile",
+        "label": "AFC U17 2026 club registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The academy layer for Aran Sato is currently captured from the AFC club field as RC Strasbourg Alsace; an individual club profile remains a follow-up source."
       }
     ],
     "verification": {
@@ -450,6 +528,45 @@
         "type": "official",
         "label": "AFC 2026 final squad list",
         "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf"
+      }
+    ],
+    "source_layers": [
+      {
+        "type": "afc-registration",
+        "label": "AFC U17 2026 final squad list",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "high",
+        "fields": [
+          "tournament_participation",
+          "registration_club",
+          "birth_date",
+          "primary_position"
+        ],
+        "claim": "AFC final squad list confirms Takaya Sekine as a Japan U17 registered player and records Shizuoka Gakuen High School as the tournament registration organization."
+      },
+      {
+        "type": "national-fa-profile",
+        "label": "JFA U17 Asian Cup squad announcement",
+        "url": "https://www.jfa.jp/national_team/u17_2026/news/00036263/",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "tournament_participation"
+        ],
+        "claim": "JFA team-level announcement provides the national-federation layer for the Japan U17 AFC Asian Cup squad context."
+      },
+      {
+        "type": "school-profile",
+        "label": "AFC U17 2026 school registration field",
+        "url": "https://assets.the-afc.com/2026_AFC_U17_Asian_Cup/Finals/Download/Squad_Lists/AFC-U17-Asian-Cup-Saudi-Arabia-2026---Final-Squad-Lists.pdf",
+        "checked_at": "2026-06-28",
+        "confidence": "medium",
+        "fields": [
+          "registration_club",
+          "training_pathway"
+        ],
+        "claim": "The school pathway layer for Takaya Sekine is currently captured from the AFC club field as Shizuoka Gakuen High School; an individual school squad or profile source remains a follow-up source."
       }
     ],
     "verification": {
