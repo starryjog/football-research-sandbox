@@ -1,0 +1,19 @@
+# Default maintainer for repository-wide changes.
+* @starryjog
+
+# Data review.
+/data/raw/ @starryjog
+/data/site/ @starryjog
+
+# Script and page review.
+/scripts/ @starryjog
+/assets/ @starryjog
+/*.html @starryjog
+
+# Documentation and project governance.
+/docs/ @starryjog
+/README.md @starryjog
+/CONTRIBUTING.md @starryjog
+/LICENSE @starryjog
+/SECURITY.md @starryjog
+/.github/ @starryjog
