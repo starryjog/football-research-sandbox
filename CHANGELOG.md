@@ -4,6 +4,20 @@ All notable project data-model, generation, and documentation changes should be 
 
 This project tracks research data, so changelog entries should separate code changes, data-scope changes, major data additions, and corrections.
 
+## 2026-06-28
+
+### Added
+
+- Added contributor workflow documentation in `CONTRIBUTING.md`.
+- Added project scope, source policy, and data dictionary documents under `docs/`.
+- Added GitHub issue templates for data additions, corrections, broken sources, page bugs, and scope discussions.
+- Added a pull request template, CODEOWNERS, and security policy.
+
+### Data Scope Notes
+
+- Documented that current overseas-player samples are research samples, not official exhaustive counts.
+- Documented current registration, future-effective transfer, trial-watch, and conflict-handling boundaries.
+
 ## 2026-06-27
 
 ### Added

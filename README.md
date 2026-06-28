@@ -1,5 +1,15 @@
 # 青训球员追踪站
 
+当前状态：研究样本库，最近维护日期 `2026-06-28`。本站不是中国足协、AFC、FIFA、俱乐部或任何第三方平台的官方数据库；页面里的球员、留洋和教练数量只代表本仓库已经结构化并通过当前来源口径纳入的样本，不代表官方全量人数。
+
+维护入口：
+
+- 贡献流程：[CONTRIBUTING.md](CONTRIBUTING.md)
+- 项目范围与非官方声明：[docs/scope.md](docs/scope.md)
+- 来源政策与冲突处理：[docs/source-policy.md](docs/source-policy.md)
+- 数据字典：[docs/data-dictionary.md](docs/data-dictionary.md)
+- 覆盖矩阵：[docs/coverage-matrix.md](docs/coverage-matrix.md)
+
 一个适合放到 GitHub Pages 的静态站点，用来维护青训球员名单、青训归属、赛事参与和外部资料链接。当前初始化版本重点放在：
 
 - `AFC U17 Asian Cup Saudi Arabia 2026`
@@ -10,7 +20,7 @@
 - 五大联赛亚洲教练记录，区分 AFC 主口径与土耳其 / 以色列等广义边界项
 - 本地 `JSON + SQLite` 双轨存储
 
-按今天 `2026-05-22` 来看，最近一届需要优先跟踪的是 `AFC U17 Asian Cup Saudi Arabia 2026`。项目种子数据已经按这个时间点初始化。
+按项目初始化时点 `2026-05-22` 来看，最近一届需要优先跟踪的是 `AFC U17 Asian Cup Saudi Arabia 2026`。项目种子数据已经按这个时间点初始化；当前维护状态见本文顶部日期。
 
 ## 本地使用
 
@@ -55,6 +65,9 @@ python3 -m http.server 4173
 - 留洋国家条目可选带 `featured_records`，用于补真实个案，至少保留赛季、联赛、俱乐部、正式比赛出场与摘要。
 - `data/raw/big-five-asian-coaches.json` 维护五大联赛顶级联赛亚洲教练样本，战绩优先按联赛场次统计，并用 `counted_in` 区分 AFC 主口径与广义亚洲边界口径。
 - `docs/research/data-governance-and-quality-rules.md` 固化 `verification.status`、`external_links.type`、`squad_status`、死链、重复球员和过期复核规则。
+- `docs/scope.md` 明确项目是研究样本库，不是官方全量数据库；当前留洋样本不能解释为官方全量人数。
+- `docs/source-policy.md` 说明来源优先级、交叉验证、冲突处理和未来生效转会口径。
+- `docs/data-dictionary.md` 解释 raw JSON、site JSON、SQLite 和核心字段。
 - `docs/coverage-matrix.md` 维护 U 系列赛事、留洋、历史五大联赛、足球小将、亚洲对照组和教练数据的覆盖状态与缺口清单。
 - `docs/research/asian-chinese-player-coach-collection.md` 记录亚洲/中国球员与教练的信息收集口径、当前覆盖和待核队列。
 - `docs/research/scouting-source-directory.md` 维护海外青训、球探平台、青年球员报告和公开数据站的后续检索方向。

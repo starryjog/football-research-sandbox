@@ -4,6 +4,9 @@
 
 ## 技术维护
 
+- [项目范围与非官方声明](scope.md)：定义统计边界、样本库 vs 全量库、当前留洋样本提示和维护入口。
+- [来源政策与冲突处理](source-policy.md)：定义来源优先级、交叉验证、冲突处理、当前注册和未来生效转会口径。
+- [数据字典](data-dictionary.md)：解释核心 JSON 文件、生成文件和常用字段。
 - [数据流与生成产物](data-flow.md)：raw JSON、site JSON、SQLite、本地预览和 GitHub Pages 的生成链路。
 - [SQLite 本地库](sqlite.md)：ER 图、表结构和字段说明。
 - [本地开发与故障排查](local-development.md)：Node、`node:sqlite`、Python 静态服务和 Pages 构建失败处理。
@@ -22,3 +25,5 @@
 ## 变更记录
 
 - [CHANGELOG](../CHANGELOG.md)
+- [CONTRIBUTING](../CONTRIBUTING.md)
+- [SECURITY](../SECURITY.md)
